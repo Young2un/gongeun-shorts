@@ -1,0 +1,154 @@
+[
+  {
+    "text": "이번",
+    "startMs": 140,
+    "endMs": 320,
+    "timestampMs": 420,
+    "confidence": 0.832006,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 패치",
+    "startMs": 320,
+    "endMs": 640,
+    "timestampMs": 700,
+    "confidence": 0.963079,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 하이라이트.",
+    "startMs": 640,
+    "endMs": 1800,
+    "timestampMs": 980,
+    "confidence": 0.975383,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 바티스트",
+    "startMs": 1800,
+    "endMs": 2400,
+    "timestampMs": 1980,
+    "confidence": 0.851331,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 불사 장치가",
+    "startMs": 2400,
+    "endMs": 3160,
+    "timestampMs": 2560,
+    "confidence": 0.969285,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 내구도도",
+    "startMs": 3160,
+    "endMs": 3720,
+    "timestampMs": 3440,
+    "confidence": 0.951374,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 오르고",
+    "startMs": 3720,
+    "endMs": 4240,
+    "timestampMs": 3920,
+    "confidence": 0.986421,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 쿨도",
+    "startMs": 4240,
+    "endMs": 4500,
+    "timestampMs": 4440,
+    "confidence": 0.789308,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 줄었습니다.",
+    "startMs": 4500,
+    "endMs": 5520,
+    "timestampMs": 4860,
+    "confidence": 0.993784,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 반대로",
+    "startMs": 5520,
+    "endMs": 6020,
+    "timestampMs": 6060,
+    "confidence": 0.998247,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 키리코는",
+    "startMs": 6020,
+    "endMs": 6670,
+    "timestampMs": 6480,
+    "confidence": 0.914689,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 부적 추적이랑",
+    "startMs": 6670,
+    "endMs": 7640,
+    "timestampMs": 7180,
+    "confidence": 0.984645,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 방울 무적이",
+    "startMs": 7640,
+    "endMs": 8450,
+    "timestampMs": 8140,
+    "confidence": 0.997301,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 같이",
+    "startMs": 8450,
+    "endMs": 8780,
+    "timestampMs": 9020,
+    "confidence": 0.989561,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 깎였어요.",
+    "startMs": 8780,
+    "endMs": 9740,
+    "timestampMs": 9280,
+    "confidence": 0.981339,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 이건",
+    "startMs": 9740,
+    "endMs": 10180,
+    "timestampMs": 10380,
+    "confidence": 0.991291,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 진짜",
+    "startMs": 10180,
+    "endMs": 10670,
+    "timestampMs": 10800,
+    "confidence": 0.996221,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 체감",
+    "startMs": 10670,
+    "endMs": 11060,
+    "timestampMs": 11040,
+    "confidence": 0.983417,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 큽니다.",
+    "startMs": 11060,
+    "endMs": 11651,
+    "timestampMs": 11380,
+    "confidence": 0.930406,
+    "pageBreakAfter": true
+  }
+]

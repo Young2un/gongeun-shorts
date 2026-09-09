@@ -1,0 +1,146 @@
+[
+  {
+    "text": "경기장",
+    "startMs": 120,
+    "endMs": 510,
+    "timestampMs": 260,
+    "confidence": 0.976951,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 배틀",
+    "startMs": 510,
+    "endMs": 840,
+    "timestampMs": 1040,
+    "confidence": 0.850951,
+    "pageBreakAfter": false
+  },
+  {
+    "text": "패스",
+    "startMs": 840,
+    "endMs": 1180,
+    "timestampMs": 1300,
+    "confidence": 0.485353,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 경험치랑",
+    "startMs": 1180,
+    "endMs": 1860,
+    "timestampMs": 1620,
+    "confidence": 0.995568,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 핑",
+    "startMs": 1860,
+    "endMs": 2080,
+    "timestampMs": 2240,
+    "confidence": 0.892506,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 오류도",
+    "startMs": 2080,
+    "endMs": 2540,
+    "timestampMs": 2460,
+    "confidence": 0.928561,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 잡혔고,",
+    "startMs": 2540,
+    "endMs": 3300,
+    "timestampMs": 2840,
+    "confidence": 0.994188,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 검은",
+    "startMs": 3300,
+    "endMs": 3570,
+    "timestampMs": 3580,
+    "confidence": 0.298337,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 숲도",
+    "startMs": 3570,
+    "endMs": 3930,
+    "timestampMs": 3820,
+    "confidence": 0.689815,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 돌아왔습니다.",
+    "startMs": 3930,
+    "endMs": 5100,
+    "timestampMs": 4280,
+    "confidence": 0.981815,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 개인적으로",
+    "startMs": 5100,
+    "endMs": 5850,
+    "timestampMs": 5500,
+    "confidence": 0.997263,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 이번",
+    "startMs": 5850,
+    "endMs": 6200,
+    "timestampMs": 6060,
+    "confidence": 0.987801,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 패치",
+    "startMs": 6200,
+    "endMs": 6450,
+    "timestampMs": 6260,
+    "confidence": 0.986154,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 승자는",
+    "startMs": 6450,
+    "endMs": 6900,
+    "timestampMs": 6520,
+    "confidence": 0.979169,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 바티스트,",
+    "startMs": 6900,
+    "endMs": 7600,
+    "timestampMs": 7080,
+    "confidence": 0.937687,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 패자는",
+    "startMs": 7600,
+    "endMs": 7990,
+    "timestampMs": 7800,
+    "confidence": 0.568684,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 키리코",
+    "startMs": 7990,
+    "endMs": 8380,
+    "timestampMs": 8340,
+    "confidence": 0.876642,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 같네요.",
+    "startMs": 8380,
+    "endMs": 8940,
+    "timestampMs": 8700,
+    "confidence": 0.947041,
+    "pageBreakAfter": true
+  }
+]

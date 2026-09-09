@@ -6,11 +6,17 @@
   "license": "UNLICENSED",
   "private": true,
   "dependencies": {
+    "@remotion/captions": "4.0.519",
     "@remotion/cli": "4.0.519",
+    "@remotion/fonts": "4.0.519",
+    "@remotion/google-fonts": "4.0.519",
+    "@remotion/install-whisper-cpp": "4.0.519",
+    "@remotion/media": "4.0.519",
+    "@remotion/tailwind-v4": "4.0.519",
+    "@remotion/transitions": "4.0.519",
     "react": "19.2.3",
     "react-dom": "19.2.3",
     "remotion": "4.0.519",
-    "@remotion/tailwind-v4": "4.0.519",
     "tailwindcss": "4.0.0"
   },
   "devDependencies": {
@@ -23,6 +29,13 @@
   },
   "scripts": {
     "dev": "remotion studio",
+    "voice": "python3 scripts/generate-voice.py",
+    "voice:gemini": "python3 scripts/generate-voice-gemini.py",
+    "voice:check": "node scripts/check-pronunciation.mjs",
+    "captions": "node scripts/generate-captions.mjs",
+    "render": "remotion render TeamDriveShorts out/team-drive.mp4",
+    "outro": "remotion render ChannelOutro out/channel-outro.mp4",
+    "new-video": "node scripts/new-video.mjs",
     "build": "remotion bundle",
     "upgrade": "remotion upgrade",
     "lint": "eslint src && tsc"

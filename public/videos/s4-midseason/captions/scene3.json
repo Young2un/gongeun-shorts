@@ -1,0 +1,170 @@
+[
+  {
+    "text": "탱커부터.",
+    "startMs": 70,
+    "endMs": 1050,
+    "timestampMs": 100,
+    "confidence": 0.916116,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 오대",
+    "startMs": 1050,
+    "endMs": 1600,
+    "timestampMs": 1300,
+    "confidence": 0.816583,
+    "pageBreakAfter": false
+  },
+  {
+    "text": "오 디바",
+    "startMs": 1600,
+    "endMs": 1840,
+    "timestampMs": 1780,
+    "confidence": 0.927769,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 메카",
+    "startMs": 1840,
+    "endMs": 2180,
+    "timestampMs": 2020,
+    "confidence": 0.821212,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 체력이",
+    "startMs": 2180,
+    "endMs": 2730,
+    "timestampMs": 2340,
+    "confidence": 0.964541,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 175에서",
+    "startMs": 2730,
+    "endMs": 3590,
+    "timestampMs": 3360,
+    "confidence": 0.966756,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 200으로",
+    "startMs": 3590,
+    "endMs": 4460,
+    "timestampMs": 4140,
+    "confidence": 0.994186,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 올랐습니다.",
+    "startMs": 4460,
+    "endMs": 5540,
+    "timestampMs": 4520,
+    "confidence": 0.965985,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 이거",
+    "startMs": 5540,
+    "endMs": 6060,
+    "timestampMs": 5900,
+    "confidence": 0.946978,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 체감",
+    "startMs": 6060,
+    "endMs": 6510,
+    "timestampMs": 6100,
+    "confidence": 0.977528,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 꽤",
+    "startMs": 6510,
+    "endMs": 6990,
+    "timestampMs": 6380,
+    "confidence": 0.977646,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 커요.",
+    "startMs": 6990,
+    "endMs": 7500,
+    "timestampMs": 6640,
+    "confidence": 0.995995,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 윈스턴은",
+    "startMs": 7500,
+    "endMs": 8340,
+    "timestampMs": 7920,
+    "confidence": 0.995186,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 방벽",
+    "startMs": 8340,
+    "endMs": 8760,
+    "timestampMs": 8540,
+    "confidence": 0.993087,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 쿨이",
+    "startMs": 8760,
+    "endMs": 9270,
+    "timestampMs": 8780,
+    "confidence": 0.49407,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 줄었고,",
+    "startMs": 9270,
+    "endMs": 9950,
+    "timestampMs": 9120,
+    "confidence": 0.998378,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 마우가는",
+    "startMs": 9950,
+    "endMs": 10680,
+    "timestampMs": 10180,
+    "confidence": 0.295688,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 방어력",
+    "startMs": 10680,
+    "endMs": 11090,
+    "timestampMs": 10900,
+    "confidence": 0.976544,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 깎인 대신",
+    "startMs": 11430,
+    "endMs": 11840,
+    "timestampMs": 11620,
+    "confidence": 0.99086,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 명중률이",
+    "startMs": 11840,
+    "endMs": 12400,
+    "timestampMs": 12120,
+    "confidence": 0.940934,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 좋아졌습니다.",
+    "startMs": 12400,
+    "endMs": 13240,
+    "timestampMs": 12800,
+    "confidence": 0.921628,
+    "pageBreakAfter": true
+  }
+]

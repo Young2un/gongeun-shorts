@@ -1,0 +1,162 @@
+[
+  {
+    "text": "자동",
+    "startMs": 220,
+    "endMs": 390,
+    "timestampMs": 420,
+    "confidence": 0.961258,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 파티가",
+    "startMs": 390,
+    "endMs": 970,
+    "timestampMs": 840,
+    "confidence": 0.63172,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 싫으면",
+    "startMs": 970,
+    "endMs": 1680,
+    "timestampMs": 1240,
+    "confidence": 0.949675,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 소셜,",
+    "startMs": 1680,
+    "endMs": 1990,
+    "timestampMs": 2000,
+    "confidence": 0.833736,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 일반,",
+    "startMs": 1990,
+    "endMs": 2390,
+    "timestampMs": 2720,
+    "confidence": 0.893717,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 그룹에서",
+    "startMs": 2390,
+    "endMs": 3180,
+    "timestampMs": 2980,
+    "confidence": 0.897053,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 끌",
+    "startMs": 3180,
+    "endMs": 3370,
+    "timestampMs": 3420,
+    "confidence": 0.985323,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 수",
+    "startMs": 3370,
+    "endMs": 3570,
+    "timestampMs": 3700,
+    "confidence": 0.993199,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 있는데,",
+    "startMs": 3570,
+    "endMs": 4240,
+    "timestampMs": 4180,
+    "confidence": 0.99591,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 솔로는",
+    "startMs": 4240,
+    "endMs": 4790,
+    "timestampMs": 4640,
+    "confidence": 0.970424,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 보너스",
+    "startMs": 4790,
+    "endMs": 5350,
+    "timestampMs": 5240,
+    "confidence": 0.962575,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 덜",
+    "startMs": 5350,
+    "endMs": 5530,
+    "timestampMs": 5740,
+    "confidence": 0.99744,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 받아서",
+    "startMs": 5530,
+    "endMs": 6120,
+    "timestampMs": 5980,
+    "confidence": 0.96611,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 완료가",
+    "startMs": 6120,
+    "endMs": 6640,
+    "timestampMs": 6500,
+    "confidence": 0.94465,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 훨씬",
+    "startMs": 6640,
+    "endMs": 6980,
+    "timestampMs": 7080,
+    "confidence": 0.972262,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 어렵다고",
+    "startMs": 6980,
+    "endMs": 7680,
+    "timestampMs": 7460,
+    "confidence": 0.988595,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 공식적으로",
+    "startMs": 7680,
+    "endMs": 8440,
+    "timestampMs": 8100,
+    "confidence": 0.823403,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 안내",
+    "startMs": 8440,
+    "endMs": 8740,
+    "timestampMs": 8700,
+    "confidence": 0.987571,
+    "pageBreakAfter": false
+  },
+  {
+    "text": "돼",
+    "startMs": 8740,
+    "endMs": 8890,
+    "timestampMs": 8900,
+    "confidence": 0.769769,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 있어요.",
+    "startMs": 8890,
+    "endMs": 9400,
+    "timestampMs": 9260,
+    "confidence": 0.929117,
+    "pageBreakAfter": true
+  }
+]

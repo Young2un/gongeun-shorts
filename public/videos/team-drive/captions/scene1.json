@@ -1,0 +1,114 @@
+[
+  {
+    "text": "9월",
+    "startMs": 220,
+    "endMs": 440,
+    "timestampMs": 340,
+    "confidence": 0.827045,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 5일",
+    "startMs": 440,
+    "endMs": 870,
+    "timestampMs": 800,
+    "confidence": 0.985605,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 새벽",
+    "startMs": 870,
+    "endMs": 1320,
+    "timestampMs": 1100,
+    "confidence": 0.98624,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 3시,",
+    "startMs": 1320,
+    "endMs": 1950,
+    "timestampMs": 1460,
+    "confidence": 0.973665,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 오버워치",
+    "startMs": 1950,
+    "endMs": 2420,
+    "timestampMs": 2140,
+    "confidence": 0.88202,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 경쟁전에",
+    "startMs": 2420,
+    "endMs": 3000,
+    "timestampMs": 2760,
+    "confidence": 0.996231,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 팀 드라이브가",
+    "startMs": 3000,
+    "endMs": 3980,
+    "timestampMs": 3500,
+    "confidence": 0.414708,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 처음",
+    "startMs": 3980,
+    "endMs": 4310,
+    "timestampMs": 4360,
+    "confidence": 0.974518,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 열립니다.",
+    "startMs": 4310,
+    "endMs": 5000,
+    "timestampMs": 4560,
+    "confidence": 0.983982,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 딱",
+    "startMs": 5000,
+    "endMs": 5330,
+    "timestampMs": 5480,
+    "confidence": 0.984975,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 3일.",
+    "startMs": 5330,
+    "endMs": 6180,
+    "timestampMs": 5680,
+    "confidence": 0.985735,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 뭔지",
+    "startMs": 6180,
+    "endMs": 6400,
+    "timestampMs": 6440,
+    "confidence": 0.660002,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 빠르게",
+    "startMs": 6400,
+    "endMs": 6870,
+    "timestampMs": 6700,
+    "confidence": 0.998578,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 정리해 드릴게요.",
+    "startMs": 6870,
+    "endMs": 7851,
+    "timestampMs": 7080,
+    "confidence": 0.996915,
+    "pageBreakAfter": true
+  }
+]

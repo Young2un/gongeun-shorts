@@ -1,0 +1,170 @@
+[
+  {
+    "text": "딜러는",
+    "startMs": 100,
+    "endMs": 500,
+    "timestampMs": 400,
+    "confidence": 0.896398,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 프레야가",
+    "startMs": 500,
+    "endMs": 1200,
+    "timestampMs": 1100,
+    "confidence": 0.948956,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 제대로",
+    "startMs": 1200,
+    "endMs": 1680,
+    "timestampMs": 1660,
+    "confidence": 0.992023,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 맞았습니다.",
+    "startMs": 1680,
+    "endMs": 2560,
+    "timestampMs": 1880,
+    "confidence": 0.992886,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 기본이랑",
+    "startMs": 2560,
+    "endMs": 3140,
+    "timestampMs": 3020,
+    "confidence": 0.848865,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 조준 사격",
+    "startMs": 3140,
+    "endMs": 3700,
+    "timestampMs": 3500,
+    "confidence": 0.932472,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 피해가",
+    "startMs": 3700,
+    "endMs": 4120,
+    "timestampMs": 4000,
+    "confidence": 0.903062,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 둘",
+    "startMs": 4120,
+    "endMs": 4290,
+    "timestampMs": 4380,
+    "confidence": 0.979555,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 다",
+    "startMs": 4290,
+    "endMs": 4480,
+    "timestampMs": 4520,
+    "confidence": 0.781375,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 내려갔어요.",
+    "startMs": 4480,
+    "endMs": 5500,
+    "timestampMs": 4760,
+    "confidence": 0.929555,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 반대로",
+    "startMs": 5500,
+    "endMs": 5940,
+    "timestampMs": 5900,
+    "confidence": 0.998588,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 정크랫은",
+    "startMs": 5940,
+    "endMs": 6500,
+    "timestampMs": 6400,
+    "confidence": 0.916811,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 지뢰 쿨이",
+    "startMs": 6500,
+    "endMs": 7110,
+    "timestampMs": 7000,
+    "confidence": 0.993998,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 줄어서",
+    "startMs": 7110,
+    "endMs": 7600,
+    "timestampMs": 7480,
+    "confidence": 0.997168,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 놀기",
+    "startMs": 7600,
+    "endMs": 7960,
+    "timestampMs": 7800,
+    "confidence": 0.972247,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 편해졌고,",
+    "startMs": 7960,
+    "endMs": 8700,
+    "timestampMs": 8140,
+    "confidence": 0.994419,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 시에라는",
+    "startMs": 8700,
+    "endMs": 9220,
+    "timestampMs": 9040,
+    "confidence": 0.918191,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 빨라진",
+    "startMs": 9220,
+    "endMs": 9590,
+    "timestampMs": 9620,
+    "confidence": 0.945032,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 대신",
+    "startMs": 9590,
+    "endMs": 9850,
+    "timestampMs": 10040,
+    "confidence": 0.996379,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 피해가",
+    "startMs": 9850,
+    "endMs": 10240,
+    "timestampMs": 10340,
+    "confidence": 0.993595,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 깎였습니다.",
+    "startMs": 10240,
+    "endMs": 11100,
+    "timestampMs": 10720,
+    "confidence": 0.983324,
+    "pageBreakAfter": true
+  }
+]

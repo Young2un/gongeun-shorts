@@ -1,0 +1,170 @@
+[
+  {
+    "text": "게임",
+    "startMs": 370,
+    "endMs": 400,
+    "timestampMs": 580,
+    "confidence": 0.758458,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 디렉터",
+    "startMs": 400,
+    "endMs": 1040,
+    "timestampMs": 940,
+    "confidence": 0.988712,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 아론",
+    "startMs": 1040,
+    "endMs": 1360,
+    "timestampMs": 1520,
+    "confidence": 0.978514,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 켈러의",
+    "startMs": 1360,
+    "endMs": 1940,
+    "timestampMs": 1860,
+    "confidence": 0.305605,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 공식",
+    "startMs": 1940,
+    "endMs": 2340,
+    "timestampMs": 2420,
+    "confidence": 0.990592,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 설명입니다.",
+    "startMs": 2340,
+    "endMs": 3500,
+    "timestampMs": 2800,
+    "confidence": 0.92233,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 과거",
+    "startMs": 3500,
+    "endMs": 3840,
+    "timestampMs": 4020,
+    "confidence": 0.987151,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 배틀",
+    "startMs": 3840,
+    "endMs": 4160,
+    "timestampMs": 4380,
+    "confidence": 0.845771,
+    "pageBreakAfter": false
+  },
+  {
+    "text": "패스를",
+    "startMs": 4160,
+    "endMs": 4690,
+    "timestampMs": 4680,
+    "confidence": 0.640391,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 다시",
+    "startMs": 4690,
+    "endMs": 5040,
+    "timestampMs": 5280,
+    "confidence": 0.981609,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 여는",
+    "startMs": 5040,
+    "endMs": 5380,
+    "timestampMs": 5420,
+    "confidence": 0.977857,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 기능은",
+    "startMs": 5380,
+    "endMs": 6180,
+    "timestampMs": 5720,
+    "confidence": 0.994596,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 시즌",
+    "startMs": 6180,
+    "endMs": 6360,
+    "timestampMs": 6540,
+    "confidence": 0.765835,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 4",
+    "startMs": 6360,
+    "endMs": 6540,
+    "timestampMs": 6920,
+    "confidence": 0.535286,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 중간",
+    "startMs": 6540,
+    "endMs": 6910,
+    "timestampMs": 7180,
+    "confidence": 0.98537,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 패치가",
+    "startMs": 6910,
+    "endMs": 7440,
+    "timestampMs": 7500,
+    "confidence": 0.935429,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 아니라,",
+    "startMs": 7440,
+    "endMs": 8000,
+    "timestampMs": 8180,
+    "confidence": 0.991316,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 시즌",
+    "startMs": 8000,
+    "endMs": 8450,
+    "timestampMs": 8660,
+    "confidence": 0.992579,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 5",
+    "startMs": 8450,
+    "endMs": 8680,
+    "timestampMs": 9140,
+    "confidence": 0.921876,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 시작으로",
+    "startMs": 8680,
+    "endMs": 9600,
+    "timestampMs": 9500,
+    "confidence": 0.988978,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 연기됐습니다.",
+    "startMs": 9600,
+    "endMs": 10731,
+    "timestampMs": 10040,
+    "confidence": 0.999683,
+    "pageBreakAfter": true
+  }
+]

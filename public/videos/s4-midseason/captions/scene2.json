@@ -1,0 +1,130 @@
+[
+  {
+    "text": "먼저",
+    "startMs": 220,
+    "endMs": 440,
+    "timestampMs": 700,
+    "confidence": 0.872239,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 정크",
+    "startMs": 440,
+    "endMs": 1070,
+    "timestampMs": 1120,
+    "confidence": 0.726037,
+    "pageBreakAfter": false
+  },
+  {
+    "text": "랫 전리품",
+    "startMs": 1070,
+    "endMs": 1710,
+    "timestampMs": 1620,
+    "confidence": 0.95766,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 사냥이",
+    "startMs": 1710,
+    "endMs": 2490,
+    "timestampMs": 2040,
+    "confidence": 0.760966,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 9월",
+    "startMs": 2490,
+    "endMs": 2720,
+    "timestampMs": 2740,
+    "confidence": 0.836972,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 13일부터",
+    "startMs": 2720,
+    "endMs": 3550,
+    "timestampMs": 3180,
+    "confidence": 0.942171,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 30일까지",
+    "startMs": 3550,
+    "endMs": 4370,
+    "timestampMs": 4020,
+    "confidence": 0.950541,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 열립니다.",
+    "startMs": 4370,
+    "endMs": 5100,
+    "timestampMs": 4580,
+    "confidence": 0.997661,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 기간 한정이라",
+    "startMs": 5100,
+    "endMs": 6080,
+    "timestampMs": 5560,
+    "confidence": 0.984035,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 놓치면",
+    "startMs": 6080,
+    "endMs": 6580,
+    "timestampMs": 6500,
+    "confidence": 0.99193,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 끝이에요.",
+    "startMs": 6580,
+    "endMs": 7480,
+    "timestampMs": 7000,
+    "confidence": 0.997478,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 보상",
+    "startMs": 7480,
+    "endMs": 7730,
+    "timestampMs": 7880,
+    "confidence": 0.997088,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 챙기실",
+    "startMs": 7730,
+    "endMs": 8120,
+    "timestampMs": 8180,
+    "confidence": 0.93586,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 분들은",
+    "startMs": 8120,
+    "endMs": 8530,
+    "timestampMs": 8760,
+    "confidence": 0.988414,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 달력에",
+    "startMs": 8530,
+    "endMs": 8900,
+    "timestampMs": 9100,
+    "confidence": 0.949466,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 표시해두세요.",
+    "startMs": 8900,
+    "endMs": 9880,
+    "timestampMs": 9480,
+    "confidence": 0.997697,
+    "pageBreakAfter": true
+  }
+]

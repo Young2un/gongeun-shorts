@@ -1,0 +1,178 @@
+[
+  {
+    "text": "보상은",
+    "startMs": 130,
+    "endMs": 490,
+    "timestampMs": 300,
+    "confidence": 0.9769,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 경쟁",
+    "startMs": 490,
+    "endMs": 840,
+    "timestampMs": 1040,
+    "confidence": 0.992975,
+    "pageBreakAfter": false
+  },
+  {
+    "text": "전",
+    "startMs": 840,
+    "endMs": 970,
+    "timestampMs": 1360,
+    "confidence": 0.679911,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 점수랑",
+    "startMs": 970,
+    "endMs": 1460,
+    "timestampMs": 1620,
+    "confidence": 0.997016,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 프로필",
+    "startMs": 1460,
+    "endMs": 1950,
+    "timestampMs": 2140,
+    "confidence": 0.966209,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 카드",
+    "startMs": 1950,
+    "endMs": 2280,
+    "timestampMs": 2500,
+    "confidence": 0.921755,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 테두리.",
+    "startMs": 2280,
+    "endMs": 2980,
+    "timestampMs": 2720,
+    "confidence": 0.960264,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 그리고",
+    "startMs": 2980,
+    "endMs": 3550,
+    "timestampMs": 3720,
+    "confidence": 0.998192,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 시련까지",
+    "startMs": 3550,
+    "endMs": 4190,
+    "timestampMs": 3920,
+    "confidence": 0.643479,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 끝낸",
+    "startMs": 4190,
+    "endMs": 4530,
+    "timestampMs": 4540,
+    "confidence": 0.67378,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 선착순",
+    "startMs": 4530,
+    "endMs": 5040,
+    "timestampMs": 4900,
+    "confidence": 0.970248,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 1만",
+    "startMs": 5040,
+    "endMs": 5380,
+    "timestampMs": 5500,
+    "confidence": 0.922572,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 명한테만",
+    "startMs": 5380,
+    "endMs": 6450,
+    "timestampMs": 5800,
+    "confidence": 0.999718,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 완료",
+    "startMs": 6450,
+    "endMs": 6580,
+    "timestampMs": 6740,
+    "confidence": 0.754845,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 순위가",
+    "startMs": 6580,
+    "endMs": 7180,
+    "timestampMs": 6960,
+    "confidence": 0.631524,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 찍힌",
+    "startMs": 7180,
+    "endMs": 7600,
+    "timestampMs": 7380,
+    "confidence": 0.984671,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 칭호가",
+    "startMs": 7600,
+    "endMs": 7920,
+    "timestampMs": 7740,
+    "confidence": 0.647493,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 나와요.",
+    "startMs": 7920,
+    "endMs": 8380,
+    "timestampMs": 8180,
+    "confidence": 0.980026,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 이건",
+    "startMs": 8380,
+    "endMs": 8940,
+    "timestampMs": 9300,
+    "confidence": 0.993966,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 이벤트",
+    "startMs": 8940,
+    "endMs": 9330,
+    "timestampMs": 9560,
+    "confidence": 0.996947,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 끝나고",
+    "startMs": 9330,
+    "endMs": 9760,
+    "timestampMs": 10000,
+    "confidence": 0.999657,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 지급됩니다.",
+    "startMs": 9760,
+    "endMs": 10880,
+    "timestampMs": 10360,
+    "confidence": 0.997514,
+    "pageBreakAfter": true
+  }
+]

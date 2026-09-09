@@ -1,0 +1,186 @@
+[
+  {
+    "text": "같은",
+    "startMs": 90,
+    "endMs": 410,
+    "timestampMs": 320,
+    "confidence": 0.983365,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 공식",
+    "startMs": 410,
+    "endMs": 890,
+    "timestampMs": 800,
+    "confidence": 0.997162,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 공지에는",
+    "startMs": 890,
+    "endMs": 1730,
+    "timestampMs": 1120,
+    "confidence": 0.882416,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 개막식과",
+    "startMs": 1730,
+    "endMs": 2440,
+    "timestampMs": 1940,
+    "confidence": 0.847562,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 개발자",
+    "startMs": 2440,
+    "endMs": 3040,
+    "timestampMs": 2800,
+    "confidence": 0.983146,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 방송,",
+    "startMs": 3040,
+    "endMs": 3660,
+    "timestampMs": 3520,
+    "confidence": 0.986724,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 영웅",
+    "startMs": 3660,
+    "endMs": 3900,
+    "timestampMs": 3900,
+    "confidence": 0.877267,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 심층",
+    "startMs": 3900,
+    "endMs": 4220,
+    "timestampMs": 4320,
+    "confidence": 0.899614,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 분석이",
+    "startMs": 4220,
+    "endMs": 4700,
+    "timestampMs": 4700,
+    "confidence": 0.950256,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 예고됐습니다.",
+    "startMs": 4700,
+    "endMs": 5760,
+    "timestampMs": 5160,
+    "confidence": 0.98724,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 블리자드는",
+    "startMs": 5760,
+    "endMs": 6720,
+    "timestampMs": 6560,
+    "confidence": 0.937678,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 게임의",
+    "startMs": 6720,
+    "endMs": 7270,
+    "timestampMs": 7620,
+    "confidence": 0.988353,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 미래도",
+    "startMs": 7270,
+    "endMs": 7840,
+    "timestampMs": 7980,
+    "confidence": 0.993798,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 발표한다고",
+    "startMs": 7840,
+    "endMs": 8780,
+    "timestampMs": 8460,
+    "confidence": 0.996037,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 밝혀서,",
+    "startMs": 8780,
+    "endMs": 9630,
+    "timestampMs": 9100,
+    "confidence": 0.90236,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 새",
+    "startMs": 9630,
+    "endMs": 9660,
+    "timestampMs": 9900,
+    "confidence": 0.506674,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 영웅이나",
+    "startMs": 9660,
+    "endMs": 10650,
+    "timestampMs": 10120,
+    "confidence": 0.989821,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 이후",
+    "startMs": 10650,
+    "endMs": 10850,
+    "timestampMs": 11000,
+    "confidence": 0.763538,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 시즌",
+    "startMs": 10850,
+    "endMs": 11110,
+    "timestampMs": 11300,
+    "confidence": 0.992945,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 정보가",
+    "startMs": 11110,
+    "endMs": 11500,
+    "timestampMs": 11600,
+    "confidence": 0.866949,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 나올",
+    "startMs": 11500,
+    "endMs": 11770,
+    "timestampMs": 12000,
+    "confidence": 0.984249,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 가능성이",
+    "startMs": 11770,
+    "endMs": 12310,
+    "timestampMs": 12360,
+    "confidence": 0.997799,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 있습니다.",
+    "startMs": 12310,
+    "endMs": 13080,
+    "timestampMs": 13000,
+    "confidence": 0.999033,
+    "pageBreakAfter": true
+  }
+]

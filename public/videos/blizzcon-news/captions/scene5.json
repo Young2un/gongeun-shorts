@@ -1,0 +1,202 @@
+[
+  {
+    "text": "제",
+    "startMs": 150,
+    "endMs": 210,
+    "timestampMs": 160,
+    "confidence": 0.950554,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 생각에는",
+    "startMs": 210,
+    "endMs": 890,
+    "timestampMs": 680,
+    "confidence": 0.988035,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 배틀패스",
+    "startMs": 890,
+    "endMs": 1580,
+    "timestampMs": 1360,
+    "confidence": 0.88363,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 연기보다",
+    "startMs": 1580,
+    "endMs": 2540,
+    "timestampMs": 1960,
+    "confidence": 0.800549,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 블리즈컨",
+    "startMs": 2540,
+    "endMs": 2940,
+    "timestampMs": 2720,
+    "confidence": 0.507136,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 발표가",
+    "startMs": 2940,
+    "endMs": 3440,
+    "timestampMs": 3260,
+    "confidence": 0.998365,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 더",
+    "startMs": 3440,
+    "endMs": 3590,
+    "timestampMs": 3800,
+    "confidence": 0.97666,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 중요해",
+    "startMs": 3590,
+    "endMs": 4030,
+    "timestampMs": 4020,
+    "confidence": 0.977467,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 보입니다.",
+    "startMs": 4030,
+    "endMs": 4840,
+    "timestampMs": 4260,
+    "confidence": 0.996337,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 다만",
+    "startMs": 4840,
+    "endMs": 5240,
+    "timestampMs": 5400,
+    "confidence": 0.998778,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 새",
+    "startMs": 5240,
+    "endMs": 5440,
+    "timestampMs": 5860,
+    "confidence": 0.765569,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 영웅이나",
+    "startMs": 5440,
+    "endMs": 6230,
+    "timestampMs": 6080,
+    "confidence": 0.947469,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 신규",
+    "startMs": 6230,
+    "endMs": 6660,
+    "timestampMs": 6700,
+    "confidence": 0.986873,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 모드는",
+    "startMs": 6660,
+    "endMs": 7350,
+    "timestampMs": 6980,
+    "confidence": 0.97952,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 아직",
+    "startMs": 7350,
+    "endMs": 7640,
+    "timestampMs": 7660,
+    "confidence": 0.972925,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 공식",
+    "startMs": 7640,
+    "endMs": 8020,
+    "timestampMs": 7900,
+    "confidence": 0.996175,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 확정이",
+    "startMs": 8020,
+    "endMs": 8420,
+    "timestampMs": 8260,
+    "confidence": 0.946232,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 아닙니다.",
+    "startMs": 8420,
+    "endMs": 9340,
+    "timestampMs": 8740,
+    "confidence": 0.993816,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 발표가",
+    "startMs": 9340,
+    "endMs": 9740,
+    "timestampMs": 9760,
+    "confidence": 0.998083,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 나오면",
+    "startMs": 9740,
+    "endMs": 10150,
+    "timestampMs": 10160,
+    "confidence": 0.992712,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 정확한",
+    "startMs": 10150,
+    "endMs": 10560,
+    "timestampMs": 10800,
+    "confidence": 0.996753,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 내용으로",
+    "startMs": 10560,
+    "endMs": 11110,
+    "timestampMs": 11160,
+    "confidence": 0.998094,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 다시",
+    "startMs": 11110,
+    "endMs": 11460,
+    "timestampMs": 11740,
+    "confidence": 0.963927,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 정리해",
+    "startMs": 11460,
+    "endMs": 11790,
+    "timestampMs": 12000,
+    "confidence": 0.995598,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 드릴게요.",
+    "startMs": 11790,
+    "endMs": 12560,
+    "timestampMs": 12300,
+    "confidence": 0.994004,
+    "pageBreakAfter": true
+  }
+]

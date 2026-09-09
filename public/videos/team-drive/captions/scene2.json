@@ -1,0 +1,170 @@
+[
+  {
+    "text": "핵심은",
+    "startMs": 0,
+    "endMs": 570,
+    "timestampMs": 320,
+    "confidence": 0.899393,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 이거예요.",
+    "startMs": 570,
+    "endMs": 1650,
+    "timestampMs": 1060,
+    "confidence": 0.984342,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 경쟁전에서",
+    "startMs": 1650,
+    "endMs": 2370,
+    "timestampMs": 1900,
+    "confidence": 0.806771,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 이기면",
+    "startMs": 2370,
+    "endMs": 3050,
+    "timestampMs": 2600,
+    "confidence": 0.998393,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 그 판의",
+    "startMs": 3050,
+    "endMs": 3500,
+    "timestampMs": 3300,
+    "confidence": 0.525679,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 우리 팀",
+    "startMs": 3500,
+    "endMs": 4110,
+    "timestampMs": 3860,
+    "confidence": 0.96867,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 5명이",
+    "startMs": 4110,
+    "endMs": 4830,
+    "timestampMs": 4400,
+    "confidence": 0.623335,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 자동으로",
+    "startMs": 4830,
+    "endMs": 5320,
+    "timestampMs": 5140,
+    "confidence": 0.978496,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 파티가",
+    "startMs": 5320,
+    "endMs": 5770,
+    "timestampMs": 5620,
+    "confidence": 0.986172,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 됩니다.",
+    "startMs": 5770,
+    "endMs": 6340,
+    "timestampMs": 6220,
+    "confidence": 0.992318,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 솔큐로",
+    "startMs": 6340,
+    "endMs": 6880,
+    "timestampMs": 6960,
+    "confidence": 0.259783,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 들어가도",
+    "startMs": 6880,
+    "endMs": 7600,
+    "timestampMs": 7500,
+    "confidence": 0.948522,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 똑같아요.",
+    "startMs": 7600,
+    "endMs": 8760,
+    "timestampMs": 8000,
+    "confidence": 0.9962,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 친구랑만",
+    "startMs": 8760,
+    "endMs": 9050,
+    "timestampMs": 9060,
+    "confidence": 0.708428,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 하고",
+    "startMs": 9050,
+    "endMs": 9360,
+    "timestampMs": 9560,
+    "confidence": 0.964257,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 싶으면",
+    "startMs": 9360,
+    "endMs": 9820,
+    "timestampMs": 9760,
+    "confidence": 0.890394,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 직접",
+    "startMs": 9820,
+    "endMs": 10130,
+    "timestampMs": 10560,
+    "confidence": 0.971532,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 그룹",
+    "startMs": 10130,
+    "endMs": 10570,
+    "timestampMs": 10780,
+    "confidence": 0.990255,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 짜서",
+    "startMs": 10570,
+    "endMs": 10830,
+    "timestampMs": 11020,
+    "confidence": 0.70216,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 들어가도",
+    "startMs": 10830,
+    "endMs": 11360,
+    "timestampMs": 11380,
+    "confidence": 0.961802,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 되고요.",
+    "startMs": 11360,
+    "endMs": 12080,
+    "timestampMs": 11740,
+    "confidence": 0.99049,
+    "pageBreakAfter": true
+  }
+]

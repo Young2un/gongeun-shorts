@@ -1,0 +1,162 @@
+[
+  {
+    "text": "오버워치",
+    "startMs": 240,
+    "endMs": 720,
+    "timestampMs": 200,
+    "confidence": 0.898559,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 공식",
+    "startMs": 720,
+    "endMs": 1080,
+    "timestampMs": 1140,
+    "confidence": 0.990471,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 소셜",
+    "startMs": 1080,
+    "endMs": 1450,
+    "timestampMs": 1500,
+    "confidence": 0.923958,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 계정에",
+    "startMs": 1450,
+    "endMs": 2050,
+    "timestampMs": 1860,
+    "confidence": 0.883098,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 따르면,",
+    "startMs": 2050,
+    "endMs": 2600,
+    "timestampMs": 2200,
+    "confidence": 0.997617,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 퀘스트",
+    "startMs": 2600,
+    "endMs": 3190,
+    "timestampMs": 3200,
+    "confidence": 0.636812,
+    "pageBreakAfter": false
+  },
+  {
+    "text": "워치는",
+    "startMs": 3190,
+    "endMs": 4050,
+    "timestampMs": 3520,
+    "confidence": 0.532306,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 시리즈",
+    "startMs": 4050,
+    "endMs": 4400,
+    "timestampMs": 4300,
+    "confidence": 0.97317,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 최초의",
+    "startMs": 4400,
+    "endMs": 5000,
+    "timestampMs": 4840,
+    "confidence": 0.99771,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 테이블탑",
+    "startMs": 5000,
+    "endMs": 5780,
+    "timestampMs": 5380,
+    "confidence": 0.897233,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " RPG입니다.",
+    "startMs": 5780,
+    "endMs": 6600,
+    "timestampMs": 6120,
+    "confidence": 0.979217,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 캐서디",
+    "startMs": 6600,
+    "endMs": 7380,
+    "timestampMs": 7560,
+    "confidence": 0.946934,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 성우",
+    "startMs": 7380,
+    "endMs": 7740,
+    "timestampMs": 8060,
+    "confidence": 0.968171,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 매튜",
+    "startMs": 7740,
+    "endMs": 8180,
+    "timestampMs": 8660,
+    "confidence": 0.35455,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 머서가",
+    "startMs": 8180,
+    "endMs": 8860,
+    "timestampMs": 8900,
+    "confidence": 0.980062,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 진행하며,",
+    "startMs": 8860,
+    "endMs": 9900,
+    "timestampMs": 9440,
+    "confidence": 0.994194,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 9월",
+    "startMs": 9900,
+    "endMs": 10250,
+    "timestampMs": 10440,
+    "confidence": 0.990664,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 13일",
+    "startMs": 10250,
+    "endMs": 10760,
+    "timestampMs": 10860,
+    "confidence": 0.984207,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 블리즈컨에서",
+    "startMs": 10760,
+    "endMs": 11790,
+    "timestampMs": 11360,
+    "confidence": 0.425154,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 공개됩니다.",
+    "startMs": 11790,
+    "endMs": 12700,
+    "timestampMs": 12180,
+    "confidence": 0.999643,
+    "pageBreakAfter": true
+  }
+]

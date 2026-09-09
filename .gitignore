@@ -5,3 +5,12 @@ dist
 
 # Ignore the output video from Git but not videos you import into src/.
 out
+
+# whisper.cpp 빌드 산출물 (npm run captions)
+whisper.cpp/
+
+# Gemini TTS 가 만드는 whisper 입력용 wav
+.cache/
+
+# whisper.cpp 가 남기는 임시 출력
+tmp.json
