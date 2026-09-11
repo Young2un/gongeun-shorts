@@ -1,0 +1,114 @@
+[
+  {
+    "text": "저는",
+    "startMs": 210,
+    "endMs": 380,
+    "timestampMs": 400,
+    "confidence": 0.79252,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 거의",
+    "startMs": 380,
+    "endMs": 760,
+    "timestampMs": 900,
+    "confidence": 0.97063,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 매일",
+    "startMs": 760,
+    "endMs": 1140,
+    "timestampMs": 1220,
+    "confidence": 0.996662,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 치지직에서",
+    "startMs": 1140,
+    "endMs": 2120,
+    "timestampMs": 1640,
+    "confidence": 0.921552,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " '김공은'으로",
+    "startMs": 2120,
+    "endMs": 3100,
+    "timestampMs": 2620,
+    "confidence": 0.68294,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 오버워치",
+    "startMs": 3100,
+    "endMs": 3700,
+    "timestampMs": 3520,
+    "confidence": 0.944389,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 방송",
+    "startMs": 3700,
+    "endMs": 4000,
+    "timestampMs": 4120,
+    "confidence": 0.997071,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 중이에요.",
+    "startMs": 4000,
+    "endMs": 4800,
+    "timestampMs": 4380,
+    "confidence": 0.890979,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 관심",
+    "startMs": 4800,
+    "endMs": 5130,
+    "timestampMs": 5420,
+    "confidence": 0.996132,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 있으시면",
+    "startMs": 5130,
+    "endMs": 5790,
+    "timestampMs": 5700,
+    "confidence": 0.922085,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 놀러 오시고,",
+    "startMs": 5790,
+    "endMs": 6890,
+    "timestampMs": 6240,
+    "confidence": 0.998597,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 구독·",
+    "startMs": 6890,
+    "endMs": 7090,
+    "timestampMs": 7260,
+    "confidence": 0.734935,
+    "pageBreakAfter": false
+  },
+  {
+    "text": "좋아요도",
+    "startMs": 7090,
+    "endMs": 7780,
+    "timestampMs": 7720,
+    "confidence": 0.969954,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 부탁드립니다!",
+    "startMs": 7780,
+    "endMs": 8840,
+    "timestampMs": 8260,
+    "confidence": 0.999643,
+    "pageBreakAfter": true
+  }
+]

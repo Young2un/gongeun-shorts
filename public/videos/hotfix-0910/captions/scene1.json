@@ -1,0 +1,202 @@
+[
+  {
+    "text": "오버워치",
+    "startMs": 210,
+    "endMs": 610,
+    "timestampMs": 220,
+    "confidence": 0.837999,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 공식",
+    "startMs": 610,
+    "endMs": 920,
+    "timestampMs": 1060,
+    "confidence": 0.989527,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 패치노트에",
+    "startMs": 920,
+    "endMs": 1730,
+    "timestampMs": 1340,
+    "confidence": 0.963009,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 따르면,",
+    "startMs": 1730,
+    "endMs": 2380,
+    "timestampMs": 1900,
+    "confidence": 0.999178,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 9월",
+    "startMs": 2380,
+    "endMs": 2640,
+    "timestampMs": 2580,
+    "confidence": 0.645981,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 10일",
+    "startMs": 2640,
+    "endMs": 3110,
+    "timestampMs": 2880,
+    "confidence": 0.919272,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 핫픽스로",
+    "startMs": 3110,
+    "endMs": 3690,
+    "timestampMs": 3180,
+    "confidence": 0.0704264,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 오류",
+    "startMs": 3690,
+    "endMs": 4010,
+    "timestampMs": 3880,
+    "confidence": 0.911831,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 세",
+    "startMs": 4010,
+    "endMs": 4140,
+    "timestampMs": 4200,
+    "confidence": 0.531883,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 가지가",
+    "startMs": 4140,
+    "endMs": 4590,
+    "timestampMs": 4360,
+    "confidence": 0.946212,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 수정됐습니다.",
+    "startMs": 4590,
+    "endMs": 5500,
+    "timestampMs": 4680,
+    "confidence": 0.992526,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 기존",
+    "startMs": 5500,
+    "endMs": 5790,
+    "timestampMs": 6000,
+    "confidence": 0.997004,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 노트에",
+    "startMs": 5790,
+    "endMs": 6230,
+    "timestampMs": 6240,
+    "confidence": 0.988623,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 추가된",
+    "startMs": 6230,
+    "endMs": 6640,
+    "timestampMs": 6680,
+    "confidence": 0.997769,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 변경도",
+    "startMs": 6640,
+    "endMs": 7050,
+    "timestampMs": 7040,
+    "confidence": 0.99739,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 함께",
+    "startMs": 7050,
+    "endMs": 7340,
+    "timestampMs": 7560,
+    "confidence": 0.996862,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 볼게요.",
+    "startMs": 7340,
+    "endMs": 8000,
+    "timestampMs": 7760,
+    "confidence": 0.997687,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 이전",
+    "startMs": 8000,
+    "endMs": 8250,
+    "timestampMs": 8740,
+    "confidence": 0.976345,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 패치의",
+    "startMs": 8250,
+    "endMs": 8640,
+    "timestampMs": 9000,
+    "confidence": 0.992203,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 리플레이",
+    "startMs": 8640,
+    "endMs": 9140,
+    "timestampMs": 9420,
+    "confidence": 0.943614,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 코드는",
+    "startMs": 9140,
+    "endMs": 9560,
+    "timestampMs": 9760,
+    "confidence": 0.973664,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 계속",
+    "startMs": 9560,
+    "endMs": 9780,
+    "timestampMs": 10320,
+    "confidence": 0.997379,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 사용할",
+    "startMs": 9780,
+    "endMs": 10170,
+    "timestampMs": 10580,
+    "confidence": 0.999016,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 수",
+    "startMs": 10170,
+    "endMs": 10300,
+    "timestampMs": 10840,
+    "confidence": 0.999569,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 있습니다.",
+    "startMs": 10300,
+    "endMs": 11000,
+    "timestampMs": 10980,
+    "confidence": 0.998791,
+    "pageBreakAfter": true
+  }
+]

@@ -290,9 +290,21 @@ src/
   typography.ts         폰트 로딩
   timing.ts             오디오 길이 → 장면/전체 길이 (VideoConfig 를 받는다)
   shared/
-    ChannelOutro.tsx    모든 영상이 갖다 쓰는 채널 홍보 아웃트로
+    ChannelOutro.tsx    모든 영상이 갖다 쓰는 채널 홍보 아웃트로 (다크)
     outro.ts            아웃트로 문구 (새 영상 script.json 에 복사됨)
+    poster/             라이트 "오버워치 테크" 포스터 테마
+      theme.ts          POSTER 색 · POSTER_LAYOUT 하단 배치
+      PosterFrame.tsx   스크림 + 자막 + 출처 + 나레이션
+      PosterScene.tsx   완성된 포스터 이미지 한 장을 깔아 쓰는 장면
+      PosterOutro.tsx   포스터 테마 아웃트로
+      slashWipe.tsx     사선 와이프 전환 (오렌지 발광 경계)
+      chrome.tsx        배경 · 제목 · 잘린 모서리 카드 등 부품
   videos/
+    hotfix-0910/
+      script.json       대본
+      meta.ts           장면별 포스터 경로 + 출처
+      index.tsx         TransitionSeries 배치 (장면 컴포넌트 없음)
+      upload.md         유튜브 제목 · 설명 · 출처
     team-drive/
       script.json       대본 (아웃트로 포함)
       meta.ts           SCENE_META + VideoConfig
@@ -301,6 +313,8 @@ src/
   Root.tsx              모든 컴포지션 등록
 
 public/
+  img/
+    0911/               완성된 장면 포스터 (hotfix-0910 이 쓴다)
   shared/
     assets/             bg.jpg · profile.jpg · chzzk_logo.png
     bgm.mp3
@@ -311,6 +325,7 @@ public/
 
 out/
   team-drive.mp4
+  hotfix-0910.mp4
   channel-outro.mp4
 
 scripts/
@@ -390,6 +405,95 @@ npx remotion render Season5Patch out/season5-patch.mp4
 `public/shared/assets/bg.jpg` 를 넣으면 전체 배경이 된다.
 **blur 16px · brightness 0.18 · 테마색 스크림**까지 씌워 세게 누른다 —
 배경은 질감이지 내용이 아니다. 밝은 이미지를 그대로 쓰면 본문과 경쟁한다.
+
+## 완성된 포스터 이미지로 만드는 영상
+
+장면 전체를 이미 1080×1920 비율 포스터로 뽑아 뒀다면, 장면 컴포넌트를 따로
+그리지 않고 그 이미지를 깔기만 하면 된다 (`hotfix-0910` 이 이 방식이다).
+
+```
+public/img/<날짜>/1.png ~ 5.png     장면별 완성 포스터 (1080×1920 비율)
+src/videos/<영상>/meta.ts           장면별 image 경로 + 하단 출처 한 줄
+```
+
+```tsx
+<PosterScene
+  videoId="hotfix-0910"
+  sceneId="scene3"
+  image="img/0911/3.png"
+  source="출처: 오버워치 공식 9/10 패치 노트"
+  ...
+/>
+```
+
+`PosterScene` 이 포스터를 화면 가득 깔고 아주 느린 켄번즈를 건 다음,
+`PosterFrame` 이 그 위에 하단 스크림 · 자막 · 출처 · 나레이션을 얹는다.
+
+**하단 스크림은 완전히 불투명해야 한다.** 포스터가 자체적으로 그려 둔 출처 줄
+(1080×1920 기준 y 1765~1805)이 진한 잉크라, 알파가 조금이라도 남으면 자막 뒤로
+비쳐서 출처가 두 번 보인다. 그래서 `POSTER_LAYOUT.scrimSolid`(1742) 아래는
+그라데이션이 아니라 단색으로 덮고, 같은 출처를 `source` 로 받아 다시 그린다.
+
+받은 포스터 5장의 실제 픽셀 분포를 재서 잡은 값이다:
+
+| 구간 | 내용 |
+| --- | --- |
+| ~1710 | 마지막 카드가 끝나는 지점 |
+| 1715~1760 | 빈 구간 |
+| 1765~1805 | 포스터 자체 출처 줄 (스크림이 덮는다) |
+| 1810~1920 | 빈 구간 |
+
+### 장면 전환 — 사선 와이프
+
+장면이 전부 정지 포스터라 **전환이 사실상 유일한 움직임**이다. 그래서 기본 slide 대신
+`slashWipe` 를 쓴다 (`src/shared/poster/slashWipe.tsx`).
+
+- 새 장면이 비스듬한 경계를 따라 오른쪽에서 덮어 온다
+- 경계에는 오렌지 발광 띠가 얹혀 지나간다
+- 나가는 장면은 어두워지며 아주 살짝 당겨진다
+
+기울기(`slant`, 기본 34)는 포스터의 비스듬한 오렌지 스트릭과 같은 방향이다.
+`skewX` 각도는 화면 비율에서 계산하므로 해상도가 바뀌어도 경계와 띠가 어긋나지 않는다.
+
+**나가는 장면을 축소하면 안 된다.** 줄이는 순간 가장자리에 배경색 여백이 드러난다.
+그래서 축소가 아니라 확대(1 → 1.035) + 어둡게로 깊이를 만든다.
+
+전환 길이는 `TRANSITION_FRAMES`(0.4초) 그대로 둔다 — 나레이션 앞 여백
+(`SCENE_HEAD_SECONDS`)과 같아야 첫 마디가 전환에 묻히지 않는다. 한쪽만 늘리면 깨진다.
+
+포스터에도 아주 느린 켄번즈(확대 + 대각 드리프트)가 걸려 있다. `PosterScene` 의
+`drift` 에 장면 인덱스를 넘기면 장면마다 흐르는 방향이 뒤집혀서, 연달아 볼 때
+같은 화면이 반복되는 느낌이 준다.
+
+### 포스터가 없는 장면 (아웃트로 등)
+
+아웃트로는 포스터가 없어서 같은 조형 언어를 코드로 옮겨 뒀다 —
+`src/shared/poster/chrome.tsx` 의 `PosterBackground` · `PosterTitle` ·
+`PosterCard` · `NotchedCard` · `PosterKicker` · `EdgeCaps` · `PosterFooter`.
+색은 `src/shared/poster/theme.ts` 의 `POSTER` 이고, 포스터 이미지에서
+실제 픽셀을 뽑아 맞췄다 (배경 `#F7F3F0`→`#D9D6D7` · 오렌지 `#F65A01` · 잉크 `#333D45`).
+
+`NotchedCard` 는 좌상단·우하단 모서리를 비스듬히 자르고 그 자리에 오렌지 삼각형을
+넣는다. 포스터 카드와 같은 모양이다. `PosterCard` 는 거기에 전체 폭 헤더 바를 붙인 것으로,
+기본(다크) 테마의 `components/Card` 와 같은 구조다.
+
+**`PosterOutro` 의 배치는 다크 판(`src/shared/ChannelOutro.tsx`)과 같게 맞춘다.**
+같은 앵커(`LAYOUT.kickerY` · `titleY` · `cardsY`), 같은 카드 두 장, 같은 내부 구성
+(프로필 + 이름·설명·배지 / 하트·종 + 문구 세 줄). 영상마다 아웃트로가 따로 놀지 않게
+하려는 것이고, 바뀌는 것은 색뿐이다. 다른 영상들은 계속 다크 판을 쓴다.
+
+**치지직 그린(`#00FFA3`)은 그대로 쓰되 대비를 따로 확보해야 한다.** 밝은 색이라
+흰 카드 위에서는 그 자체로 읽히지 않는다.
+
+- 카드 헤더 바: `PosterCard` 가 색의 체감 밝기를 재서 흰 글자가 읽힐 때까지 자동으로
+  어둡게 한다. 고정 비율로 낮추면 안 된다 — 치지직 그린은 오렌지보다 훨씬 밝아서
+  같은 비율로는 글자가 묻힌다.
+- 치지직 배지: 어두운 칩(`POSTER.slate`) 위에 얹는다. 브랜드 색을 손대지 않고
+  대비만 얻는 방법이다.
+
+다크 판은 하단을 자막 박스 + 출처 카드가 채우지만, 포스터 판은 둘 다 스크림 안으로
+내려가 있다 (장면 1~5 와 자막 위치를 맞추기 위해서다 — 마지막 장에서 자막이 튀면
+더 눈에 띈다). 그래서 비는 자리를 `PosterFooter` 워드마크로 채운다.
 
 ## 테마 · 모션
 

@@ -1,0 +1,162 @@
+[
+  {
+    "text": "제트팩 캣은",
+    "startMs": 60,
+    "endMs": 670,
+    "timestampMs": 460,
+    "confidence": 0.653421,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 골골대기가",
+    "startMs": 670,
+    "endMs": 1600,
+    "timestampMs": 1600,
+    "confidence": 0.909028,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 적 방벽을",
+    "startMs": 1600,
+    "endMs": 2430,
+    "timestampMs": 2500,
+    "confidence": 0.983401,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 통과하던",
+    "startMs": 2430,
+    "endMs": 3130,
+    "timestampMs": 3140,
+    "confidence": 0.97894,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 오류가",
+    "startMs": 3130,
+    "endMs": 3710,
+    "timestampMs": 3600,
+    "confidence": 0.937068,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 수정됐습니다.",
+    "startMs": 3710,
+    "endMs": 5200,
+    "timestampMs": 4080,
+    "confidence": 0.989124,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 공식 노트는",
+    "startMs": 5200,
+    "endMs": 6040,
+    "timestampMs": 5580,
+    "confidence": 0.99659,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 통과하던",
+    "startMs": 6040,
+    "endMs": 6720,
+    "timestampMs": 6680,
+    "confidence": 0.978653,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 효과를",
+    "startMs": 6720,
+    "endMs": 7230,
+    "timestampMs": 7260,
+    "confidence": 0.997379,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 세부적으로",
+    "startMs": 7230,
+    "endMs": 8090,
+    "timestampMs": 7780,
+    "confidence": 0.966343,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 구분하지",
+    "startMs": 8090,
+    "endMs": 8780,
+    "timestampMs": 8420,
+    "confidence": 0.99041,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 않았어요.",
+    "startMs": 8780,
+    "endMs": 9780,
+    "timestampMs": 9020,
+    "confidence": 0.992725,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 방벽을",
+    "startMs": 9780,
+    "endMs": 10260,
+    "timestampMs": 10180,
+    "confidence": 0.99755,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 사이에",
+    "startMs": 10260,
+    "endMs": 10690,
+    "timestampMs": 10620,
+    "confidence": 0.988242,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 두고",
+    "startMs": 10690,
+    "endMs": 10990,
+    "timestampMs": 10900,
+    "confidence": 0.996196,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 쓸",
+    "startMs": 10990,
+    "endMs": 11130,
+    "timestampMs": 11200,
+    "confidence": 0.958808,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 때",
+    "startMs": 11130,
+    "endMs": 11290,
+    "timestampMs": 11480,
+    "confidence": 0.997191,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 확인해",
+    "startMs": 11290,
+    "endMs": 11750,
+    "timestampMs": 11800,
+    "confidence": 0.991584,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 볼",
+    "startMs": 11750,
+    "endMs": 11900,
+    "timestampMs": 12020,
+    "confidence": 0.997613,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 변화입니다.",
+    "startMs": 11900,
+    "endMs": 12800,
+    "timestampMs": 12320,
+    "confidence": 0.998035,
+    "pageBreakAfter": true
+  }
+]

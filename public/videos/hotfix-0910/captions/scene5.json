@@ -1,0 +1,178 @@
+[
+  {
+    "text": "9월",
+    "startMs": 160,
+    "endMs": 360,
+    "timestampMs": 320,
+    "confidence": 0.854859,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 9일",
+    "startMs": 360,
+    "endMs": 720,
+    "timestampMs": 720,
+    "confidence": 0.982081,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 한국어",
+    "startMs": 720,
+    "endMs": 1260,
+    "timestampMs": 1240,
+    "confidence": 0.948308,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 노트에는",
+    "startMs": 1260,
+    "endMs": 1990,
+    "timestampMs": 1620,
+    "confidence": 0.968973,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 위도우",
+    "startMs": 1990,
+    "endMs": 2580,
+    "timestampMs": 2620,
+    "confidence": 0.522644,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 음향도",
+    "startMs": 2580,
+    "endMs": 3150,
+    "timestampMs": 3000,
+    "confidence": 0.962483,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 추가됐어요.",
+    "startMs": 3150,
+    "endMs": 4380,
+    "timestampMs": 3560,
+    "confidence": 0.997128,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 기본과",
+    "startMs": 4380,
+    "endMs": 5070,
+    "timestampMs": 4920,
+    "confidence": 0.943613,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 신화,",
+    "startMs": 5070,
+    "endMs": 5680,
+    "timestampMs": 5580,
+    "confidence": 0.981381,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 헬로키티",
+    "startMs": 5680,
+    "endMs": 6570,
+    "timestampMs": 6300,
+    "confidence": 0.817639,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 무기는",
+    "startMs": 6570,
+    "endMs": 7500,
+    "timestampMs": 6900,
+    "confidence": 0.99605,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 조준",
+    "startMs": 7500,
+    "endMs": 7780,
+    "timestampMs": 7760,
+    "confidence": 0.564323,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 충전이",
+    "startMs": 7780,
+    "endMs": 8550,
+    "timestampMs": 8180,
+    "confidence": 0.918499,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 50퍼센트를",
+    "startMs": 8550,
+    "endMs": 9190,
+    "timestampMs": 8860,
+    "confidence": 0.960726,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 넘으면",
+    "startMs": 9190,
+    "endMs": 9840,
+    "timestampMs": 9640,
+    "confidence": 0.974777,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 소리가",
+    "startMs": 9840,
+    "endMs": 10580,
+    "timestampMs": 10280,
+    "confidence": 0.817675,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 강해집니다.",
+    "startMs": 10580,
+    "endMs": 11840,
+    "timestampMs": 10680,
+    "confidence": 0.99625,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 실제",
+    "startMs": 11840,
+    "endMs": 12200,
+    "timestampMs": 12280,
+    "confidence": 0.996227,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 사용감이",
+    "startMs": 12200,
+    "endMs": 12780,
+    "timestampMs": 12680,
+    "confidence": 0.996871,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 얼마나",
+    "startMs": 12780,
+    "endMs": 13260,
+    "timestampMs": 13400,
+    "confidence": 0.995423,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 달라질지",
+    "startMs": 13260,
+    "endMs": 13920,
+    "timestampMs": 13740,
+    "confidence": 0.998938,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 궁금하네요.",
+    "startMs": 13920,
+    "endMs": 14880,
+    "timestampMs": 14520,
+    "confidence": 0.99806,
+    "pageBreakAfter": true
+  }
+]

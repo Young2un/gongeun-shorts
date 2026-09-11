@@ -1,0 +1,202 @@
+[
+  {
+    "text": "라마트라는",
+    "startMs": 150,
+    "endMs": 860,
+    "timestampMs": 300,
+    "confidence": 0.683779,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 탐식의",
+    "startMs": 860,
+    "endMs": 1360,
+    "timestampMs": 1240,
+    "confidence": 0.941614,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 소용돌이를",
+    "startMs": 1360,
+    "endMs": 2210,
+    "timestampMs": 1780,
+    "confidence": 0.975835,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 미리",
+    "startMs": 2210,
+    "endMs": 2590,
+    "timestampMs": 2520,
+    "confidence": 0.992555,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 터뜨릴",
+    "startMs": 2590,
+    "endMs": 3090,
+    "timestampMs": 2820,
+    "confidence": 0.763448,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 때,",
+    "startMs": 3090,
+    "endMs": 3360,
+    "timestampMs": 3580,
+    "confidence": 0.998995,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 의도하지",
+    "startMs": 3360,
+    "endMs": 4030,
+    "timestampMs": 3820,
+    "confidence": 0.426073,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 않은",
+    "startMs": 4030,
+    "endMs": 4400,
+    "timestampMs": 4420,
+    "confidence": 0.941512,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 추가",
+    "startMs": 4400,
+    "endMs": 4640,
+    "timestampMs": 4780,
+    "confidence": 0.93439,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 지연이",
+    "startMs": 4640,
+    "endMs": 5190,
+    "timestampMs": 4980,
+    "confidence": 0.83129,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 생기던",
+    "startMs": 5190,
+    "endMs": 5720,
+    "timestampMs": 5380,
+    "confidence": 0.989312,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 문제가",
+    "startMs": 5720,
+    "endMs": 6260,
+    "timestampMs": 6040,
+    "confidence": 0.986391,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 수정됐어요.",
+    "startMs": 6260,
+    "endMs": 7360,
+    "timestampMs": 6320,
+    "confidence": 0.993269,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 공식",
+    "startMs": 7360,
+    "endMs": 7730,
+    "timestampMs": 7760,
+    "confidence": 0.991531,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 설명은",
+    "startMs": 7730,
+    "endMs": 8270,
+    "timestampMs": 8180,
+    "confidence": 0.634788,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 수동",
+    "startMs": 8270,
+    "endMs": 8630,
+    "timestampMs": 8820,
+    "confidence": 0.906846,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 폭발에",
+    "startMs": 8630,
+    "endMs": 9170,
+    "timestampMs": 9160,
+    "confidence": 0.5973,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 관한",
+    "startMs": 9170,
+    "endMs": 9530,
+    "timestampMs": 9580,
+    "confidence": 0.995233,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 오류",
+    "startMs": 9530,
+    "endMs": 9890,
+    "timestampMs": 9960,
+    "confidence": 0.971198,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 수정입니다.",
+    "startMs": 9890,
+    "endMs": 11200,
+    "timestampMs": 10240,
+    "confidence": 0.846414,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 재사용",
+    "startMs": 11200,
+    "endMs": 11960,
+    "timestampMs": 11460,
+    "confidence": 0.731034,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 대기",
+    "startMs": 11960,
+    "endMs": 12550,
+    "timestampMs": 11940,
+    "confidence": 0.968633,
+    "pageBreakAfter": false
+  },
+  {
+    "text": "시간",
+    "startMs": 12550,
+    "endMs": 13150,
+    "timestampMs": 12340,
+    "confidence": 0.508836,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 감소는",
+    "startMs": 13150,
+    "endMs": 13530,
+    "timestampMs": 12660,
+    "confidence": 0.985904,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 아니에요.",
+    "startMs": 13530,
+    "endMs": 13531,
+    "timestampMs": 13400,
+    "confidence": 0.9707,
+    "pageBreakAfter": true
+  }
+]

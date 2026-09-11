@@ -13,9 +13,34 @@ import {
 import { CAPTION_PAGE_MS, COLORS, HEIGHT, LAYOUT, MARGIN } from "../theme";
 import { captionsDir, HEAD_FRAMES } from "../timing";
 
-const CaptionPage: React.FC<{
-  readonly page: ReturnType<typeof createTikTokStyleCaptions>["pages"][number];
-}> = ({ page }) => {
+/**
+ * 자막 생김새.
+ * - "box"  검정 딤드 박스 위에 흰 글자 (어두운 배경의 기본 장면용)
+ * - "bare" 박스 없이 흰 글자 + 강한 그림자 (뒤에 이미 스크림이 깔린 경우용)
+ */
+export type CaptionVariant = "box" | "bare";
+
+export type CaptionStyle = {
+  readonly variant?: CaptionVariant;
+  /** 자막 블록의 아래쪽 기준선 (여러 줄이면 위로 자란다) */
+  readonly bottom?: number;
+  readonly fontSize?: number;
+  readonly maxWidth?: number;
+};
+
+const CaptionPage: React.FC<
+  CaptionStyle & {
+    readonly page: ReturnType<typeof createTikTokStyleCaptions>["pages"][number];
+  }
+> = ({
+  page,
+  variant = "box",
+  bottom = LAYOUT.captionBottom,
+  fontSize = 44,
+  maxWidth = 940,
+}) => {
+  const boxed = variant === "box";
+
   return (
     <AbsoluteFill>
       <div
@@ -23,7 +48,7 @@ const CaptionPage: React.FC<{
           position: "absolute",
           left: MARGIN,
           right: MARGIN,
-          bottom: HEIGHT - LAYOUT.captionBottom,
+          bottom: HEIGHT - bottom,
           display: "flex",
           justifyContent: "center",
         }}
@@ -31,18 +56,20 @@ const CaptionPage: React.FC<{
         {/* 자막인 게 확실히 보이도록 뒤에 검정 딤드를 깐다 */}
         <div
           style={{
-            maxWidth: 940,
-            padding: "18px 32px",
-            borderRadius: 16,
-            backgroundColor: "rgba(0,0,0,0.72)",
-            border: "1px solid rgba(255,255,255,0.08)",
-            boxShadow: "0 10px 40px rgba(0,0,0,0.55)",
+            maxWidth,
+            padding: boxed ? "18px 32px" : 0,
+            borderRadius: boxed ? 16 : undefined,
+            backgroundColor: boxed ? "rgba(0,0,0,0.72)" : undefined,
+            border: boxed ? "1px solid rgba(255,255,255,0.08)" : undefined,
+            boxShadow: boxed ? "0 10px 40px rgba(0,0,0,0.55)" : undefined,
             textAlign: "center",
-            fontSize: 44,
+            fontSize,
             fontWeight: 700,
             lineHeight: 1.4,
             color: COLORS.white,
-            textShadow: "0 3px 10px rgba(0,0,0,0.9)",
+            textShadow: boxed
+              ? "0 3px 10px rgba(0,0,0,0.9)"
+              : "0 2px 4px rgba(0,0,0,0.95), 0 4px 22px rgba(0,0,0,0.85)",
             // 문장 단위라 두 줄까지 자연스럽게 흐르게 둔다
             wordBreak: "keep-all",
           }}
@@ -61,11 +88,15 @@ const CaptionPage: React.FC<{
  * (구절 단위 자동 강조는 오탐이 많아서 쓰지 않는다).
  * `public/videos/<videoId>/captions/<sceneId>.json` 이 없으면 아무것도 그리지 않는다.
  * (생성: `npm run voice`, 또는 ASR 로 다시 뽑으려면 `npm run captions`)
+ *
+ * 위치·크기·박스 유무는 옵션으로 바꿀 수 있다. 기본값은 기존 장면들이 쓰던 값 그대로다.
  */
-export const Caption: React.FC<{
-  readonly videoId: string;
-  readonly sceneId: string;
-}> = ({ videoId, sceneId }) => {
+export const Caption: React.FC<
+  CaptionStyle & {
+    readonly videoId: string;
+    readonly sceneId: string;
+  }
+> = ({ videoId, sceneId, ...style }) => {
   const { fps } = useVideoConfig();
   const [captions, setCaptions] = useState<CaptionType[] | null>(null);
   const { delayRender, continueRender } = useDelayRender();
@@ -130,7 +161,7 @@ export const Caption: React.FC<{
             name={`자막 ${index + 1}`}
             layout="none"
           >
-            <CaptionPage page={page} />
+            <CaptionPage page={page} {...style} />
           </Sequence>
         );
       })}

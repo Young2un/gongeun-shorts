@@ -7,6 +7,11 @@ import { TipOneScene } from "./Shorts/TipOneScene";
 import { TipThreeScene } from "./Shorts/TipThreeScene";
 import { TipTwoScene } from "./Shorts/TipTwoScene";
 import { ChannelOutro, type ChannelOutroProps } from "./shared/ChannelOutro";
+import { PosterOutro } from "./shared/poster/PosterOutro";
+import {
+  PosterScene,
+  type PosterSceneProps,
+} from "./shared/poster/PosterScene";
 import { FPS, HEIGHT, WIDTH } from "./theme";
 import {
   fallbackTimings,
@@ -18,6 +23,11 @@ import {
   type VideoConfig,
 } from "./timing";
 import { BlizzconNews } from "./videos/blizzcon-news";
+import { Hotfix0910 } from "./videos/hotfix-0910";
+import {
+  SCENE_META as HOTFIX_SCENES,
+  VIDEO as HOTFIX,
+} from "./videos/hotfix-0910/meta";
 import { VIDEO as BLIZZCON } from "./videos/blizzcon-news/meta";
 import { Scene1Headline } from "./videos/blizzcon-news/scenes/Scene1Headline";
 import { Scene2Delay } from "./videos/blizzcon-news/scenes/Scene2Delay";
@@ -97,6 +107,17 @@ export const RemotionRoot: React.FC = () => {
         calculateMetadata={makeVideoMetadata(S4MID)}
       />
 
+      <Composition
+        id={HOTFIX.compositionId}
+        component={Hotfix0910}
+        durationInFrames={totalDurationInFrames(fallbackTimings(HOTFIX))}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+        defaultProps={{ scenes: fallbackTimings(HOTFIX) }}
+        calculateMetadata={makeVideoMetadata(HOTFIX)}
+      />
+
       {/* 다른 영상에도 그대로 붙여 쓰는 채널 홍보 아웃트로 (단독 렌더 가능) */}
       <Composition
         id="ChannelOutro"
@@ -117,6 +138,47 @@ export const RemotionRoot: React.FC = () => {
           TEAM_DRIVE.script.length - 1,
         )}
       />
+
+      <Folder name="Hotfix0910-Scenes">
+        {HOTFIX_SCENES.map((meta, i) => (
+          <Composition
+            key={meta.image}
+            id={`HF-${i + 1}`}
+            component={PosterScene}
+            durationInFrames={fallbackTimings(HOTFIX)[i].durationInFrames}
+            fps={FPS}
+            width={WIDTH}
+            height={HEIGHT}
+            defaultProps={{
+              videoId: HOTFIX.id,
+              sceneId: HOTFIX.script[i].id,
+              image: meta.image,
+              source: meta.source,
+              drift: i,
+              ...sceneDefaults(HOTFIX, i),
+            }}
+            calculateMetadata={makeSceneMetadata<PosterSceneProps>(HOTFIX, i)}
+          />
+        ))}
+        <Composition
+          id="HF-Outro"
+          component={PosterOutro}
+          durationInFrames={
+            fallbackTimings(HOTFIX)[HOTFIX.script.length - 1].durationInFrames
+          }
+          fps={FPS}
+          width={WIDTH}
+          height={HEIGHT}
+          defaultProps={{
+            videoId: HOTFIX.id,
+            ...sceneDefaults(HOTFIX, HOTFIX.script.length - 1),
+          }}
+          calculateMetadata={makeSceneMetadata<ChannelOutroProps>(
+            HOTFIX,
+            HOTFIX.script.length - 1,
+          )}
+        />
+      </Folder>
 
       <Folder name="S4Midseason-Scenes">
         <SceneComposition
