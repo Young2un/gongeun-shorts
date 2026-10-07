@@ -3,8 +3,14 @@ import { AbsoluteFill, Easing, interpolate, useCurrentFrame } from "remotion";
 import { Caption } from "../../components/Caption";
 import { Narration } from "../../components/Narration";
 import { SafeAreaGuide } from "../../components/SafeAreaGuide";
-import { MARGIN, SHOW_CAPTIONS, SHOW_SAFE_AREA, WIDTH } from "../../theme";
-import { POSTER, POSTER_LAYOUT } from "./theme";
+import {
+  MARGIN,
+  SHOW_CAPTIONS,
+  SHOW_SAFE_AREA,
+  WIDTH,
+  withAlpha,
+} from "../../theme";
+import { POSTER, POSTER_LAYOUT, type PosterLayout } from "./theme";
 
 /**
  * 포스터 장면의 공통 껍데기.
@@ -14,16 +20,32 @@ import { POSTER, POSTER_LAYOUT } from "./theme";
  *
  * 하단 스크림은 포스터가 자체적으로 그려 둔 출처 줄(y 1765~1805)을 덮는다.
  * 같은 내용을 `source` 로 받아 아래에 다시 그리기 때문에 출처는 항상 화면에 남는다.
+ *
+ * 강조색(`accent`)은 포스터 한 장 한 장에서 뽑아 맞춘다. 라이트 "오버워치 테크"
+ * 포스터는 오렌지(기본값)지만, 다크 e스포츠 포스터처럼 색 언어가 다른 세트를
+ * 깔면 여기가 혼자 튄다.
  */
 export const PosterFrame: React.FC<{
   readonly videoId: string;
   readonly sceneId: string;
   /** 하단에 한 줄로 다시 그릴 출처 */
   readonly source: string;
+  /** 포스터의 색에 맞춘 강조색 (기본: 라이트 포스터의 오렌지) */
+  readonly accent?: string;
+  /** 하단 스크림·자막·출처 배치. 포스터 세트가 바뀌면 다시 재서 넘긴다 */
+  readonly layout?: PosterLayout;
   /** 화면 전체를 덮는 레이어 (페이드아웃 등) */
   readonly overlay?: React.ReactNode;
   readonly children?: React.ReactNode;
-}> = ({ videoId, sceneId, source, overlay, children }) => {
+}> = ({
+  videoId,
+  sceneId,
+  source,
+  accent = POSTER.orange,
+  layout = POSTER_LAYOUT,
+  overlay,
+  children,
+}) => {
   const frame = useCurrentFrame();
 
   return (
@@ -37,8 +59,8 @@ export const PosterFrame: React.FC<{
         style={{
           pointerEvents: "none",
           background: `linear-gradient(to bottom,
-            rgba(10,14,20,0) ${(POSTER_LAYOUT.scrimFrom / 1920) * 100}%,
-            rgba(10,14,20,0.85) ${(POSTER_LAYOUT.scrimSolid / 1920) * 100}%,
+            rgba(10,14,20,0) ${(layout.scrimFrom / 1920) * 100}%,
+            rgba(10,14,20,0.85) ${(layout.scrimSolid / 1920) * 100}%,
             rgba(10,14,20,0.85) 100%)`,
         }}
       />
@@ -50,26 +72,26 @@ export const PosterFrame: React.FC<{
           position: "absolute",
           left: 0,
           right: 0,
-          top: POSTER_LAYOUT.scrimSolid,
+          top: layout.scrimSolid,
           bottom: 0,
           pointerEvents: "none",
           backgroundColor: "#0A0E14",
         }}
       />
 
-      {/* 스크림 위쪽 경계에 얇은 오렌지 선 — 포스터의 코너 악센트와 같은 언어 */}
+      {/* 스크림 위쪽 경계에 얇은 강조색 선 — 포스터의 코너 악센트와 같은 언어 */}
       <div
         style={{
           position: "absolute",
           left: 0,
-          top: POSTER_LAYOUT.scrimSolid,
+          top: layout.scrimSolid,
           height: 3,
           width: interpolate(frame, [6, 30], [0, WIDTH], {
             extrapolateLeft: "clamp",
             extrapolateRight: "clamp",
             easing: Easing.bezier(0.16, 1, 0.3, 1),
           }),
-          background: `linear-gradient(90deg, ${POSTER.orange} 0%, rgba(246,90,1,0) 100%)`,
+          background: `linear-gradient(90deg, ${accent} 0%, ${withAlpha(accent, 0)} 100%)`,
         }}
       />
 
@@ -78,9 +100,9 @@ export const PosterFrame: React.FC<{
           videoId={videoId}
           sceneId={sceneId}
           variant="bare"
-          bottom={POSTER_LAYOUT.captionBottom}
-          fontSize={POSTER_LAYOUT.captionFontSize}
-          maxWidth={POSTER_LAYOUT.captionMaxWidth}
+          bottom={layout.captionBottom}
+          fontSize={layout.captionFontSize}
+          maxWidth={layout.captionMaxWidth}
         />
       ) : null}
 
@@ -90,7 +112,7 @@ export const PosterFrame: React.FC<{
           position: "absolute",
           left: MARGIN,
           right: MARGIN,
-          top: POSTER_LAYOUT.sourceY,
+          top: layout.sourceY,
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
@@ -105,13 +127,13 @@ export const PosterFrame: React.FC<{
           style={{
             width: 4,
             height: 24,
-            backgroundColor: POSTER.orange,
+            backgroundColor: accent,
             transform: "skewX(-16deg)",
           }}
         />
         <span
           style={{
-            fontSize: 26,
+            fontSize: layout.sourceFontSize,
             fontWeight: 600,
             letterSpacing: 0.2,
             color: "rgba(255,255,255,0.66)",

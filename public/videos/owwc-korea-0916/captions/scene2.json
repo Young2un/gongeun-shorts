@@ -1,0 +1,194 @@
+[
+  {
+    "text": "공식",
+    "startMs": 200,
+    "endMs": 390,
+    "timestampMs": 60,
+    "confidence": 0.855545,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 안내의",
+    "startMs": 390,
+    "endMs": 970,
+    "timestampMs": 840,
+    "confidence": 0.900012,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 시작은",
+    "startMs": 970,
+    "endMs": 1730,
+    "timestampMs": 1340,
+    "confidence": 0.995966,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 9월",
+    "startMs": 1730,
+    "endMs": 2040,
+    "timestampMs": 2000,
+    "confidence": 0.893676,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 16일",
+    "startMs": 2040,
+    "endMs": 2750,
+    "timestampMs": 2460,
+    "confidence": 0.973526,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 오전",
+    "startMs": 2750,
+    "endMs": 3140,
+    "timestampMs": 3040,
+    "confidence": 0.955413,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 11시입니다.",
+    "startMs": 3140,
+    "endMs": 4500,
+    "timestampMs": 3460,
+    "confidence": 0.980525,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 마감은",
+    "startMs": 4500,
+    "endMs": 5410,
+    "timestampMs": 4880,
+    "confidence": 0.98506,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 9월",
+    "startMs": 5410,
+    "endMs": 5730,
+    "timestampMs": 5600,
+    "confidence": 0.982523,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 22일",
+    "startMs": 5730,
+    "endMs": 6590,
+    "timestampMs": 6180,
+    "confidence": 0.993119,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 밤",
+    "startMs": 6590,
+    "endMs": 6710,
+    "timestampMs": 6880,
+    "confidence": 0.979916,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 11시",
+    "startMs": 6710,
+    "endMs": 7450,
+    "timestampMs": 7300,
+    "confidence": 0.989712,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 59분이에요.",
+    "startMs": 7450,
+    "endMs": 9000,
+    "timestampMs": 7880,
+    "confidence": 0.979542,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 기간이",
+    "startMs": 9000,
+    "endMs": 9560,
+    "timestampMs": 9380,
+    "confidence": 0.982038,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 끝나면",
+    "startMs": 9560,
+    "endMs": 10200,
+    "timestampMs": 9780,
+    "confidence": 0.998315,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 보상을",
+    "startMs": 10200,
+    "endMs": 10530,
+    "timestampMs": 10440,
+    "confidence": 0.989164,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 받을",
+    "startMs": 10530,
+    "endMs": 10870,
+    "timestampMs": 10900,
+    "confidence": 0.997432,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 수",
+    "startMs": 10870,
+    "endMs": 11040,
+    "timestampMs": 11160,
+    "confidence": 0.993718,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 없다고",
+    "startMs": 11040,
+    "endMs": 11560,
+    "timestampMs": 11320,
+    "confidence": 0.995158,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 하니,",
+    "startMs": 11560,
+    "endMs": 12020,
+    "timestampMs": 11660,
+    "confidence": 0.968154,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 마지막",
+    "startMs": 12020,
+    "endMs": 12420,
+    "timestampMs": 12400,
+    "confidence": 0.484308,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 날까지",
+    "startMs": 12420,
+    "endMs": 12840,
+    "timestampMs": 12600,
+    "confidence": 0.891422,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 미루지",
+    "startMs": 12840,
+    "endMs": 13260,
+    "timestampMs": 13160,
+    "confidence": 0.992998,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 마세요.",
+    "startMs": 13260,
+    "endMs": 13851,
+    "timestampMs": 13560,
+    "confidence": 0.982242,
+    "pageBreakAfter": true
+  }
+]

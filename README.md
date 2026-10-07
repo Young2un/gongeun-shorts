@@ -7,11 +7,18 @@
 
 ```console
 npm i                        # 1. 의존성 설치
-pip install edge-tts mutagen # 2. TTS 도구 설치 (최초 1회)
+python3 -m venv .venv        # 2. TTS 도구 설치 (최초 1회)
+.venv/bin/pip install edge-tts mutagen google-genai audioop-lts
 npm run voice                # 3. 나레이션 mp3 + 길이 + 자막 생성
 npm run dev                  # 4. Remotion Studio 로 미리보기
 npm run render               # 5. out/team-drive-shorts.mp4 로 출력
 ```
+
+**파이썬은 프로젝트 전용 venv 를 쓴다.** `scripts/py.sh` 가 `.venv/bin/python` 이
+있으면 그것을, 없으면 `python3` 을 고른다. macOS 의 `python3` 은 brew 가 올릴 때마다
+site-packages 가 통째로 비고, 3.13 부터는 표준 라이브러리에서 `audioop` 까지 빠졌다
+(PEP 594 — `generate-voice-gemini.py` 가 음량 정규화에 쓴다). `audioop-lts` 가 그
+자리를 메우는 백포트다.
 
 `npm run voice` 를 돌리지 않아도 렌더는 된다. 이 경우 나레이션·자막 없이
 `src/theme.ts` 의 `FALLBACK_SCENE_SECONDS` 길이로 영상만 만들어진다.
@@ -292,18 +299,27 @@ src/
   shared/
     ChannelOutro.tsx    모든 영상이 갖다 쓰는 채널 홍보 아웃트로 (다크)
     outro.ts            아웃트로 문구 (새 영상 script.json 에 복사됨)
-    poster/             라이트 "오버워치 테크" 포스터 테마
-      theme.ts          POSTER 색 · POSTER_LAYOUT 하단 배치
+    poster/             완성 포스터를 깔아 쓰는 장면들의 공용 부품
+      theme.ts          POSTER 색 · POSTER_LAYOUT 하단 배치 · POSTER_MOTION 켄번즈
       PosterFrame.tsx   스크림 + 자막 + 출처 + 나레이션
       PosterScene.tsx   완성된 포스터 이미지 한 장을 깔아 쓰는 장면
-      PosterOutro.tsx   포스터 테마 아웃트로
-      slashWipe.tsx     사선 와이프 전환 (오렌지 발광 경계)
+      PosterOutro.tsx   라이트 포스터 테마 아웃트로
+      slashWipe.tsx     사선 와이프 전환 (발광 경계)
       chrome.tsx        배경 · 제목 · 잘린 모서리 카드 등 부품
   videos/
     hotfix-0910/
       script.json       대본
       meta.ts           장면별 포스터 경로 + 출처
       index.tsx         TransitionSeries 배치 (장면 컴포넌트 없음)
+      upload.md         유튜브 제목 · 설명 · 출처
+    owwc-korea-0916/    다크 포스터 세트 (hotfix-0910 과 같은 구조)
+      meta.ts           + ACCENT · LAYOUT · KEN_BURNS 로 세트별 값 덮어쓰기
+    chuseok-dmon-0917/  코드로 그린 장면 세트 (blizzcon-news 와 같은 구조)
+      meta.ts           SCENE_META (kicker · 출처) + VideoConfig
+      scenes/           Scene1Hook ~ Scene5Opinion
+      poster/           같은 대본의 추석 포스터판 (카드만 애니메이션)
+        meta.tsx        포스터별 카드 좌표 · 등장 시점 · 문구 정정
+        Scene3Prize.tsx 포스터가 없는 장면만 코드로
       upload.md         유튜브 제목 · 설명 · 출처
     team-drive/
       script.json       대본 (아웃트로 포함)
@@ -315,6 +331,8 @@ src/
 public/
   img/
     0911/               완성된 장면 포스터 (hotfix-0910 이 쓴다)
+    0916/               완성된 장면 포스터 (owwc-korea-0916 이 쓴다)
+    0918/               추석 이벤트 포스터 (chuseok-dmon-0917/poster 가 쓴다)
   shared/
     assets/             bg.jpg · profile.jpg · chzzk_logo.png
     bgm.mp3
@@ -326,9 +344,13 @@ public/
 out/
   team-drive.mp4
   hotfix-0910.mp4
+  owwc-korea-0916.mp4
+  chuseok-dmon-0917.mp4
+  chuseok-dmon-0918.mp4
   channel-outro.mp4
 
 scripts/
+  py.sh                     .venv 가 있으면 그 파이썬을 고른다
   generate-voice-gemini.py  Gemini 나레이션 (--video)
   generate-voice.py         edge-tts 나레이션
   generate-captions.mjs     whisper 자막 (--video)
@@ -409,7 +431,8 @@ npx remotion render Season5Patch out/season5-patch.mp4
 ## 완성된 포스터 이미지로 만드는 영상
 
 장면 전체를 이미 1080×1920 비율 포스터로 뽑아 뒀다면, 장면 컴포넌트를 따로
-그리지 않고 그 이미지를 깔기만 하면 된다 (`hotfix-0910` 이 이 방식이다).
+그리지 않고 그 이미지를 깔기만 하면 된다
+(`hotfix-0910`·`owwc-korea-0916` 이 이 방식이다).
 
 ```
 public/img/<날짜>/1.png ~ 5.png     장면별 완성 포스터 (1080×1920 비율)
@@ -434,7 +457,7 @@ src/videos/<영상>/meta.ts           장면별 image 경로 + 하단 출처 한
 비쳐서 출처가 두 번 보인다. 그래서 `POSTER_LAYOUT.scrimSolid`(1742) 아래는
 그라데이션이 아니라 단색으로 덮고, 같은 출처를 `source` 로 받아 다시 그린다.
 
-받은 포스터 5장의 실제 픽셀 분포를 재서 잡은 값이다:
+받은 포스터 5장(0911 라이트 세트)의 실제 픽셀 분포를 재서 잡은 값이다:
 
 | 구간 | 내용 |
 | --- | --- |
@@ -443,13 +466,73 @@ src/videos/<영상>/meta.ts           장면별 image 경로 + 하단 출처 한
 | 1765~1805 | 포스터 자체 출처 줄 (스크림이 덮는다) |
 | 1810~1920 | 빈 구간 |
 
+### 포스터 세트가 바뀌면 다시 재야 하는 것
+
+위 숫자는 **0911 세트에서 잰 값**이다. 다른 세트를 받으면 하단 여백도 색도 다르다.
+그래서 `PosterScene`/`PosterFrame` 은 세 가지를 prop 으로 받고, 영상의 `meta.ts` 가
+필요한 것만 덮어쓴다 (`owwc-korea-0916/meta.ts` 가 예시다).
+
+| prop | 기본값 | 다시 재야 하는 이유 |
+| --- | --- | --- |
+| `accent` | `POSTER.orange` | 스크림 위 선 · 출처 틱 · 전환 발광 띠 색. 세트의 색 언어와 맞지 않으면 이것만 혼자 튄다 |
+| `layout` | `POSTER_LAYOUT` | 스크림 경계 · 자막 · 출처 위치. 포스터 카드가 내려오는 깊이에 맞춘다 |
+| `motion` | `POSTER_MOTION` | 켄번즈 세기 |
+
+**켄번즈 세기는 하단 여백이 정한다.** 포스터는 화면을 정확히 채우므로 확대하면
+반드시 어딘가가 잘린다. 위는 장식 여백이라 잘려도 되지만, 아래는 확대한 만큼
+카드가 스크림 밑으로 밀려 들어간다. 가운데를 기준으로 배율 `z` 로 확대하면
+포스터의 `y` 는 `960 + (y − 960) × z` 로 간다 — 카드 바닥이 이 값으로
+`scrimSolid` 를 넘지 않는 `z` 가 상한이다.
+
+0916 다크 세트가 실제로 그랬다. 1번 포스터의 팁 카드 바닥이 약 1723 이라
+기본 `scrimSolid`(1742)에 기본 켄번즈(1.03 → 1.08)를 걸면 카드 아래 테두리가
+잘린다. 이 세트는 포스터가 자체적으로 그린 출처 줄이 없어 스크림이 불투명할
+이유도 없으므로, 경계를 1768 로 내리고 자막을 그만큼 줄인 다음 켄번즈를
+1.02 → 1.05 로 약하게 줬다.
+
+### 포스터 카드만 애니메이션으로 살리기 (0918 세트)
+
+포스터에 설명 카드가 이미 그려져 있으면 화면이 처음부터 끝까지 정지 화면이다.
+`src/shared/chuseok/` 는 **포스터를 다시 그리지 않고** 카드만 움직이게 만든다.
+
+```tsx
+<RevealScene
+  image="img/0918/1.png"
+  slotColor="#332432"                       // 카드가 나오기 전 그 자리를 덮을 색
+  reveals={[
+    { rect: [59, 1172, 405, 224], at: 0.3 },  // 포스터 좌표 [x,y,w,h] · 나레이션 30% 지점
+    { rect: [479, 1172, 402, 224], at: 0.58 },
+  ]}
+/>
+```
+
+동작은 세 겹이다.
+
+1. **슬롯** — 카드가 앉을 자리를 주변 배경색으로 덮는다. 색은 포스터에서 카드
+   둘레를 재서 넣는다 (흰 패널 위 카드는 패널색이라 자리가 아예 티나지 않는다).
+2. **조각** — 같은 포스터를 그 사각형만큼 오려서 위로 올리고, 아래에서 떠오르며
+   제자리에 앉힌다. **끝나는 순간 이동·확대가 정확히 0** 이라 원본과 픽셀이 다시 맞물린다.
+   새로 그린 카드가 아니라서 폰트·그림자·그라데이션이 어긋날 일이 없다.
+3. **덮개(cover)** — 카드 위에 올리는 정정 문구. 카드와 같은 타이밍·같은 기준점으로
+   움직여 한 덩어리로 보인다.
+
+좌표는 포스터 원본(941x1672) 픽셀을 그대로 쓴다 — 무대(`ChuseokStage`)가 1080 폭에
+맞춰 한 번만 확대하므로 글자 크기까지 포스터에서 잰 값을 그대로 적으면 된다.
+
+> 이미지에는 `maxWidth: "none"` 을 꼭 준다. Tailwind preflight 의
+> `img { max-width: 100% }` 때문에 오려낸 조각 안의 원본이 부모 폭으로 찌그러진다.
+
+**공지에 없는 문구는 덮어서 고친다.** 포스터가 대본 초안으로 만들어졌다면 공지에
+없는 값(시작 시각 · "수정 가능")이 그대로 그려져 있을 수 있다. `cover` 로 그 칸만
+다시 그리되, **옆 칸까지 같이 다시 그린다** — 한 칸만 고치면 폰트가 달라 보인다.
+
 ### 장면 전환 — 사선 와이프
 
 장면이 전부 정지 포스터라 **전환이 사실상 유일한 움직임**이다. 그래서 기본 slide 대신
 `slashWipe` 를 쓴다 (`src/shared/poster/slashWipe.tsx`).
 
 - 새 장면이 비스듬한 경계를 따라 오른쪽에서 덮어 온다
-- 경계에는 오렌지 발광 띠가 얹혀 지나간다
+- 경계에는 발광 띠가 얹혀 지나간다 (`color`/`colorSoft`, 기본 오렌지)
 - 나가는 장면은 어두워지며 아주 살짝 당겨진다
 
 기울기(`slant`, 기본 34)는 포스터의 비스듬한 오렌지 스트릭과 같은 방향이다.
@@ -476,6 +559,9 @@ src/videos/<영상>/meta.ts           장면별 image 경로 + 하단 출처 한
 `NotchedCard` 는 좌상단·우하단 모서리를 비스듬히 자르고 그 자리에 오렌지 삼각형을
 넣는다. 포스터 카드와 같은 모양이다. `PosterCard` 는 거기에 전체 폭 헤더 바를 붙인 것으로,
 기본(다크) 테마의 `components/Card` 와 같은 구조다.
+
+추석 세트(0918)는 `src/shared/chuseok/ChuseokOutro.tsx` 를 쓴다 — 밤하늘을 흐린 배경 +
+흰 카드 + 핑크 알약 헤더. 배치는 아래 규칙대로 다크 판과 같다.
 
 **`PosterOutro` 의 배치는 다크 판(`src/shared/ChannelOutro.tsx`)과 같게 맞춘다.**
 같은 앵커(`LAYOUT.kickerY` · `titleY` · `cardsY`), 같은 카드 두 장, 같은 내부 구성

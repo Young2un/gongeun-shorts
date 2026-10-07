@@ -11,7 +11,12 @@ import { MOTION } from "../../theme";
 import type { SceneProps } from "../../timing";
 import { useAssetExists } from "../../components/useAssetExists";
 import { PosterFrame } from "./PosterFrame";
-import { POSTER } from "./theme";
+import {
+  POSTER,
+  POSTER_MOTION,
+  type PosterLayout,
+  type PosterMotion,
+} from "./theme";
 
 export type PosterSceneProps = SceneProps & {
   readonly videoId: string;
@@ -20,6 +25,12 @@ export type PosterSceneProps = SceneProps & {
   readonly image: string;
   /** 하단에 다시 그릴 출처 한 줄 */
   readonly source: string;
+  /** 포스터의 색에 맞춘 강조색 (기본: 라이트 포스터의 오렌지) */
+  readonly accent?: string;
+  /** 하단 스크림·자막·출처 배치 */
+  readonly layout?: PosterLayout;
+  /** 켄번즈 세기. 하단 여백이 좁은 포스터 세트는 약하게 준다 */
+  readonly motion?: PosterMotion;
   /**
    * 켄번즈가 흐르는 방향. 장면마다 반대로 주면 연달아 볼 때 같은 화면이
    * 반복되는 느낌이 줄어든다. 보통 장면 인덱스를 그대로 넘긴다.
@@ -40,17 +51,20 @@ export const PosterScene: React.FC<PosterSceneProps> = ({
   sceneId,
   image,
   source,
+  accent,
+  layout,
+  motion = POSTER_MOTION,
   drift = 0,
   durationInFrames,
 }) => {
   const frame = useCurrentFrame();
   const exists = useAssetExists(image);
 
-  // 1.03 에서 시작해 항상 오버스캔을 남긴다 — 흘러도 가장자리가 비치지 않게.
+  // from 배율에서 시작해 항상 오버스캔을 남긴다 — 흘러도 가장자리가 비치지 않게.
   const zoom = interpolate(
     frame,
     [0, durationInFrames],
-    [1.03, 1.03 + 0.05 * MOTION],
+    [motion.from, motion.from + motion.travel * MOTION],
     {
       extrapolateLeft: "clamp",
       extrapolateRight: "clamp",
@@ -59,7 +73,7 @@ export const PosterScene: React.FC<PosterSceneProps> = ({
   );
 
   // 아주 느린 대각 드리프트. 장면마다 방향을 뒤집는다.
-  // 폭은 오버스캔(1.03 → 좌우 1.5%) 안쪽으로만 움직인다.
+  // 폭은 오버스캔 안쪽으로만 움직여야 가장자리가 비지 않는다.
   const way = drift % 2 === 0 ? 1 : -1;
   const shift = (from: number, to: number) =>
     interpolate(frame, [0, durationInFrames], [from, to], {
@@ -67,11 +81,17 @@ export const PosterScene: React.FC<PosterSceneProps> = ({
       extrapolateRight: "clamp",
       easing: Easing.linear,
     });
-  const driftX = shift(0.7 * way, -0.7 * way) * MOTION;
-  const driftY = shift(-0.5 * way, 0.5 * way) * MOTION;
+  const driftX = shift(motion.driftX * way, -motion.driftX * way) * MOTION;
+  const driftY = shift(-motion.driftY * way, motion.driftY * way) * MOTION;
 
   return (
-    <PosterFrame videoId={videoId} sceneId={sceneId} source={source}>
+    <PosterFrame
+      videoId={videoId}
+      sceneId={sceneId}
+      source={source}
+      accent={accent}
+      layout={layout}
+    >
       <AbsoluteFill style={{ backgroundColor: POSTER.bg1, overflow: "hidden" }}>
         {exists ? (
           <Img

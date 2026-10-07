@@ -1,14 +1,10 @@
 import React from "react";
-import {
-  AbsoluteFill,
-  Easing,
-  interpolate,
-  useVideoConfig,
-} from "remotion";
+import { AbsoluteFill, Easing, interpolate, useVideoConfig } from "remotion";
 import type {
   TransitionPresentation,
   TransitionPresentationComponentProps,
 } from "@remotion/transitions";
+import { withAlpha } from "../../theme";
 import { POSTER } from "./theme";
 
 export type SlashWipeProps = {
@@ -17,16 +13,30 @@ export type SlashWipeProps = {
    * 포스터의 오렌지 스트릭이 쓰는 skewX(-22deg) 와 같은 방향이다.
    */
   readonly slant?: number;
-  /** 경계에 얹는 오렌지 띠 두께(px) */
+  /** 경계에 얹는 발광 띠 두께(px) */
   readonly edgeWidth?: number;
+  /**
+   * 발광 띠 색. 포스터 세트의 강조색을 그대로 넘긴다
+   * (기본값은 라이트 "오버워치 테크" 포스터의 오렌지).
+   */
+  readonly color?: string;
+  /** 띠 가운데의 밝은 쪽 색 */
+  readonly colorSoft?: string;
 };
 
 const SlashWipePresentation: React.FC<
   TransitionPresentationComponentProps<SlashWipeProps>
-> = ({ children, presentationProgress, presentationDirection, passedProps }) => {
+> = ({
+  children,
+  presentationProgress,
+  presentationDirection,
+  passedProps,
+}) => {
   const { width, height } = useVideoConfig();
   const slant = passedProps.slant ?? 34;
   const edgeWidth = passedProps.edgeWidth ?? 26;
+  const color = passedProps.color ?? POSTER.orange;
+  const colorSoft = passedProps.colorSoft ?? POSTER.orangeSoft;
 
   // 두 방향 모두 progress 가 0 → 1 로 간다.
   const eased = interpolate(presentationProgress, [0, 1], [0, 1], {
@@ -68,7 +78,7 @@ const SlashWipePresentation: React.FC<
         {children}
       </AbsoluteFill>
 
-      {/* 경계를 타고 지나가는 오렌지 발광 띠 */}
+      {/* 경계를 타고 지나가는 발광 띠 */}
       <div
         style={{
           position: "absolute",
@@ -79,12 +89,12 @@ const SlashWipePresentation: React.FC<
           transform: `skewX(${angle}deg)`,
           pointerEvents: "none",
           background: `linear-gradient(180deg,
-            rgba(246,90,1,0) 0%,
-            ${POSTER.orange} 14%,
-            ${POSTER.orangeSoft} 50%,
-            ${POSTER.orange} 86%,
-            rgba(246,90,1,0) 100%)`,
-          boxShadow: `0 0 44px rgba(246,90,1,0.9), 0 0 130px rgba(246,90,1,0.45)`,
+            ${withAlpha(color, 0)} 0%,
+            ${color} 14%,
+            ${colorSoft} 50%,
+            ${color} 86%,
+            ${withAlpha(color, 0)} 100%)`,
+          boxShadow: `0 0 44px ${withAlpha(color, 0.9)}, 0 0 130px ${withAlpha(color, 0.45)}`,
           opacity: interpolate(
             presentationProgress,
             [0, 0.12, 0.86, 1],
@@ -99,7 +109,7 @@ const SlashWipePresentation: React.FC<
 
 /**
  * 사선 와이프 — 새 장면이 비스듬한 경계를 따라 오른쪽에서 덮어 온다.
- * 경계에는 오렌지 발광 띠가 얹히고, 나가는 장면은 뒤로 밀리며 어두워진다.
+ * 경계에는 발광 띠가 얹히고, 나가는 장면은 뒤로 밀리며 어두워진다.
  *
  * 기울기는 포스터가 쓰는 비스듬한 오렌지 스트릭과 같은 방향으로 맞췄다.
  * 장면이 전부 정지 이미지라 전환이 유일한 움직임이 되므로, 그냥 슬라이드보다

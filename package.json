@@ -29,8 +29,8 @@
   },
   "scripts": {
     "dev": "remotion studio",
-    "voice": "python3 scripts/generate-voice.py",
-    "voice:gemini": "python3 scripts/generate-voice-gemini.py",
+    "voice": "scripts/py.sh scripts/generate-voice.py",
+    "voice:gemini": "scripts/py.sh scripts/generate-voice-gemini.py",
     "voice:check": "node scripts/check-pronunciation.mjs",
     "captions": "node scripts/generate-captions.mjs",
     "render": "remotion render TeamDriveShorts out/team-drive.mp4",

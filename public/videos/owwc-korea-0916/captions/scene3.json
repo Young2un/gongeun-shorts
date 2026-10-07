@@ -1,0 +1,202 @@
+[
+  {
+    "text": "받는",
+    "startMs": 140,
+    "endMs": 380,
+    "timestampMs": 60,
+    "confidence": 0.912614,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 순서도",
+    "startMs": 380,
+    "endMs": 950,
+    "timestampMs": 760,
+    "confidence": 0.996386,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 공식",
+    "startMs": 950,
+    "endMs": 1330,
+    "timestampMs": 1460,
+    "confidence": 0.991756,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 공지에",
+    "startMs": 1330,
+    "endMs": 1900,
+    "timestampMs": 1840,
+    "confidence": 0.927187,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 나와",
+    "startMs": 1900,
+    "endMs": 2280,
+    "timestampMs": 2220,
+    "confidence": 0.997689,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 있어요.",
+    "startMs": 2280,
+    "endMs": 2920,
+    "timestampMs": 2780,
+    "confidence": 0.786037,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 먼저",
+    "startMs": 2920,
+    "endMs": 3340,
+    "timestampMs": 3480,
+    "confidence": 0.987786,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 게임에",
+    "startMs": 3340,
+    "endMs": 3970,
+    "timestampMs": 3840,
+    "confidence": 0.985101,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 접속한",
+    "startMs": 3970,
+    "endMs": 4600,
+    "timestampMs": 4140,
+    "confidence": 0.999655,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 뒤,",
+    "startMs": 4600,
+    "endMs": 4950,
+    "timestampMs": 4840,
+    "confidence": 0.994583,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 대한민국",
+    "startMs": 4950,
+    "endMs": 5650,
+    "timestampMs": 5140,
+    "confidence": 0.337555,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 우승",
+    "startMs": 5650,
+    "endMs": 5920,
+    "timestampMs": 5900,
+    "confidence": 0.990189,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 기념",
+    "startMs": 5920,
+    "endMs": 6370,
+    "timestampMs": 6220,
+    "confidence": 0.856539,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 이벤트",
+    "startMs": 6370,
+    "endMs": 6790,
+    "timestampMs": 6660,
+    "confidence": 0.945648,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 배너를",
+    "startMs": 6790,
+    "endMs": 7240,
+    "timestampMs": 6980,
+    "confidence": 0.854502,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 선택하세요.",
+    "startMs": 7240,
+    "endMs": 8220,
+    "timestampMs": 7520,
+    "confidence": 0.99467,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 이동한",
+    "startMs": 8220,
+    "endMs": 8690,
+    "timestampMs": 8600,
+    "confidence": 0.993779,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 이벤트",
+    "startMs": 8690,
+    "endMs": 9200,
+    "timestampMs": 9140,
+    "confidence": 0.998664,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 페이지에서",
+    "startMs": 9200,
+    "endMs": 10170,
+    "timestampMs": 9560,
+    "confidence": 0.98773,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 보상 받기를",
+    "startMs": 10170,
+    "endMs": 10760,
+    "timestampMs": 10420,
+    "confidence": 0.936749,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 누르면",
+    "startMs": 10760,
+    "endMs": 11210,
+    "timestampMs": 11100,
+    "confidence": 0.998039,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 됩니다.",
+    "startMs": 11210,
+    "endMs": 11940,
+    "timestampMs": 11780,
+    "confidence": 0.998948,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 버튼까지",
+    "startMs": 11940,
+    "endMs": 12720,
+    "timestampMs": 12360,
+    "confidence": 0.993695,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 꼭",
+    "startMs": 12720,
+    "endMs": 12920,
+    "timestampMs": 13060,
+    "confidence": 0.994909,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 확인하세요.",
+    "startMs": 12920,
+    "endMs": 13931,
+    "timestampMs": 13360,
+    "confidence": 0.996936,
+    "pageBreakAfter": true
+  }
+]

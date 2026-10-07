@@ -14,3 +14,6 @@ whisper.cpp/
 
 # whisper.cpp 가 남기는 임시 출력
 tmp.json
+
+# python venv (edge-tts · google-genai · audioop-lts)
+.venv

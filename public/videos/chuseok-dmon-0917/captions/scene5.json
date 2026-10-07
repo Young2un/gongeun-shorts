@@ -1,0 +1,218 @@
+[
+  {
+    "text": "당첨",
+    "startMs": 200,
+    "endMs": 390,
+    "timestampMs": 440,
+    "confidence": 0.828517,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 결과는",
+    "startMs": 390,
+    "endMs": 980,
+    "timestampMs": 1020,
+    "confidence": 0.784551,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 별도",
+    "startMs": 980,
+    "endMs": 1370,
+    "timestampMs": 1520,
+    "confidence": 0.986316,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 공지로",
+    "startMs": 1370,
+    "endMs": 1950,
+    "timestampMs": 1940,
+    "confidence": 0.770111,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 안내되고,",
+    "startMs": 1950,
+    "endMs": 2910,
+    "timestampMs": 2320,
+    "confidence": 0.995904,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 배송",
+    "startMs": 2910,
+    "endMs": 3110,
+    "timestampMs": 3220,
+    "confidence": 0.618442,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 정보",
+    "startMs": 3110,
+    "endMs": 3420,
+    "timestampMs": 3560,
+    "confidence": 0.647191,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 입력",
+    "startMs": 3420,
+    "endMs": 3730,
+    "timestampMs": 3820,
+    "confidence": 0.893917,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 기간을",
+    "startMs": 3730,
+    "endMs": 4190,
+    "timestampMs": 4080,
+    "confidence": 0.774279,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 놓치면",
+    "startMs": 4190,
+    "endMs": 4720,
+    "timestampMs": 4480,
+    "confidence": 0.98665,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 도움을",
+    "startMs": 4720,
+    "endMs": 5080,
+    "timestampMs": 5020,
+    "confidence": 0.949524,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 받을",
+    "startMs": 5080,
+    "endMs": 5360,
+    "timestampMs": 5380,
+    "confidence": 0.974836,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 수",
+    "startMs": 5360,
+    "endMs": 5500,
+    "timestampMs": 5560,
+    "confidence": 0.991796,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 없다고",
+    "startMs": 5500,
+    "endMs": 5930,
+    "timestampMs": 5720,
+    "confidence": 0.974299,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 합니다.",
+    "startMs": 5930,
+    "endMs": 6440,
+    "timestampMs": 6460,
+    "confidence": 0.9885,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 저는",
+    "startMs": 6440,
+    "endMs": 6830,
+    "timestampMs": 7200,
+    "confidence": 0.987538,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 당첨",
+    "startMs": 6830,
+    "endMs": 7090,
+    "timestampMs": 7500,
+    "confidence": 0.978564,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 인원이",
+    "startMs": 7090,
+    "endMs": 7580,
+    "timestampMs": 7800,
+    "confidence": 0.651105,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 열 명이라",
+    "startMs": 7580,
+    "endMs": 8400,
+    "timestampMs": 8200,
+    "confidence": 0.866842,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 넉넉하진",
+    "startMs": 8400,
+    "endMs": 9040,
+    "timestampMs": 8740,
+    "confidence": 0.993653,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 않아도,",
+    "startMs": 9040,
+    "endMs": 9780,
+    "timestampMs": 9300,
+    "confidence": 0.67551,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 댓글",
+    "startMs": 9780,
+    "endMs": 9980,
+    "timestampMs": 10060,
+    "confidence": 0.861461,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 하나면",
+    "startMs": 9980,
+    "endMs": 10350,
+    "timestampMs": 10320,
+    "confidence": 0.967706,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 되니",
+    "startMs": 10350,
+    "endMs": 10630,
+    "timestampMs": 10660,
+    "confidence": 0.98253,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 참여해",
+    "startMs": 10630,
+    "endMs": 11050,
+    "timestampMs": 11060,
+    "confidence": 0.981583,
+    "pageBreakAfter": false
+  },
+  {
+    "text": "볼 만하다고",
+    "startMs": 11050,
+    "endMs": 11750,
+    "timestampMs": 11300,
+    "confidence": 0.668941,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 봐요.",
+    "startMs": 11750,
+    "endMs": 12091,
+    "timestampMs": 11980,
+    "confidence": 0.985934,
+    "pageBreakAfter": true
+  }
+]

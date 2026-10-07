@@ -1,0 +1,154 @@
+[
+  {
+    "text": "기간은",
+    "startMs": 60,
+    "endMs": 510,
+    "timestampMs": 0,
+    "confidence": 0.893699,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 9월",
+    "startMs": 510,
+    "endMs": 850,
+    "timestampMs": 840,
+    "confidence": 0.975748,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 17일부터",
+    "startMs": 850,
+    "endMs": 1800,
+    "timestampMs": 1240,
+    "confidence": 0.944161,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 9월",
+    "startMs": 1800,
+    "endMs": 2100,
+    "timestampMs": 2020,
+    "confidence": 0.96571,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 27일",
+    "startMs": 2100,
+    "endMs": 2620,
+    "timestampMs": 2480,
+    "confidence": 0.993278,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 밤",
+    "startMs": 2620,
+    "endMs": 2790,
+    "timestampMs": 3000,
+    "confidence": 0.972709,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 11시",
+    "startMs": 2790,
+    "endMs": 3310,
+    "timestampMs": 3380,
+    "confidence": 0.991181,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 59분까지입니다.",
+    "startMs": 3310,
+    "endMs": 5220,
+    "timestampMs": 3920,
+    "confidence": 0.991423,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 넥슨",
+    "startMs": 5220,
+    "endMs": 5480,
+    "timestampMs": 5420,
+    "confidence": 0.838967,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 아이디로",
+    "startMs": 5480,
+    "endMs": 6010,
+    "timestampMs": 5800,
+    "confidence": 0.721076,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 로그인한",
+    "startMs": 6010,
+    "endMs": 6530,
+    "timestampMs": 6160,
+    "confidence": 0.977064,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 뒤,",
+    "startMs": 6530,
+    "endMs": 6770,
+    "timestampMs": 6720,
+    "confidence": 0.995864,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 공식",
+    "startMs": 6770,
+    "endMs": 7000,
+    "timestampMs": 7060,
+    "confidence": 0.806239,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 이벤트",
+    "startMs": 7000,
+    "endMs": 7440,
+    "timestampMs": 7400,
+    "confidence": 0.981849,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 게시글에",
+    "startMs": 7440,
+    "endMs": 8030,
+    "timestampMs": 7700,
+    "confidence": 0.710414,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 댓글을",
+    "startMs": 8030,
+    "endMs": 8400,
+    "timestampMs": 8280,
+    "confidence": 0.802646,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 작성하면",
+    "startMs": 8400,
+    "endMs": 9090,
+    "timestampMs": 8680,
+    "confidence": 0.96903,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 참여가",
+    "startMs": 9090,
+    "endMs": 9400,
+    "timestampMs": 9340,
+    "confidence": 0.902891,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 완료됩니다.",
+    "startMs": 9400,
+    "endMs": 10040,
+    "timestampMs": 9780,
+    "confidence": 0.987185,
+    "pageBreakAfter": true
+  }
+]

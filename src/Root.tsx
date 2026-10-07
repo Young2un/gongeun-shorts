@@ -23,12 +23,34 @@ import {
   type VideoConfig,
 } from "./timing";
 import { BlizzconNews } from "./videos/blizzcon-news";
+import { ChuseokDmon0917 } from "./videos/chuseok-dmon-0917";
+import {
+  ChuseokDmon0918,
+  ChuseokPosterOutro,
+  POSTER_SCENE_COMPOSITIONS as CHUSEOK_POSTER_SCENES,
+} from "./videos/chuseok-dmon-0917/poster";
+import { VIDEO_POSTER as CHUSEOK_POSTER } from "./videos/chuseok-dmon-0917/poster/meta";
+import { Scene3Prize as ChuseokPosterScene3 } from "./videos/chuseok-dmon-0917/poster/Scene3Prize";
+import { VIDEO as CHUSEOK } from "./videos/chuseok-dmon-0917/meta";
+import { Scene1Hook as ChuseokScene1 } from "./videos/chuseok-dmon-0917/scenes/Scene1Hook";
+import { Scene2Howto as ChuseokScene2 } from "./videos/chuseok-dmon-0917/scenes/Scene2Howto";
+import { Scene3Prize as ChuseokScene3 } from "./videos/chuseok-dmon-0917/scenes/Scene3Prize";
+import { Scene4Caution as ChuseokScene4 } from "./videos/chuseok-dmon-0917/scenes/Scene4Caution";
+import { Scene5Opinion as ChuseokScene5 } from "./videos/chuseok-dmon-0917/scenes/Scene5Opinion";
 import { Hotfix0910 } from "./videos/hotfix-0910";
 import {
   SCENE_META as HOTFIX_SCENES,
   VIDEO as HOTFIX,
 } from "./videos/hotfix-0910/meta";
 import { VIDEO as BLIZZCON } from "./videos/blizzcon-news/meta";
+import { OwwcKorea0916 } from "./videos/owwc-korea-0916";
+import {
+  ACCENT as OWWC_ACCENT,
+  KEN_BURNS as OWWC_KEN_BURNS,
+  LAYOUT as OWWC_LAYOUT,
+  SCENE_META as OWWC_SCENES,
+  VIDEO as OWWC,
+} from "./videos/owwc-korea-0916/meta";
 import { Scene1Headline } from "./videos/blizzcon-news/scenes/Scene1Headline";
 import { Scene2Delay } from "./videos/blizzcon-news/scenes/Scene2Delay";
 import { Scene3Program } from "./videos/blizzcon-news/scenes/Scene3Program";
@@ -118,6 +140,41 @@ export const RemotionRoot: React.FC = () => {
         calculateMetadata={makeVideoMetadata(HOTFIX)}
       />
 
+      <Composition
+        id={CHUSEOK.compositionId}
+        component={ChuseokDmon0917}
+        durationInFrames={totalDurationInFrames(fallbackTimings(CHUSEOK))}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+        defaultProps={{ scenes: fallbackTimings(CHUSEOK) }}
+        calculateMetadata={makeVideoMetadata(CHUSEOK)}
+      />
+
+      <Composition
+        id={CHUSEOK_POSTER.compositionId}
+        component={ChuseokDmon0918}
+        durationInFrames={totalDurationInFrames(
+          fallbackTimings(CHUSEOK_POSTER),
+        )}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+        defaultProps={{ scenes: fallbackTimings(CHUSEOK_POSTER) }}
+        calculateMetadata={makeVideoMetadata(CHUSEOK_POSTER)}
+      />
+
+      <Composition
+        id={OWWC.compositionId}
+        component={OwwcKorea0916}
+        durationInFrames={totalDurationInFrames(fallbackTimings(OWWC))}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+        defaultProps={{ scenes: fallbackTimings(OWWC) }}
+        calculateMetadata={makeVideoMetadata(OWWC)}
+      />
+
       {/* 다른 영상에도 그대로 붙여 쓰는 채널 홍보 아웃트로 (단독 렌더 가능) */}
       <Composition
         id="ChannelOutro"
@@ -138,6 +195,107 @@ export const RemotionRoot: React.FC = () => {
           TEAM_DRIVE.script.length - 1,
         )}
       />
+
+      <Folder name="ChuseokDmon0918-Scenes">
+        {CHUSEOK_POSTER_SCENES.map((scene) => (
+          <SceneComposition
+            key={scene.id}
+            video={CHUSEOK_POSTER}
+            index={scene.index}
+            id={scene.id}
+            component={scene.Component}
+          />
+        ))}
+        <SceneComposition
+          video={CHUSEOK_POSTER}
+          index={2}
+          id="CP-3-Prize"
+          component={ChuseokPosterScene3}
+        />
+        <SceneComposition
+          video={CHUSEOK_POSTER}
+          index={CHUSEOK_POSTER.script.length - 1}
+          id="CP-Outro"
+          component={ChuseokPosterOutro}
+        />
+      </Folder>
+
+      <Folder name="ChuseokDmon0917-Scenes">
+        <SceneComposition
+          video={CHUSEOK}
+          index={0}
+          id="CD-1-Hook"
+          component={ChuseokScene1}
+        />
+        <SceneComposition
+          video={CHUSEOK}
+          index={1}
+          id="CD-2-Howto"
+          component={ChuseokScene2}
+        />
+        <SceneComposition
+          video={CHUSEOK}
+          index={2}
+          id="CD-3-Prize"
+          component={ChuseokScene3}
+        />
+        <SceneComposition
+          video={CHUSEOK}
+          index={3}
+          id="CD-4-Caution"
+          component={ChuseokScene4}
+        />
+        <SceneComposition
+          video={CHUSEOK}
+          index={4}
+          id="CD-5-Opinion"
+          component={ChuseokScene5}
+        />
+      </Folder>
+
+      <Folder name="OwwcKorea0916-Scenes">
+        {OWWC_SCENES.map((meta, i) => (
+          <Composition
+            key={meta.image}
+            id={`OW-${i + 1}`}
+            component={PosterScene}
+            durationInFrames={fallbackTimings(OWWC)[i].durationInFrames}
+            fps={FPS}
+            width={WIDTH}
+            height={HEIGHT}
+            defaultProps={{
+              videoId: OWWC.id,
+              sceneId: OWWC.script[i].id,
+              image: meta.image,
+              source: meta.source,
+              accent: OWWC_ACCENT.line,
+              layout: OWWC_LAYOUT,
+              motion: OWWC_KEN_BURNS,
+              drift: i,
+              ...sceneDefaults(OWWC, i),
+            }}
+            calculateMetadata={makeSceneMetadata<PosterSceneProps>(OWWC, i)}
+          />
+        ))}
+        <Composition
+          id="OW-Outro"
+          component={ChannelOutro}
+          durationInFrames={
+            fallbackTimings(OWWC)[OWWC.script.length - 1].durationInFrames
+          }
+          fps={FPS}
+          width={WIDTH}
+          height={HEIGHT}
+          defaultProps={{
+            videoId: OWWC.id,
+            ...sceneDefaults(OWWC, OWWC.script.length - 1),
+          }}
+          calculateMetadata={makeSceneMetadata<ChannelOutroProps>(
+            OWWC,
+            OWWC.script.length - 1,
+          )}
+        />
+      </Folder>
 
       <Folder name="Hotfix0910-Scenes">
         {HOTFIX_SCENES.map((meta, i) => (

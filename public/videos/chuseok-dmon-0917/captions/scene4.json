@@ -1,0 +1,210 @@
+[
+  {
+    "text": "넥슨",
+    "startMs": 0,
+    "endMs": 320,
+    "timestampMs": 280,
+    "confidence": 0.874421,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 아이디",
+    "startMs": 320,
+    "endMs": 860,
+    "timestampMs": 920,
+    "confidence": 0.657673,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 하나당",
+    "startMs": 860,
+    "endMs": 1360,
+    "timestampMs": 1260,
+    "confidence": 0.96266,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 댓글",
+    "startMs": 1360,
+    "endMs": 1760,
+    "timestampMs": 1860,
+    "confidence": 0.981929,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 한",
+    "startMs": 1760,
+    "endMs": 1870,
+    "timestampMs": 2120,
+    "confidence": 0.662705,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 번만",
+    "startMs": 1870,
+    "endMs": 2210,
+    "timestampMs": 2180,
+    "confidence": 0.980368,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 인정됩니다.",
+    "startMs": 2210,
+    "endMs": 3220,
+    "timestampMs": 2600,
+    "confidence": 0.995213,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 여러",
+    "startMs": 3220,
+    "endMs": 3570,
+    "timestampMs": 3760,
+    "confidence": 0.970151,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 개를",
+    "startMs": 3570,
+    "endMs": 3910,
+    "timestampMs": 3900,
+    "confidence": 0.909847,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 남겨도",
+    "startMs": 3910,
+    "endMs": 4520,
+    "timestampMs": 4200,
+    "confidence": 0.998805,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 기회가",
+    "startMs": 4520,
+    "endMs": 4930,
+    "timestampMs": 4760,
+    "confidence": 0.99214,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 늘지",
+    "startMs": 4930,
+    "endMs": 5270,
+    "timestampMs": 5120,
+    "confidence": 0.967021,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 않고,",
+    "startMs": 5270,
+    "endMs": 5720,
+    "timestampMs": 5800,
+    "confidence": 0.987114,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 타인의",
+    "startMs": 5720,
+    "endMs": 6150,
+    "timestampMs": 6160,
+    "confidence": 0.994757,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 글을",
+    "startMs": 6150,
+    "endMs": 6430,
+    "timestampMs": 6480,
+    "confidence": 0.992682,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 도용하거나",
+    "startMs": 6430,
+    "endMs": 7220,
+    "timestampMs": 6820,
+    "confidence": 0.970763,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 개인",
+    "startMs": 7220,
+    "endMs": 7510,
+    "timestampMs": 7680,
+    "confidence": 0.796892,
+    "pageBreakAfter": false
+  },
+  {
+    "text": "정보를",
+    "startMs": 7510,
+    "endMs": 7930,
+    "timestampMs": 7900,
+    "confidence": 0.539634,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 적은",
+    "startMs": 7930,
+    "endMs": 8240,
+    "timestampMs": 8260,
+    "confidence": 0.994763,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 댓글은",
+    "startMs": 8240,
+    "endMs": 8860,
+    "timestampMs": 8640,
+    "confidence": 0.966173,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 정상",
+    "startMs": 8860,
+    "endMs": 9140,
+    "timestampMs": 9320,
+    "confidence": 0.987138,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 참여로",
+    "startMs": 9140,
+    "endMs": 9560,
+    "timestampMs": 9620,
+    "confidence": 0.821502,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 인정되지",
+    "startMs": 9560,
+    "endMs": 10120,
+    "timestampMs": 10040,
+    "confidence": 0.999054,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 않을",
+    "startMs": 10120,
+    "endMs": 10410,
+    "timestampMs": 10540,
+    "confidence": 0.991384,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 수",
+    "startMs": 10410,
+    "endMs": 10550,
+    "timestampMs": 10760,
+    "confidence": 0.994188,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 있습니다.",
+    "startMs": 10550,
+    "endMs": 11251,
+    "timestampMs": 11180,
+    "confidence": 0.999047,
+    "pageBreakAfter": true
+  }
+]

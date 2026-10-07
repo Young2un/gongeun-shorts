@@ -1,0 +1,210 @@
+[
+  {
+    "text": "보상은",
+    "startMs": 180,
+    "endMs": 460,
+    "timestampMs": 380,
+    "confidence": 0.990271,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 원하는",
+    "startMs": 460,
+    "endMs": 930,
+    "timestampMs": 1180,
+    "confidence": 0.994947,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 스킨을",
+    "startMs": 930,
+    "endMs": 1470,
+    "timestampMs": 1580,
+    "confidence": 0.996213,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 고르는",
+    "startMs": 1470,
+    "endMs": 1860,
+    "timestampMs": 1960,
+    "confidence": 0.996594,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 방식은",
+    "startMs": 1860,
+    "endMs": 2340,
+    "timestampMs": 2400,
+    "confidence": 0.987624,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 아니에요.",
+    "startMs": 2340,
+    "endMs": 3200,
+    "timestampMs": 3140,
+    "confidence": 0.991149,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 공식",
+    "startMs": 3200,
+    "endMs": 3670,
+    "timestampMs": 3960,
+    "confidence": 0.998795,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 유의",
+    "startMs": 3670,
+    "endMs": 4050,
+    "timestampMs": 4260,
+    "confidence": 0.97194,
+    "pageBreakAfter": false
+  },
+  {
+    "text": "사항에",
+    "startMs": 4050,
+    "endMs": 4560,
+    "timestampMs": 4520,
+    "confidence": 0.585634,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 따르면,",
+    "startMs": 4560,
+    "endMs": 5370,
+    "timestampMs": 4860,
+    "confidence": 0.99861,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 상자를",
+    "startMs": 5370,
+    "endMs": 5840,
+    "timestampMs": 5640,
+    "confidence": 0.386201,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 열면",
+    "startMs": 5840,
+    "endMs": 6410,
+    "timestampMs": 6100,
+    "confidence": 0.992547,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 정해진",
+    "startMs": 6410,
+    "endMs": 6760,
+    "timestampMs": 6660,
+    "confidence": 0.687339,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 확률에",
+    "startMs": 6760,
+    "endMs": 7310,
+    "timestampMs": 7100,
+    "confidence": 0.45148,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 따라",
+    "startMs": 7310,
+    "endMs": 7740,
+    "timestampMs": 7680,
+    "confidence": 0.980183,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 구성품",
+    "startMs": 7740,
+    "endMs": 8200,
+    "timestampMs": 7980,
+    "confidence": 0.646717,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 한",
+    "startMs": 8200,
+    "endMs": 8340,
+    "timestampMs": 8500,
+    "confidence": 0.928162,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 종류를",
+    "startMs": 8340,
+    "endMs": 8750,
+    "timestampMs": 8640,
+    "confidence": 0.969792,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 받습니다.",
+    "startMs": 8750,
+    "endMs": 9480,
+    "timestampMs": 9080,
+    "confidence": 0.97301,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 특정",
+    "startMs": 9480,
+    "endMs": 9820,
+    "timestampMs": 10440,
+    "confidence": 0.990707,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 스킨",
+    "startMs": 9820,
+    "endMs": 10210,
+    "timestampMs": 10820,
+    "confidence": 0.993799,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 확정",
+    "startMs": 10210,
+    "endMs": 10500,
+    "timestampMs": 11120,
+    "confidence": 0.99724,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 보상으로",
+    "startMs": 10500,
+    "endMs": 11190,
+    "timestampMs": 11440,
+    "confidence": 0.977383,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 생각하시면",
+    "startMs": 11190,
+    "endMs": 12060,
+    "timestampMs": 12080,
+    "confidence": 0.999504,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 안",
+    "startMs": 12060,
+    "endMs": 12230,
+    "timestampMs": 12660,
+    "confidence": 0.959303,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 됩니다.",
+    "startMs": 12230,
+    "endMs": 13020,
+    "timestampMs": 13000,
+    "confidence": 0.999207,
+    "pageBreakAfter": true
+  }
+]

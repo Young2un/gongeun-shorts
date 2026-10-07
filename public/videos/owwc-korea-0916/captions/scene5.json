@@ -1,0 +1,162 @@
+[
+  {
+    "text": "이번",
+    "startMs": 120,
+    "endMs": 320,
+    "timestampMs": 380,
+    "confidence": 0.910936,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 옵드컵",
+    "startMs": 320,
+    "endMs": 780,
+    "timestampMs": 600,
+    "confidence": 0.956993,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 보셨나요?",
+    "startMs": 780,
+    "endMs": 1620,
+    "timestampMs": 1140,
+    "confidence": 0.976766,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 국뽕",
+    "startMs": 1620,
+    "endMs": 1940,
+    "timestampMs": 2140,
+    "confidence": 0.951067,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 차오르는",
+    "startMs": 1940,
+    "endMs": 2610,
+    "timestampMs": 2480,
+    "confidence": 0.925812,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 쫄깃한",
+    "startMs": 2610,
+    "endMs": 3100,
+    "timestampMs": 3040,
+    "confidence": 0.98574,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 순간들이었습니다!",
+    "startMs": 3100,
+    "endMs": 4540,
+    "timestampMs": 3600,
+    "confidence": 0.927539,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 저는",
+    "startMs": 4540,
+    "endMs": 4960,
+    "timestampMs": 5120,
+    "confidence": 0.992881,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 이",
+    "startMs": 4960,
+    "endMs": 5170,
+    "timestampMs": 5460,
+    "confidence": 0.993752,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 기세로",
+    "startMs": 5170,
+    "endMs": 5800,
+    "timestampMs": 5620,
+    "confidence": 0.990067,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 상자부터",
+    "startMs": 5800,
+    "endMs": 6640,
+    "timestampMs": 6200,
+    "confidence": 0.99156,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 챙겼어요.",
+    "startMs": 6640,
+    "endMs": 7520,
+    "timestampMs": 6800,
+    "confidence": 0.994926,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 여러분도",
+    "startMs": 7520,
+    "endMs": 8330,
+    "timestampMs": 8080,
+    "confidence": 0.989776,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 게임",
+    "startMs": 8330,
+    "endMs": 8750,
+    "timestampMs": 8820,
+    "confidence": 0.98417,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 켤",
+    "startMs": 8750,
+    "endMs": 9040,
+    "timestampMs": 8940,
+    "confidence": 0.735779,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 때",
+    "startMs": 9040,
+    "endMs": 9280,
+    "timestampMs": 9260,
+    "confidence": 0.998184,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 잊지",
+    "startMs": 9280,
+    "endMs": 9440,
+    "timestampMs": 9520,
+    "confidence": 0.945068,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 말고",
+    "startMs": 9440,
+    "endMs": 9730,
+    "timestampMs": 9840,
+    "confidence": 0.776352,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 보상",
+    "startMs": 9730,
+    "endMs": 10020,
+    "timestampMs": 10080,
+    "confidence": 0.962873,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 수령하세요!",
+    "startMs": 10020,
+    "endMs": 10820,
+    "timestampMs": 10340,
+    "confidence": 0.942295,
+    "pageBreakAfter": true
+  }
+]

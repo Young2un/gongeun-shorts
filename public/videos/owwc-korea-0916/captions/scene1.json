@@ -1,0 +1,186 @@
+[
+  {
+    "text": "한국",
+    "startMs": 0,
+    "endMs": 490,
+    "timestampMs": 420,
+    "confidence": 0.0537694,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 우승",
+    "startMs": 490,
+    "endMs": 910,
+    "timestampMs": 960,
+    "confidence": 0.927988,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 기념으로",
+    "startMs": 910,
+    "endMs": 1750,
+    "timestampMs": 1320,
+    "confidence": 0.640977,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 상자",
+    "startMs": 1750,
+    "endMs": 2210,
+    "timestampMs": 2080,
+    "confidence": 0.949861,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 챙기세요!",
+    "startMs": 2210,
+    "endMs": 3100,
+    "timestampMs": 2480,
+    "confidence": 0.994182,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 넥슨",
+    "startMs": 3100,
+    "endMs": 3520,
+    "timestampMs": 3500,
+    "confidence": 0.927053,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 오버워치",
+    "startMs": 3520,
+    "endMs": 4250,
+    "timestampMs": 4200,
+    "confidence": 0.9863,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 공식",
+    "startMs": 4250,
+    "endMs": 4690,
+    "timestampMs": 4960,
+    "confidence": 0.987266,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 이벤트",
+    "startMs": 4690,
+    "endMs": 5170,
+    "timestampMs": 5320,
+    "confidence": 0.985962,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 공지에",
+    "startMs": 5170,
+    "endMs": 5710,
+    "timestampMs": 5760,
+    "confidence": 0.976176,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 따르면,",
+    "startMs": 5710,
+    "endMs": 6420,
+    "timestampMs": 6100,
+    "confidence": 0.998209,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 이스포츠",
+    "startMs": 6420,
+    "endMs": 7130,
+    "timestampMs": 6680,
+    "confidence": 0.997957,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 전리품",
+    "startMs": 7130,
+    "endMs": 7720,
+    "timestampMs": 7620,
+    "confidence": 0.984005,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 상자",
+    "startMs": 7720,
+    "endMs": 8080,
+    "timestampMs": 8120,
+    "confidence": 0.988655,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 한 개를",
+    "startMs": 8080,
+    "endMs": 8700,
+    "timestampMs": 8440,
+    "confidence": 0.599864,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 줍니다.",
+    "startMs": 8700,
+    "endMs": 9420,
+    "timestampMs": 8840,
+    "confidence": 0.985522,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 접속만",
+    "startMs": 9420,
+    "endMs": 9980,
+    "timestampMs": 9720,
+    "confidence": 0.980692,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 하고",
+    "startMs": 9980,
+    "endMs": 10330,
+    "timestampMs": 10460,
+    "confidence": 0.96565,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 끝내지",
+    "startMs": 10330,
+    "endMs": 10820,
+    "timestampMs": 10700,
+    "confidence": 0.416119,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 말고,",
+    "startMs": 10820,
+    "endMs": 11160,
+    "timestampMs": 11260,
+    "confidence": 0.996685,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 보상 받기까지",
+    "startMs": 11160,
+    "endMs": 12160,
+    "timestampMs": 11700,
+    "confidence": 0.720619,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 눌러야",
+    "startMs": 12160,
+    "endMs": 12670,
+    "timestampMs": 12680,
+    "confidence": 0.991329,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 해요.",
+    "startMs": 12670,
+    "endMs": 13140,
+    "timestampMs": 13120,
+    "confidence": 0.968609,
+    "pageBreakAfter": true
+  }
+]

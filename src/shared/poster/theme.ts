@@ -57,4 +57,43 @@ export const POSTER_LAYOUT = {
   captionMaxWidth: 960,
   /** 출처 한 줄의 위쪽 기준선 */
   sourceY: 1864,
+  sourceFontSize: 26,
 } as const;
+
+/**
+ * 포스터 세트가 바뀌면 이 값들도 다시 재야 한다.
+ * 위 기본값은 0911 라이트 세트에서 잰 것이고, 하단 여백이 다른 세트는
+ * `meta.ts` 에서 필요한 값만 덮어쓴다.
+ */
+export type PosterLayout = {
+  -readonly [K in keyof typeof POSTER_LAYOUT]: number;
+};
+
+export const posterLayout = (
+  overrides: Partial<PosterLayout> = {},
+): PosterLayout => ({ ...POSTER_LAYOUT, ...overrides });
+
+/**
+ * 포스터에 거는 켄번즈 세기.
+ *
+ * 포스터는 화면을 정확히 채우기 때문에 확대하면 반드시 어딘가가 잘린다.
+ * 위는 장식 여백이라 잘려도 되지만, 아래는 확대한 만큼 카드가 스크림 밑으로
+ * 밀려 들어간다. 하단 여백이 좁은 세트는 `travel` 을 줄여야 한다.
+ */
+export type PosterMotion = {
+  /** 시작 배율. 1 이면 오버스캔이 없어 드리프트가 가장자리를 드러낸다 */
+  readonly from: number;
+  /** 장면 동안 늘어나는 배율 (전역 MOTION 이 곱해진다) */
+  readonly travel: number;
+  /** 가로 드리프트 폭 (화면 폭 %) */
+  readonly driftX: number;
+  /** 세로 드리프트 폭 (화면 높이 %) */
+  readonly driftY: number;
+};
+
+export const POSTER_MOTION: PosterMotion = {
+  from: 1.03,
+  travel: 0.05,
+  driftX: 0.7,
+  driftY: 0.5,
+};
