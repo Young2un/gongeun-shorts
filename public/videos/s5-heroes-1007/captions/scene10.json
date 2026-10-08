@@ -1,0 +1,178 @@
+[
+  {
+    "text": "로드호그는",
+    "startMs": 130,
+    "endMs": 840,
+    "timestampMs": 440,
+    "confidence": 0.938416,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 갈고리",
+    "startMs": 840,
+    "endMs": 1360,
+    "timestampMs": 1400,
+    "confidence": 0.97892,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 콤보가",
+    "startMs": 1360,
+    "endMs": 1870,
+    "timestampMs": 1780,
+    "confidence": 0.849897,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 달라졌습니다.",
+    "startMs": 1870,
+    "endMs": 3120,
+    "timestampMs": 2340,
+    "confidence": 0.99775,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 끌려온",
+    "startMs": 3120,
+    "endMs": 3710,
+    "timestampMs": 3480,
+    "confidence": 0.992473,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 적이",
+    "startMs": 3710,
+    "endMs": 4120,
+    "timestampMs": 4120,
+    "confidence": 0.977211,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 3미터가",
+    "startMs": 4120,
+    "endMs": 4580,
+    "timestampMs": 4460,
+    "confidence": 0.986342,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 아니라",
+    "startMs": 4580,
+    "endMs": 5300,
+    "timestampMs": 5240,
+    "confidence": 0.99552,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 4.5",
+    "startMs": 5300,
+    "endMs": 6000,
+    "timestampMs": 5680,
+    "confidence": 0.866363,
+    "pageBreakAfter": false
+  },
+  {
+    "text": "미터 앞에",
+    "startMs": 6000,
+    "endMs": 6460,
+    "timestampMs": 6460,
+    "confidence": 0.876125,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 멈추고,",
+    "startMs": 6460,
+    "endMs": 7160,
+    "timestampMs": 6700,
+    "confidence": 0.996419,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 기절도",
+    "startMs": 7160,
+    "endMs": 7790,
+    "timestampMs": 7560,
+    "confidence": 0.996871,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 0.3초로",
+    "startMs": 7790,
+    "endMs": 8840,
+    "timestampMs": 8300,
+    "confidence": 0.995807,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 짧아졌어요.",
+    "startMs": 8840,
+    "endMs": 10200,
+    "timestampMs": 9240,
+    "confidence": 0.994839,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 고철총은",
+    "startMs": 10200,
+    "endMs": 10970,
+    "timestampMs": 10580,
+    "confidence": 0.995207,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 2연발로",
+    "startMs": 10970,
+    "endMs": 11750,
+    "timestampMs": 11520,
+    "confidence": 0.899662,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 바뀌면서,",
+    "startMs": 11750,
+    "endMs": 12600,
+    "timestampMs": 12140,
+    "confidence": 0.996902,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 치명타",
+    "startMs": 12600,
+    "endMs": 13130,
+    "timestampMs": 13000,
+    "confidence": 0.996616,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 배율이",
+    "startMs": 13130,
+    "endMs": 13520,
+    "timestampMs": 13420,
+    "confidence": 0.814864,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 2배에서",
+    "startMs": 13520,
+    "endMs": 14140,
+    "timestampMs": 14080,
+    "confidence": 0.982935,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 1.5배로",
+    "startMs": 14140,
+    "endMs": 14900,
+    "timestampMs": 14880,
+    "confidence": 0.989219,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 내려갔습니다.",
+    "startMs": 14900,
+    "endMs": 16120,
+    "timestampMs": 15640,
+    "confidence": 0.982978,
+    "pageBreakAfter": true
+  }
+]

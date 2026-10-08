@@ -1,0 +1,146 @@
+[
+  {
+    "text": "웃는",
+    "startMs": 170,
+    "endMs": 340,
+    "timestampMs": 380,
+    "confidence": 0.88975,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 영웅도",
+    "startMs": 340,
+    "endMs": 840,
+    "timestampMs": 820,
+    "confidence": 0.857043,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 있습니다.",
+    "startMs": 840,
+    "endMs": 1640,
+    "timestampMs": 1680,
+    "confidence": 0.996404,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 겐지는",
+    "startMs": 1640,
+    "endMs": 2140,
+    "timestampMs": 2080,
+    "confidence": 0.865291,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 질풍참",
+    "startMs": 2140,
+    "endMs": 2670,
+    "timestampMs": 2620,
+    "confidence": 0.971158,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 피해가",
+    "startMs": 2670,
+    "endMs": 3200,
+    "timestampMs": 3100,
+    "confidence": 0.783319,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 50에서",
+    "startMs": 3200,
+    "endMs": 3920,
+    "timestampMs": 3600,
+    "confidence": 0.951911,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 60으로",
+    "startMs": 3920,
+    "endMs": 4440,
+    "timestampMs": 4260,
+    "confidence": 0.994643,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 올랐어요.",
+    "startMs": 4440,
+    "endMs": 5080,
+    "timestampMs": 4600,
+    "confidence": 0.95915,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 대신",
+    "startMs": 5080,
+    "endMs": 5360,
+    "timestampMs": 5560,
+    "confidence": 0.992477,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 용검은",
+    "startMs": 5360,
+    "endMs": 5770,
+    "timestampMs": 5920,
+    "confidence": 0.991474,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 110에서",
+    "startMs": 5770,
+    "endMs": 6500,
+    "timestampMs": 6560,
+    "confidence": 0.989104,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 100으로",
+    "startMs": 6500,
+    "endMs": 7230,
+    "timestampMs": 7060,
+    "confidence": 0.988851,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 내려갔고,",
+    "startMs": 7230,
+    "endMs": 7900,
+    "timestampMs": 7460,
+    "confidence": 0.995953,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 휘두르는",
+    "startMs": 7900,
+    "endMs": 8650,
+    "timestampMs": 8240,
+    "confidence": 0.98934,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 속도는",
+    "startMs": 8650,
+    "endMs": 9040,
+    "timestampMs": 8680,
+    "confidence": 0.99878,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 15",
+    "startMs": 9040,
+    "endMs": 9420,
+    "timestampMs": 9260,
+    "confidence": 0.996438,
+    "pageBreakAfter": false
+  },
+  {
+    "text": "퍼센트 빨라졌습니다.",
+    "startMs": 9420,
+    "endMs": 10540,
+    "timestampMs": 9900,
+    "confidence": 0.831409,
+    "pageBreakAfter": true
+  }
+]

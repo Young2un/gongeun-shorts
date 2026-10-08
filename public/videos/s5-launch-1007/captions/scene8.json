@@ -1,0 +1,178 @@
+[
+  {
+    "text": "경쟁전도",
+    "startMs": 160,
+    "endMs": 860,
+    "timestampMs": 120,
+    "confidence": 0.9466,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 바뀝니다.",
+    "startMs": 860,
+    "endMs": 1880,
+    "timestampMs": 1180,
+    "confidence": 0.989685,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 패치 노트",
+    "startMs": 1880,
+    "endMs": 2500,
+    "timestampMs": 2180,
+    "confidence": 0.930369,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 기준으로,",
+    "startMs": 2500,
+    "endMs": 3190,
+    "timestampMs": 2720,
+    "confidence": 0.981922,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 상위",
+    "startMs": 3190,
+    "endMs": 3400,
+    "timestampMs": 3520,
+    "confidence": 0.816351,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 500위",
+    "startMs": 3400,
+    "endMs": 4010,
+    "timestampMs": 3900,
+    "confidence": 0.986079,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 순위표의",
+    "startMs": 4010,
+    "endMs": 4790,
+    "timestampMs": 4300,
+    "confidence": 0.925703,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 기본",
+    "startMs": 4790,
+    "endMs": 5040,
+    "timestampMs": 5100,
+    "confidence": 0.94484,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 정렬이",
+    "startMs": 5040,
+    "endMs": 5640,
+    "timestampMs": 5300,
+    "confidence": 0.51174,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 챌린저",
+    "startMs": 5640,
+    "endMs": 6140,
+    "timestampMs": 6060,
+    "confidence": 0.958756,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 점수에서",
+    "startMs": 6140,
+    "endMs": 6900,
+    "timestampMs": 6460,
+    "confidence": 0.944089,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 등급으로",
+    "startMs": 6900,
+    "endMs": 7550,
+    "timestampMs": 7140,
+    "confidence": 0.975197,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 바뀌고,",
+    "startMs": 7550,
+    "endMs": 8040,
+    "timestampMs": 7640,
+    "confidence": 0.994385,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 열기",
+    "startMs": 8040,
+    "endMs": 8420,
+    "timestampMs": 8380,
+    "confidence": 0.969869,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 보너스는",
+    "startMs": 8420,
+    "endMs": 9170,
+    "timestampMs": 8640,
+    "confidence": 0.888987,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 삭제됐습니다.",
+    "startMs": 9170,
+    "endMs": 10340,
+    "timestampMs": 9260,
+    "confidence": 0.995758,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 팀 드라이브는",
+    "startMs": 10340,
+    "endMs": 11460,
+    "timestampMs": 10600,
+    "confidence": 0.594255,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 10월",
+    "startMs": 11460,
+    "endMs": 11850,
+    "timestampMs": 11700,
+    "confidence": 0.965725,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 30일부터",
+    "startMs": 11850,
+    "endMs": 12740,
+    "timestampMs": 12160,
+    "confidence": 0.984235,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 11월",
+    "startMs": 12740,
+    "endMs": 13090,
+    "timestampMs": 13080,
+    "confidence": 0.928864,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 2일까지",
+    "startMs": 13090,
+    "endMs": 13700,
+    "timestampMs": 13480,
+    "confidence": 0.994429,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 열립니다.",
+    "startMs": 13700,
+    "endMs": 14340,
+    "timestampMs": 13980,
+    "confidence": 0.997579,
+    "pageBreakAfter": true
+  }
+]

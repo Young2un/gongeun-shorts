@@ -1,0 +1,162 @@
+[
+  {
+    "text": "할로윈",
+    "startMs": 210,
+    "endMs": 590,
+    "timestampMs": 400,
+    "confidence": 0.861658,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 모드는",
+    "startMs": 590,
+    "endMs": 1190,
+    "timestampMs": 800,
+    "confidence": 0.981272,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 수수께끼의",
+    "startMs": 1190,
+    "endMs": 2180,
+    "timestampMs": 1480,
+    "confidence": 0.956251,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 광기,",
+    "startMs": 2180,
+    "endMs": 2760,
+    "timestampMs": 2400,
+    "confidence": 0.82278,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 묘한",
+    "startMs": 2760,
+    "endMs": 3120,
+    "timestampMs": 3100,
+    "confidence": 0.938072,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 게임입니다.",
+    "startMs": 3120,
+    "endMs": 4200,
+    "timestampMs": 3460,
+    "confidence": 0.951539,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 무작위",
+    "startMs": 4200,
+    "endMs": 4660,
+    "timestampMs": 4680,
+    "confidence": 0.995421,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 영웅으로",
+    "startMs": 4660,
+    "endMs": 5280,
+    "timestampMs": 5060,
+    "confidence": 0.991802,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 시작해서,",
+    "startMs": 5280,
+    "endMs": 6080,
+    "timestampMs": 5660,
+    "confidence": 0.999209,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 죽을",
+    "startMs": 6080,
+    "endMs": 6300,
+    "timestampMs": 6360,
+    "confidence": 0.884965,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 때마다",
+    "startMs": 6300,
+    "endMs": 6800,
+    "timestampMs": 6620,
+    "confidence": 0.896393,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 새",
+    "startMs": 6800,
+    "endMs": 6970,
+    "timestampMs": 7180,
+    "confidence": 0.906233,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 능력을",
+    "startMs": 6970,
+    "endMs": 7470,
+    "timestampMs": 7260,
+    "confidence": 0.763646,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 얻어",
+    "startMs": 7470,
+    "endMs": 7840,
+    "timestampMs": 7820,
+    "confidence": 0.995104,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 되살아납니다.",
+    "startMs": 7840,
+    "endMs": 9100,
+    "timestampMs": 8120,
+    "confidence": 0.88988,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 기간은",
+    "startMs": 9100,
+    "endMs": 9610,
+    "timestampMs": 9520,
+    "confidence": 0.992106,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 10월",
+    "startMs": 9610,
+    "endMs": 10120,
+    "timestampMs": 10180,
+    "confidence": 0.991293,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 7일부터",
+    "startMs": 10120,
+    "endMs": 10810,
+    "timestampMs": 10560,
+    "confidence": 0.965254,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 11월",
+    "startMs": 10810,
+    "endMs": 11300,
+    "timestampMs": 11400,
+    "confidence": 0.99034,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 3일까지입니다.",
+    "startMs": 11300,
+    "endMs": 12571,
+    "timestampMs": 11760,
+    "confidence": 0.996584,
+    "pageBreakAfter": true
+  }
+]

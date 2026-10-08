@@ -63,6 +63,15 @@ python3 scripts/generate-voice.py --only scene3        # 한 장면만 다시
 `durations.json` 이 없으면 `src/theme.ts` 의 `FALLBACK_SCENE_SECONDS`
 (4, 9, 11, 8, 9, 5, 14, 9초) 로 폴백한다.
 
+### 읽기만 다르게 — `tts` 필드
+
+TTS 가 "5시즌" 을 "다섯 시즌" 으로 읽는 식으로 숫자를 잘못 읽을 때는 `script.json` 항목에
+`"tts"` 를 추가한다. 음성은 `tts` 를 읽고, 자막과 발음 검사 원문은 계속 `text` 를 쓴다.
+
+```json
+{ "id": "scene1", "text": "… 5시즌부터 …", "tts": "… 오시즌부터 …" }
+```
+
 ### Gemini 프리빌트 보이스로 바꾸기
 
 Gemini API 의 TTS 모델에는 30개 프리빌트 보이스(Charon, Kore, Puck, Zephyr, Sulafat …)가 있고

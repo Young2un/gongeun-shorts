@@ -1,0 +1,154 @@
+[
+  {
+    "text": "막힌",
+    "startMs": 130,
+    "endMs": 390,
+    "timestampMs": 400,
+    "confidence": 0.85378,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 조합도",
+    "startMs": 390,
+    "endMs": 840,
+    "timestampMs": 740,
+    "confidence": 0.990488,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 있습니다.",
+    "startMs": 840,
+    "endMs": 1680,
+    "timestampMs": 1520,
+    "confidence": 0.998456,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 제트팩 캣의 생명줄에",
+    "startMs": 2340,
+    "endMs": 3010,
+    "timestampMs": 2880,
+    "confidence": 0.993377,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 붙어서",
+    "startMs": 3010,
+    "endMs": 3550,
+    "timestampMs": 3460,
+    "confidence": 0.994911,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 쓰는",
+    "startMs": 3550,
+    "endMs": 4090,
+    "timestampMs": 3980,
+    "confidence": 0.990322,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 황야의",
+    "startMs": 4090,
+    "endMs": 4470,
+    "timestampMs": 4280,
+    "confidence": 0.816003,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 무법자,",
+    "startMs": 4470,
+    "endMs": 5160,
+    "timestampMs": 4660,
+    "confidence": 0.995232,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 이제",
+    "startMs": 5160,
+    "endMs": 5620,
+    "timestampMs": 5640,
+    "confidence": 0.971528,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 안",
+    "startMs": 5620,
+    "endMs": 5850,
+    "timestampMs": 5840,
+    "confidence": 0.611766,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 됩니다.",
+    "startMs": 5850,
+    "endMs": 6560,
+    "timestampMs": 6360,
+    "confidence": 0.995482,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 캐서디가",
+    "startMs": 6560,
+    "endMs": 7160,
+    "timestampMs": 6920,
+    "confidence": 0.756745,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 위치를",
+    "startMs": 7160,
+    "endMs": 7610,
+    "timestampMs": 7500,
+    "confidence": 0.998035,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 바꿔 가며",
+    "startMs": 7610,
+    "endMs": 8210,
+    "timestampMs": 7980,
+    "confidence": 0.98054,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 처치하는",
+    "startMs": 8210,
+    "endMs": 8810,
+    "timestampMs": 8460,
+    "confidence": 0.962982,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 게,",
+    "startMs": 8810,
+    "endMs": 9140,
+    "timestampMs": 9160,
+    "confidence": 0.933407,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 너무",
+    "startMs": 9140,
+    "endMs": 9280,
+    "timestampMs": 9480,
+    "confidence": 0.483515,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 강했다는",
+    "startMs": 9280,
+    "endMs": 9810,
+    "timestampMs": 9700,
+    "confidence": 0.995545,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 설명입니다.",
+    "startMs": 9810,
+    "endMs": 10600,
+    "timestampMs": 10240,
+    "confidence": 0.985261,
+    "pageBreakAfter": true
+  }
+]

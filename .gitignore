@@ -17,3 +17,6 @@ tmp.json
 
 # python venv (edge-tts · google-genai · audioop-lts)
 .venv
+
+# 완성 mp4 를 배속 변환할 때 잠깐 올려두는 자리 (SpeedUp 컴포지션)
+public/tmp/

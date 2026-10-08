@@ -47,6 +47,8 @@ export const SceneFrame: React.FC<{
   readonly source: readonly string[];
   /** 카드가 적을 때 세로 가운데로 모은다 */
   readonly cardsAlign?: "start" | "center";
+  /** 배경 바로 위, 내용 아래에 까는 레이어 (장면별 키아트 등) */
+  readonly backdrop?: React.ReactNode;
   /** 화면 전체를 덮는 레이어 (페이드아웃 등) */
   readonly overlay?: React.ReactNode;
   readonly children?: React.ReactNode;
@@ -60,6 +62,7 @@ export const SceneFrame: React.FC<{
   subtitle,
   source,
   cardsAlign = "start",
+  backdrop,
   overlay,
   children,
 }) => {
@@ -68,6 +71,7 @@ export const SceneFrame: React.FC<{
   return (
     <AbsoluteFill>
       <Background />
+      {backdrop}
 
       <Kicker text={kicker} />
 

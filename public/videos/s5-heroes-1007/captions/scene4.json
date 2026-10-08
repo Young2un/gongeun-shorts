@@ -1,0 +1,194 @@
+[
+  {
+    "text": "새",
+    "startMs": 150,
+    "endMs": 210,
+    "timestampMs": 400,
+    "confidence": 0.853227,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 영웅",
+    "startMs": 210,
+    "endMs": 630,
+    "timestampMs": 720,
+    "confidence": 0.832355,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 독트린도,",
+    "startMs": 630,
+    "endMs": 1470,
+    "timestampMs": 1120,
+    "confidence": 0.78204,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 출시",
+    "startMs": 1470,
+    "endMs": 1890,
+    "timestampMs": 2000,
+    "confidence": 0.983393,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 전",
+    "startMs": 1890,
+    "endMs": 2090,
+    "timestampMs": 2340,
+    "confidence": 0.945853,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 체험 때",
+    "startMs": 2090,
+    "endMs": 2760,
+    "timestampMs": 2540,
+    "confidence": 0.984406,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 그대로가",
+    "startMs": 2760,
+    "endMs": 3330,
+    "timestampMs": 3260,
+    "confidence": 0.929004,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 아닙니다.",
+    "startMs": 3330,
+    "endMs": 4180,
+    "timestampMs": 3700,
+    "confidence": 0.994939,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 패치 노트는",
+    "startMs": 4180,
+    "endMs": 5080,
+    "timestampMs": 4720,
+    "confidence": 0.95447,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 당시",
+    "startMs": 5080,
+    "endMs": 5450,
+    "timestampMs": 5760,
+    "confidence": 0.993036,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 성능이",
+    "startMs": 5450,
+    "endMs": 5990,
+    "timestampMs": 6020,
+    "confidence": 0.992725,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 지나치게",
+    "startMs": 5990,
+    "endMs": 6720,
+    "timestampMs": 6660,
+    "confidence": 0.989151,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 좋았다고",
+    "startMs": 6720,
+    "endMs": 7450,
+    "timestampMs": 7100,
+    "confidence": 0.993614,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 밝혔고요,",
+    "startMs": 7450,
+    "endMs": 8280,
+    "timestampMs": 7700,
+    "confidence": 0.996155,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 궁극기",
+    "startMs": 8280,
+    "endMs": 8990,
+    "timestampMs": 8700,
+    "confidence": 0.755956,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 비용이",
+    "startMs": 8990,
+    "endMs": 9680,
+    "timestampMs": 9160,
+    "confidence": 0.997305,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 8",
+    "startMs": 9680,
+    "endMs": 9990,
+    "timestampMs": 9700,
+    "confidence": 0.996641,
+    "pageBreakAfter": false
+  },
+  {
+    "text": "퍼센트 늘고,",
+    "startMs": 9990,
+    "endMs": 10660,
+    "timestampMs": 10180,
+    "confidence": 0.939222,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 활기",
+    "startMs": 10660,
+    "endMs": 10900,
+    "timestampMs": 10920,
+    "confidence": 0.75855,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 드론",
+    "startMs": 10900,
+    "endMs": 11270,
+    "timestampMs": 11220,
+    "confidence": 0.938435,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 공격",
+    "startMs": 11270,
+    "endMs": 11650,
+    "timestampMs": 11580,
+    "confidence": 0.986924,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 속도는",
+    "startMs": 11650,
+    "endMs": 12360,
+    "timestampMs": 11920,
+    "confidence": 0.802085,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 35에서 30퍼센트로",
+    "startMs": 12360,
+    "endMs": 13430,
+    "timestampMs": 12880,
+    "confidence": 0.955737,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 줄었습니다.",
+    "startMs": 13430,
+    "endMs": 14700,
+    "timestampMs": 14280,
+    "confidence": 0.994181,
+    "pageBreakAfter": true
+  }
+]

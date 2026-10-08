@@ -163,6 +163,12 @@ def load_dotenv():
                 os.environ[key] = value
 
 
+def spoken(scene):
+    """TTS 에 넘길 문장. `tts` 가 있으면 그것을 읽는다 (자막은 계속 `text` 를 쓴다).
+    "5시즌" 처럼 숫자를 잘못 읽을 때 `"tts": "...오시즌..."` 로 읽기만 바꾼다."""
+    return scene.get("tts") or scene["text"]
+
+
 def load_scenes():
     with open(SCRIPT_JSON, encoding="utf-8") as f:
         return json.load(f)
@@ -454,7 +460,7 @@ def main():
             if n > 1 and args.pace > 0:
                 time.sleep(args.pace)
             pcm = synthesize(
-                client, types, args.model, scene["text"], args.voice, args.style
+                client, types, args.model, spoken(scene), args.voice, args.style
             )
             if not args.no_normalize:
                 pcm, _ = normalize_pcm(pcm)
@@ -493,8 +499,8 @@ def main():
         if index > 0 and args.pace > 0:
             time.sleep(args.pace)
 
-        print("  ▶ %s (%d자) 생성 중..." % (scene_id, len(scene["text"])))
-        pcm = synthesize(client, types, args.model, scene["text"], args.voice, args.style)
+        print("  ▶ %s (%d자) 생성 중..." % (scene_id, len(spoken(scene))))
+        pcm = synthesize(client, types, args.model, spoken(scene), args.voice, args.style)
 
         gain = 1.0
         if not args.no_normalize:

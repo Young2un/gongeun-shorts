@@ -1,0 +1,210 @@
+[
+  {
+    "text": "신규",
+    "startMs": 50,
+    "endMs": 450,
+    "timestampMs": 300,
+    "confidence": 0.746739,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 콘텐츠도",
+    "startMs": 450,
+    "endMs": 1320,
+    "timestampMs": 760,
+    "confidence": 0.802656,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 큽니다.",
+    "startMs": 1320,
+    "endMs": 2180,
+    "timestampMs": 1220,
+    "confidence": 0.995152,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 지원",
+    "startMs": 2180,
+    "endMs": 2540,
+    "timestampMs": 2420,
+    "confidence": 0.481953,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 영웅",
+    "startMs": 2540,
+    "endMs": 3000,
+    "timestampMs": 2640,
+    "confidence": 0.611051,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 독트",
+    "startMs": 3000,
+    "endMs": 3780,
+    "timestampMs": 3060,
+    "confidence": 0.821522,
+    "pageBreakAfter": false
+  },
+  {
+    "text": "린은 아군을",
+    "startMs": 3780,
+    "endMs": 4160,
+    "timestampMs": 4060,
+    "confidence": 0.889901,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 치유하면서",
+    "startMs": 4160,
+    "endMs": 5000,
+    "timestampMs": 4540,
+    "confidence": 0.939842,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 적도",
+    "startMs": 5000,
+    "endMs": 5480,
+    "timestampMs": 5360,
+    "confidence": 0.760635,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 공격하고,",
+    "startMs": 5480,
+    "endMs": 6520,
+    "timestampMs": 5800,
+    "confidence": 0.949466,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 궁극기로",
+    "startMs": 6520,
+    "endMs": 7240,
+    "timestampMs": 6900,
+    "confidence": 0.439567,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 아군에게",
+    "startMs": 7240,
+    "endMs": 7990,
+    "timestampMs": 7660,
+    "confidence": 0.991875,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 추가",
+    "startMs": 7990,
+    "endMs": 8330,
+    "timestampMs": 8300,
+    "confidence": 0.997718,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 생명력을",
+    "startMs": 8330,
+    "endMs": 9060,
+    "timestampMs": 8560,
+    "confidence": 0.927391,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 주고,",
+    "startMs": 9060,
+    "endMs": 9510,
+    "timestampMs": 9340,
+    "confidence": 0.992799,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 적의",
+    "startMs": 9510,
+    "endMs": 9910,
+    "timestampMs": 9780,
+    "confidence": 0.855895,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 최대",
+    "startMs": 9910,
+    "endMs": 10350,
+    "timestampMs": 10220,
+    "confidence": 0.99052,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 생명력은",
+    "startMs": 10350,
+    "endMs": 11200,
+    "timestampMs": 10500,
+    "confidence": 0.934114,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 줄입니다.",
+    "startMs": 11200,
+    "endMs": 12280,
+    "timestampMs": 11100,
+    "confidence": 0.996616,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 새",
+    "startMs": 12280,
+    "endMs": 12500,
+    "timestampMs": 12500,
+    "confidence": 0.432867,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 호",
+    "startMs": 12500,
+    "endMs": 12770,
+    "timestampMs": 12680,
+    "confidence": 0.833777,
+    "pageBreakAfter": false
+  },
+  {
+    "text": "위 전장",
+    "startMs": 12770,
+    "endMs": 13120,
+    "timestampMs": 13040,
+    "confidence": 0.834006,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 그림스",
+    "startMs": 13120,
+    "endMs": 13610,
+    "timestampMs": 13520,
+    "confidence": 0.60247,
+    "pageBreakAfter": false
+  },
+  {
+    "text": "뵈튼도",
+    "startMs": 13610,
+    "endMs": 14110,
+    "timestampMs": 13960,
+    "confidence": 0.871793,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 함께",
+    "startMs": 14110,
+    "endMs": 14480,
+    "timestampMs": 14580,
+    "confidence": 0.984294,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 열렸습니다.",
+    "startMs": 14480,
+    "endMs": 15291,
+    "timestampMs": 14760,
+    "confidence": 0.950624,
+    "pageBreakAfter": true
+  }
+]

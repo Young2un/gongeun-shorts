@@ -1,0 +1,210 @@
+[
+  {
+    "text": "추진형",
+    "startMs": 110,
+    "endMs": 450,
+    "timestampMs": 300,
+    "confidence": 0.769826,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 장막은",
+    "startMs": 450,
+    "endMs": 900,
+    "timestampMs": 760,
+    "confidence": 0.975031,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 재사용",
+    "startMs": 900,
+    "endMs": 1350,
+    "timestampMs": 1380,
+    "confidence": 0.977253,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 대기",
+    "startMs": 1350,
+    "endMs": 1660,
+    "timestampMs": 1720,
+    "confidence": 0.88005,
+    "pageBreakAfter": false
+  },
+  {
+    "text": "시간이",
+    "startMs": 1660,
+    "endMs": 2300,
+    "timestampMs": 2180,
+    "confidence": 0.85505,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 7초에서",
+    "startMs": 2300,
+    "endMs": 2960,
+    "timestampMs": 2580,
+    "confidence": 0.887801,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 8초로",
+    "startMs": 2960,
+    "endMs": 3470,
+    "timestampMs": 3220,
+    "confidence": 0.991715,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 늘고,",
+    "startMs": 3470,
+    "endMs": 3920,
+    "timestampMs": 3580,
+    "confidence": 0.977623,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 피해",
+    "startMs": 3920,
+    "endMs": 4220,
+    "timestampMs": 4120,
+    "confidence": 0.396093,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 감소는",
+    "startMs": 4220,
+    "endMs": 4770,
+    "timestampMs": 4400,
+    "confidence": 0.704042,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 50에서 40퍼센트로",
+    "startMs": 4770,
+    "endMs": 5830,
+    "timestampMs": 5100,
+    "confidence": 0.944204,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 줄었습니다.",
+    "startMs": 5830,
+    "endMs": 6980,
+    "timestampMs": 6360,
+    "confidence": 0.984913,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 치명타",
+    "startMs": 6980,
+    "endMs": 7500,
+    "timestampMs": 7400,
+    "confidence": 0.996263,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 면역도",
+    "startMs": 7500,
+    "endMs": 8000,
+    "timestampMs": 7800,
+    "confidence": 0.994391,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 사라졌고요.",
+    "startMs": 8000,
+    "endMs": 8980,
+    "timestampMs": 8260,
+    "confidence": 0.997191,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 궁극기",
+    "startMs": 8980,
+    "endMs": 9430,
+    "timestampMs": 9300,
+    "confidence": 0.944379,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 구제는",
+    "startMs": 9430,
+    "endMs": 9880,
+    "timestampMs": 9660,
+    "confidence": 0.879341,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 효과가",
+    "startMs": 9880,
+    "endMs": 10350,
+    "timestampMs": 10100,
+    "confidence": 0.995406,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 더",
+    "startMs": 10350,
+    "endMs": 10560,
+    "timestampMs": 10560,
+    "confidence": 0.993735,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 빨리",
+    "startMs": 10560,
+    "endMs": 10780,
+    "timestampMs": 10800,
+    "confidence": 0.974987,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 들어가는",
+    "startMs": 10780,
+    "endMs": 11380,
+    "timestampMs": 11100,
+    "confidence": 0.983035,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 대신,",
+    "startMs": 11380,
+    "endMs": 11680,
+    "timestampMs": 11440,
+    "confidence": 0.990951,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 지속 시간이",
+    "startMs": 11680,
+    "endMs": 12470,
+    "timestampMs": 11900,
+    "confidence": 0.94455,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 8초에서",
+    "startMs": 12470,
+    "endMs": 13050,
+    "timestampMs": 12700,
+    "confidence": 0.977293,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 6초로",
+    "startMs": 13050,
+    "endMs": 13460,
+    "timestampMs": 13320,
+    "confidence": 0.996352,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 짧아졌습니다.",
+    "startMs": 13460,
+    "endMs": 14400,
+    "timestampMs": 13780,
+    "confidence": 0.987521,
+    "pageBreakAfter": true
+  }
+]

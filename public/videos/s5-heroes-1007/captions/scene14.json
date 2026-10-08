@@ -1,0 +1,138 @@
+[
+  {
+    "text": "개인적으로는",
+    "startMs": 220,
+    "endMs": 1020,
+    "timestampMs": 500,
+    "confidence": 0.994126,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 독트린이",
+    "startMs": 1020,
+    "endMs": 1690,
+    "timestampMs": 1500,
+    "confidence": 0.569764,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 제일",
+    "startMs": 1690,
+    "endMs": 2030,
+    "timestampMs": 2140,
+    "confidence": 0.997088,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 기대됩니다.",
+    "startMs": 2030,
+    "endMs": 2920,
+    "timestampMs": 2340,
+    "confidence": 0.985039,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 체험",
+    "startMs": 2920,
+    "endMs": 3240,
+    "timestampMs": 3420,
+    "confidence": 0.973017,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 때보다",
+    "startMs": 3240,
+    "endMs": 3760,
+    "timestampMs": 3700,
+    "confidence": 0.994401,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 수치는",
+    "startMs": 3760,
+    "endMs": 4230,
+    "timestampMs": 4160,
+    "confidence": 0.98305,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 내려갔지만,",
+    "startMs": 4230,
+    "endMs": 5120,
+    "timestampMs": 4600,
+    "confidence": 0.996512,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 패치 노트",
+    "startMs": 5120,
+    "endMs": 5720,
+    "timestampMs": 5460,
+    "confidence": 0.952112,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 설명대로라면",
+    "startMs": 5720,
+    "endMs": 6560,
+    "timestampMs": 6140,
+    "confidence": 0.996675,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 핵심",
+    "startMs": 6560,
+    "endMs": 6880,
+    "timestampMs": 6900,
+    "confidence": 0.922295,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 흐름은",
+    "startMs": 6880,
+    "endMs": 7370,
+    "timestampMs": 7220,
+    "confidence": 0.986831,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 그대로니까요.",
+    "startMs": 7370,
+    "endMs": 8420,
+    "timestampMs": 7760,
+    "confidence": 0.993868,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 얼른",
+    "startMs": 8420,
+    "endMs": 8730,
+    "timestampMs": 8920,
+    "confidence": 0.997936,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 직접",
+    "startMs": 8730,
+    "endMs": 9050,
+    "timestampMs": 9340,
+    "confidence": 0.998999,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 해 보고",
+    "startMs": 9050,
+    "endMs": 9550,
+    "timestampMs": 9520,
+    "confidence": 0.874319,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 싶습니다.",
+    "startMs": 9550,
+    "endMs": 10220,
+    "timestampMs": 9920,
+    "confidence": 0.976099,
+    "pageBreakAfter": true
+  }
+]

@@ -1,0 +1,370 @@
+[
+  {
+    "text": "개인적으로",
+    "startMs": 250,
+    "endMs": 900,
+    "timestampMs": 600,
+    "confidence": 0.859853,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 재출시",
+    "startMs": 1080,
+    "endMs": 1460,
+    "timestampMs": 1740,
+    "confidence": 0.995469,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 패스는",
+    "startMs": 1460,
+    "endMs": 1980,
+    "timestampMs": 2020,
+    "confidence": 0.572315,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 크게",
+    "startMs": 1980,
+    "endMs": 2340,
+    "timestampMs": 2620,
+    "confidence": 0.99205,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 와닿지",
+    "startMs": 2340,
+    "endMs": 2880,
+    "timestampMs": 2780,
+    "confidence": 0.985915,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 않습니다.",
+    "startMs": 2880,
+    "endMs": 3720,
+    "timestampMs": 3240,
+    "confidence": 0.993612,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 저는",
+    "startMs": 3720,
+    "endMs": 4070,
+    "timestampMs": 4400,
+    "confidence": 0.993377,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 매",
+    "startMs": 4070,
+    "endMs": 4240,
+    "timestampMs": 4700,
+    "confidence": 0.9544,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 시즌",
+    "startMs": 4240,
+    "endMs": 4570,
+    "timestampMs": 4940,
+    "confidence": 0.908207,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 배틀",
+    "startMs": 4570,
+    "endMs": 4900,
+    "timestampMs": 5360,
+    "confidence": 0.900385,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 패스를",
+    "startMs": 4900,
+    "endMs": 5460,
+    "timestampMs": 5660,
+    "confidence": 0.798326,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 거의",
+    "startMs": 5460,
+    "endMs": 5770,
+    "timestampMs": 6140,
+    "confidence": 0.992587,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 다",
+    "startMs": 5770,
+    "endMs": 5960,
+    "timestampMs": 6360,
+    "confidence": 0.955401,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 채우는",
+    "startMs": 5960,
+    "endMs": 6450,
+    "timestampMs": 6460,
+    "confidence": 0.993856,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 편이라서요.",
+    "startMs": 6450,
+    "endMs": 7460,
+    "timestampMs": 6800,
+    "confidence": 0.990926,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 제가",
+    "startMs": 7460,
+    "endMs": 7910,
+    "timestampMs": 8020,
+    "confidence": 0.995625,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 기다린",
+    "startMs": 7910,
+    "endMs": 8480,
+    "timestampMs": 8300,
+    "confidence": 0.995915,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 건",
+    "startMs": 8480,
+    "endMs": 8790,
+    "timestampMs": 8740,
+    "confidence": 0.7399,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 독트린입니다.",
+    "startMs": 8790,
+    "endMs": 9960,
+    "timestampMs": 9020,
+    "confidence": 0.803434,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 체험",
+    "startMs": 9960,
+    "endMs": 10310,
+    "timestampMs": 10360,
+    "confidence": 0.909658,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 주말",
+    "startMs": 10310,
+    "endMs": 10660,
+    "timestampMs": 10620,
+    "confidence": 0.910339,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 때",
+    "startMs": 10660,
+    "endMs": 10840,
+    "timestampMs": 11080,
+    "confidence": 0.9629,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 다른",
+    "startMs": 10840,
+    "endMs": 11210,
+    "timestampMs": 11460,
+    "confidence": 0.946631,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 지원",
+    "startMs": 11210,
+    "endMs": 11560,
+    "timestampMs": 11720,
+    "confidence": 0.980931,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 영웅보다",
+    "startMs": 11560,
+    "endMs": 12250,
+    "timestampMs": 11920,
+    "confidence": 0.965793,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 너무",
+    "startMs": 12250,
+    "endMs": 12610,
+    "timestampMs": 12620,
+    "confidence": 0.984868,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 셌다고,",
+    "startMs": 12610,
+    "endMs": 13200,
+    "timestampMs": 12740,
+    "confidence": 0.600104,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 궁극기는",
+    "startMs": 13200,
+    "endMs": 13880,
+    "timestampMs": 13560,
+    "confidence": 0.970136,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 8",
+    "startMs": 13880,
+    "endMs": 14170,
+    "timestampMs": 14160,
+    "confidence": 0.992863,
+    "pageBreakAfter": false
+  },
+  {
+    "text": "퍼센트 느리게",
+    "startMs": 14170,
+    "endMs": 14610,
+    "timestampMs": 14680,
+    "confidence": 0.973147,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 차게",
+    "startMs": 14610,
+    "endMs": 14950,
+    "timestampMs": 15000,
+    "confidence": 0.964038,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 하고",
+    "startMs": 14950,
+    "endMs": 15360,
+    "timestampMs": 15440,
+    "confidence": 0.947634,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 추진",
+    "startMs": 15360,
+    "endMs": 15900,
+    "timestampMs": 15700,
+    "confidence": 0.507821,
+    "pageBreakAfter": false
+  },
+  {
+    "text": "형 장막과",
+    "startMs": 15900,
+    "endMs": 16440,
+    "timestampMs": 16180,
+    "confidence": 0.979716,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 구제도",
+    "startMs": 16440,
+    "endMs": 16980,
+    "timestampMs": 16700,
+    "confidence": 0.974685,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 손봤거든요.",
+    "startMs": 16980,
+    "endMs": 17900,
+    "timestampMs": 16980,
+    "confidence": 0.928869,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 그",
+    "startMs": 17900,
+    "endMs": 18110,
+    "timestampMs": 18340,
+    "confidence": 0.998551,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 상태로",
+    "startMs": 18110,
+    "endMs": 18550,
+    "timestampMs": 18480,
+    "confidence": 0.965792,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 어떤",
+    "startMs": 18550,
+    "endMs": 18880,
+    "timestampMs": 18900,
+    "confidence": 0.99685,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 느낌인지,",
+    "startMs": 18880,
+    "endMs": 19710,
+    "timestampMs": 19200,
+    "confidence": 0.989836,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 오늘은",
+    "startMs": 19710,
+    "endMs": 19970,
+    "timestampMs": 20100,
+    "confidence": 0.774332,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 빨리",
+    "startMs": 19970,
+    "endMs": 20240,
+    "timestampMs": 20440,
+    "confidence": 0.98109,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 퇴근해서",
+    "startMs": 20240,
+    "endMs": 20810,
+    "timestampMs": 20600,
+    "confidence": 0.981631,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 바로",
+    "startMs": 20810,
+    "endMs": 21120,
+    "timestampMs": 21260,
+    "confidence": 0.966529,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 해 볼",
+    "startMs": 21120,
+    "endMs": 21430,
+    "timestampMs": 21400,
+    "confidence": 0.849355,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 생각입니다.",
+    "startMs": 21430,
+    "endMs": 22240,
+    "timestampMs": 21760,
+    "confidence": 0.997377,
+    "pageBreakAfter": true
+  }
+]

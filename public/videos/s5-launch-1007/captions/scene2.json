@@ -1,0 +1,226 @@
+[
+  {
+    "text": "블리자드",
+    "startMs": 200,
+    "endMs": 600,
+    "timestampMs": 340,
+    "confidence": 0.838641,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 새",
+    "startMs": 600,
+    "endMs": 760,
+    "timestampMs": 880,
+    "confidence": 0.953143,
+    "pageBreakAfter": false
+  },
+  {
+    "text": "소식에",
+    "startMs": 760,
+    "endMs": 1200,
+    "timestampMs": 1020,
+    "confidence": 0.895074,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 따르면,",
+    "startMs": 1200,
+    "endMs": 1760,
+    "timestampMs": 1300,
+    "confidence": 0.997371,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 예전에",
+    "startMs": 1760,
+    "endMs": 2030,
+    "timestampMs": 1980,
+    "confidence": 0.768135,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 진행하던",
+    "startMs": 2030,
+    "endMs": 2520,
+    "timestampMs": 2360,
+    "confidence": 0.993293,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 패스는",
+    "startMs": 2520,
+    "endMs": 2920,
+    "timestampMs": 2720,
+    "confidence": 0.969827,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 멈춘",
+    "startMs": 2920,
+    "endMs": 3180,
+    "timestampMs": 3260,
+    "confidence": 0.88795,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 지점부터",
+    "startMs": 3180,
+    "endMs": 3740,
+    "timestampMs": 3600,
+    "confidence": 0.978605,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 이어집니다.",
+    "startMs": 3740,
+    "endMs": 4720,
+    "timestampMs": 4060,
+    "confidence": 0.991741,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 현재",
+    "startMs": 4720,
+    "endMs": 5010,
+    "timestampMs": 5220,
+    "confidence": 0.972589,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 시즌",
+    "startMs": 5010,
+    "endMs": 5280,
+    "timestampMs": 5440,
+    "confidence": 0.97693,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 패스와",
+    "startMs": 5280,
+    "endMs": 5700,
+    "timestampMs": 5660,
+    "confidence": 0.906072,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 재출시",
+    "startMs": 5700,
+    "endMs": 6120,
+    "timestampMs": 6100,
+    "confidence": 0.64333,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 패스",
+    "startMs": 6120,
+    "endMs": 6400,
+    "timestampMs": 6480,
+    "confidence": 0.980323,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 하나를",
+    "startMs": 6400,
+    "endMs": 6830,
+    "timestampMs": 6800,
+    "confidence": 0.982146,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 동시에",
+    "startMs": 6830,
+    "endMs": 7260,
+    "timestampMs": 7300,
+    "confidence": 0.985731,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 진행할",
+    "startMs": 7260,
+    "endMs": 7690,
+    "timestampMs": 7680,
+    "confidence": 0.996124,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 수",
+    "startMs": 7690,
+    "endMs": 7820,
+    "timestampMs": 7960,
+    "confidence": 0.996096,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 있고,",
+    "startMs": 7820,
+    "endMs": 8440,
+    "timestampMs": 8300,
+    "confidence": 0.993203,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 경험치는",
+    "startMs": 8440,
+    "endMs": 9040,
+    "timestampMs": 8660,
+    "confidence": 0.515485,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 양쪽에",
+    "startMs": 9040,
+    "endMs": 9360,
+    "timestampMs": 9260,
+    "confidence": 0.982487,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 모두",
+    "startMs": 9360,
+    "endMs": 9610,
+    "timestampMs": 9700,
+    "confidence": 0.965027,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 들어갑니다.",
+    "startMs": 9610,
+    "endMs": 10360,
+    "timestampMs": 9940,
+    "confidence": 0.996487,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 한 번",
+    "startMs": 10360,
+    "endMs": 10640,
+    "timestampMs": 10860,
+    "confidence": 0.643956,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 획득하면",
+    "startMs": 10640,
+    "endMs": 11180,
+    "timestampMs": 11060,
+    "confidence": 0.995564,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 만료도",
+    "startMs": 11180,
+    "endMs": 11600,
+    "timestampMs": 11680,
+    "confidence": 0.96735,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 없습니다.",
+    "startMs": 11600,
+    "endMs": 12360,
+    "timestampMs": 12260,
+    "confidence": 0.992133,
+    "pageBreakAfter": true
+  }
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "text": "이번",
+    "startMs": 170,
+    "endMs": 340,
+    "timestampMs": 420,
+    "confidence": 0.532906,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 패치로",
+    "startMs": 340,
+    "endMs": 860,
+    "timestampMs": 800,
+    "confidence": 0.929378,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 루시우",
+    "startMs": 860,
+    "endMs": 1350,
+    "timestampMs": 1600,
+    "confidence": 0.418157,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 머리 타점이",
+    "startMs": 1350,
+    "endMs": 2230,
+    "timestampMs": 2080,
+    "confidence": 0.96556,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 커졌습니다.",
+    "startMs": 2230,
+    "endMs": 3500,
+    "timestampMs": 2640,
+    "confidence": 0.99951,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 10월",
+    "startMs": 3500,
+    "endMs": 3980,
+    "timestampMs": 3940,
+    "confidence": 0.993193,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 7일",
+    "startMs": 3980,
+    "endMs": 4330,
+    "timestampMs": 4240,
+    "confidence": 0.971098,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 패치 노트",
+    "startMs": 4330,
+    "endMs": 4990,
+    "timestampMs": 4540,
+    "confidence": 0.98171,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 수치로,",
+    "startMs": 4990,
+    "endMs": 5540,
+    "timestampMs": 5060,
+    "confidence": 0.966851,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 13.2에서",
+    "startMs": 5540,
+    "endMs": 6600,
+    "timestampMs": 5900,
+    "confidence": 0.899196,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 16이",
+    "startMs": 6600,
+    "endMs": 7180,
+    "timestampMs": 6840,
+    "confidence": 0.995788,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 됐어요.",
+    "startMs": 7180,
+    "endMs": 7800,
+    "timestampMs": 7180,
+    "confidence": 0.974879,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 솜브라",
+    "startMs": 7800,
+    "endMs": 8260,
+    "timestampMs": 8240,
+    "confidence": 0.977148,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 리워크에",
+    "startMs": 8260,
+    "endMs": 8900,
+    "timestampMs": 8680,
+    "confidence": 0.744506,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 가려져서",
+    "startMs": 8900,
+    "endMs": 9530,
+    "timestampMs": 9160,
+    "confidence": 0.998839,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 잘",
+    "startMs": 9530,
+    "endMs": 9690,
+    "timestampMs": 9760,
+    "confidence": 0.993102,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 안 보이는",
+    "startMs": 9690,
+    "endMs": 10320,
+    "timestampMs": 9940,
+    "confidence": 0.402598,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 변경들,",
+    "startMs": 10320,
+    "endMs": 11060,
+    "timestampMs": 10420,
+    "confidence": 0.986668,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 지금부터",
+    "startMs": 11060,
+    "endMs": 11470,
+    "timestampMs": 11320,
+    "confidence": 0.400035,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 짚어 보겠습니다.",
+    "startMs": 11470,
+    "endMs": 12600,
+    "timestampMs": 11840,
+    "confidence": 0.958722,
+    "pageBreakAfter": true
+  }
+]

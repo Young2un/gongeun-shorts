@@ -1,0 +1,186 @@
+[
+  {
+    "text": "기간",
+    "startMs": 110,
+    "endMs": 360,
+    "timestampMs": 0,
+    "confidence": 0.864951,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 한정",
+    "startMs": 360,
+    "endMs": 720,
+    "timestampMs": 700,
+    "confidence": 0.784245,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 일정도",
+    "startMs": 720,
+    "endMs": 1260,
+    "timestampMs": 1000,
+    "confidence": 0.786837,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 챙기세요.",
+    "startMs": 1260,
+    "endMs": 2080,
+    "timestampMs": 1420,
+    "confidence": 0.994004,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 그림자 군주",
+    "startMs": 2080,
+    "endMs": 2920,
+    "timestampMs": 2500,
+    "confidence": 0.969947,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 콜라보는",
+    "startMs": 2920,
+    "endMs": 3610,
+    "timestampMs": 3160,
+    "confidence": 0.980007,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 10월",
+    "startMs": 3610,
+    "endMs": 4160,
+    "timestampMs": 3920,
+    "confidence": 0.902371,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 7일부터",
+    "startMs": 4160,
+    "endMs": 4980,
+    "timestampMs": 4300,
+    "confidence": 0.968803,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 21일까지,",
+    "startMs": 4980,
+    "endMs": 6060,
+    "timestampMs": 5280,
+    "confidence": 0.98721,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 테크 마녀",
+    "startMs": 6060,
+    "endMs": 6740,
+    "timestampMs": 6400,
+    "confidence": 0.896075,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 스킨은",
+    "startMs": 6740,
+    "endMs": 7340,
+    "timestampMs": 7000,
+    "confidence": 0.518633,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 10월",
+    "startMs": 7340,
+    "endMs": 7770,
+    "timestampMs": 7640,
+    "confidence": 0.983562,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 10일부터",
+    "startMs": 7770,
+    "endMs": 8640,
+    "timestampMs": 8020,
+    "confidence": 0.960217,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 27일까지입니다.",
+    "startMs": 8640,
+    "endMs": 10140,
+    "timestampMs": 8980,
+    "confidence": 0.988551,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 콜라보",
+    "startMs": 10140,
+    "endMs": 10630,
+    "timestampMs": 10460,
+    "confidence": 0.997447,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 스킨은",
+    "startMs": 10630,
+    "endMs": 11200,
+    "timestampMs": 10820,
+    "confidence": 0.993659,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 겐지,",
+    "startMs": 11200,
+    "endMs": 11620,
+    "timestampMs": 11640,
+    "confidence": 0.525386,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 리퍼,",
+    "startMs": 11620,
+    "endMs": 12200,
+    "timestampMs": 12240,
+    "confidence": 0.916544,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 안란,",
+    "startMs": 12200,
+    "endMs": 12820,
+    "timestampMs": 12960,
+    "confidence": 0.826116,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 라인하르트,",
+    "startMs": 12820,
+    "endMs": 14210,
+    "timestampMs": 13460,
+    "confidence": 0.994564,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 라이프",
+    "startMs": 14210,
+    "endMs": 14630,
+    "timestampMs": 14520,
+    "confidence": 0.934903,
+    "pageBreakAfter": false
+  },
+  {
+    "text": "위버까지",
+    "startMs": 14630,
+    "endMs": 15200,
+    "timestampMs": 14820,
+    "confidence": 0.418775,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 다섯 종이에요.",
+    "startMs": 15200,
+    "endMs": 16120,
+    "timestampMs": 15640,
+    "confidence": 0.476311,
+    "pageBreakAfter": true
+  }
+]

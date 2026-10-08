@@ -1,0 +1,114 @@
+[
+  {
+    "text": "그",
+    "startMs": 140,
+    "endMs": 180,
+    "timestampMs": 260,
+    "confidence": 0.956869,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 대가로",
+    "startMs": 180,
+    "endMs": 720,
+    "timestampMs": 540,
+    "confidence": 0.985421,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 해킹과",
+    "startMs": 720,
+    "endMs": 1260,
+    "timestampMs": 1200,
+    "confidence": 0.451371,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 바이러스는",
+    "startMs": 1260,
+    "endMs": 2160,
+    "timestampMs": 1860,
+    "confidence": 0.994619,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 삭제됐고,",
+    "startMs": 2160,
+    "endMs": 3000,
+    "timestampMs": 2420,
+    "confidence": 0.980516,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 이엠피 궁극기",
+    "startMs": 3220,
+    "endMs": 3910,
+    "timestampMs": 3820,
+    "confidence": 0.41675,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 비용은",
+    "startMs": 3910,
+    "endMs": 4600,
+    "timestampMs": 4240,
+    "confidence": 0.96514,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 67.5",
+    "startMs": 4600,
+    "endMs": 5600,
+    "timestampMs": 5040,
+    "confidence": 0.980482,
+    "pageBreakAfter": false
+  },
+  {
+    "text": "퍼센트 늘었습니다.",
+    "startMs": 5600,
+    "endMs": 6880,
+    "timestampMs": 6120,
+    "confidence": 0.986308,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 위치변환기",
+    "startMs": 6880,
+    "endMs": 7630,
+    "timestampMs": 7220,
+    "confidence": 0.995883,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 사거리도",
+    "startMs": 7630,
+    "endMs": 8320,
+    "timestampMs": 7940,
+    "confidence": 0.989897,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 18미터에서",
+    "startMs": 8320,
+    "endMs": 9310,
+    "timestampMs": 8680,
+    "confidence": 0.96876,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 12.25미터로",
+    "startMs": 9310,
+    "endMs": 10260,
+    "timestampMs": 9720,
+    "confidence": 0.97612,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 줄었습니다.",
+    "startMs": 10260,
+    "endMs": 11080,
+    "timestampMs": 10680,
+    "confidence": 0.99704,
+    "pageBreakAfter": true
+  }
+]

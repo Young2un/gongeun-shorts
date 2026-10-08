@@ -1,0 +1,154 @@
+[
+  {
+    "text": "예전에",
+    "startMs": 170,
+    "endMs": 520,
+    "timestampMs": 160,
+    "confidence": 0.944402,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 놓친",
+    "startMs": 520,
+    "endMs": 860,
+    "timestampMs": 840,
+    "confidence": 0.996309,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 배틀",
+    "startMs": 860,
+    "endMs": 1190,
+    "timestampMs": 1200,
+    "confidence": 0.910029,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 패스를",
+    "startMs": 1190,
+    "endMs": 1830,
+    "timestampMs": 1460,
+    "confidence": 0.630548,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 다시",
+    "startMs": 1830,
+    "endMs": 2080,
+    "timestampMs": 2200,
+    "confidence": 0.950093,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 진행할",
+    "startMs": 2080,
+    "endMs": 2550,
+    "timestampMs": 2480,
+    "confidence": 0.992678,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 수",
+    "startMs": 2550,
+    "endMs": 2780,
+    "timestampMs": 2720,
+    "confidence": 0.992839,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 있게",
+    "startMs": 2780,
+    "endMs": 3050,
+    "timestampMs": 2860,
+    "confidence": 0.995192,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 됐습니다.",
+    "startMs": 3050,
+    "endMs": 3760,
+    "timestampMs": 3080,
+    "confidence": 0.92947,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 10월",
+    "startMs": 3760,
+    "endMs": 4240,
+    "timestampMs": 4100,
+    "confidence": 0.993076,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 7일",
+    "startMs": 4240,
+    "endMs": 4560,
+    "timestampMs": 4460,
+    "confidence": 0.980911,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 시작한",
+    "startMs": 4560,
+    "endMs": 5080,
+    "timestampMs": 4880,
+    "confidence": 0.986207,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 5시즌부터,",
+    "startMs": 5080,
+    "endMs": 6040,
+    "timestampMs": 5280,
+    "confidence": 0.980275,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 1시즌에서",
+    "startMs": 6040,
+    "endMs": 6680,
+    "timestampMs": 6240,
+    "confidence": 0.860096,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 15시즌까지의",
+    "startMs": 6680,
+    "endMs": 7520,
+    "timestampMs": 7060,
+    "confidence": 0.96974,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 패스가",
+    "startMs": 7520,
+    "endMs": 8200,
+    "timestampMs": 7880,
+    "confidence": 0.924838,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 재출시",
+    "startMs": 8200,
+    "endMs": 8560,
+    "timestampMs": 8540,
+    "confidence": 0.745157,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 패스로",
+    "startMs": 8560,
+    "endMs": 8920,
+    "timestampMs": 8940,
+    "confidence": 0.849912,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 돌아왔습니다.",
+    "startMs": 8920,
+    "endMs": 9780,
+    "timestampMs": 9340,
+    "confidence": 0.997817,
+    "pageBreakAfter": true
+  }
+]

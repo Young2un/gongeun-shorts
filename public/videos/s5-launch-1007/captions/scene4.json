@@ -1,0 +1,226 @@
+[
+  {
+    "text": "이번",
+    "startMs": 140,
+    "endMs": 320,
+    "timestampMs": 340,
+    "confidence": 0.951682,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 시즌",
+    "startMs": 320,
+    "endMs": 630,
+    "timestampMs": 720,
+    "confidence": 0.942141,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 배틀 패스도",
+    "startMs": 630,
+    "endMs": 1420,
+    "timestampMs": 1100,
+    "confidence": 0.923446,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 정리하면요,",
+    "startMs": 1420,
+    "endMs": 2400,
+    "timestampMs": 1740,
+    "confidence": 0.994647,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 전설",
+    "startMs": 2400,
+    "endMs": 2790,
+    "timestampMs": 2800,
+    "confidence": 0.970217,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 스킨",
+    "startMs": 2790,
+    "endMs": 3180,
+    "timestampMs": 3180,
+    "confidence": 0.917062,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 다섯 종과",
+    "startMs": 3180,
+    "endMs": 3760,
+    "timestampMs": 3500,
+    "confidence": 0.783663,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 특급",
+    "startMs": 3760,
+    "endMs": 4150,
+    "timestampMs": 4220,
+    "confidence": 0.954401,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 스킨",
+    "startMs": 4150,
+    "endMs": 4540,
+    "timestampMs": 4520,
+    "confidence": 0.900495,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 세 종에,",
+    "startMs": 4540,
+    "endMs": 5310,
+    "timestampMs": 4780,
+    "confidence": 0.987195,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 신화",
+    "startMs": 5310,
+    "endMs": 5560,
+    "timestampMs": 5580,
+    "confidence": 0.47859,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 프리즘은",
+    "startMs": 5560,
+    "endMs": 6280,
+    "timestampMs": 5860,
+    "confidence": 0.872953,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 최대",
+    "startMs": 6280,
+    "endMs": 6650,
+    "timestampMs": 6440,
+    "confidence": 0.971829,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 80개입니다.",
+    "startMs": 6650,
+    "endMs": 7800,
+    "timestampMs": 6760,
+    "confidence": 0.996808,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 신화",
+    "startMs": 7800,
+    "endMs": 8210,
+    "timestampMs": 8160,
+    "confidence": 0.993104,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 스킨은",
+    "startMs": 8210,
+    "endMs": 8830,
+    "timestampMs": 8440,
+    "confidence": 0.868815,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 우양의",
+    "startMs": 8830,
+    "endMs": 9400,
+    "timestampMs": 9040,
+    "confidence": 0.968053,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 용의",
+    "startMs": 9400,
+    "endMs": 9800,
+    "timestampMs": 9460,
+    "confidence": 0.983389,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 협객,",
+    "startMs": 9800,
+    "endMs": 10240,
+    "timestampMs": 9840,
+    "confidence": 0.959496,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 그리고",
+    "startMs": 10240,
+    "endMs": 10690,
+    "timestampMs": 10960,
+    "confidence": 0.994585,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 루시우의",
+    "startMs": 10690,
+    "endMs": 11290,
+    "timestampMs": 11240,
+    "confidence": 0.980215,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 첫",
+    "startMs": 11290,
+    "endMs": 11430,
+    "timestampMs": 11740,
+    "confidence": 0.997371,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 신화",
+    "startMs": 11430,
+    "endMs": 11740,
+    "timestampMs": 11940,
+    "confidence": 0.996852,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 스킨",
+    "startMs": 11740,
+    "endMs": 12190,
+    "timestampMs": 12220,
+    "confidence": 0.913415,
+    "pageBreakAfter": false
+  },
+  {
+    "text": "인 무기",
+    "startMs": 12190,
+    "endMs": 12520,
+    "timestampMs": 12780,
+    "confidence": 0.993223,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 스킨",
+    "startMs": 12520,
+    "endMs": 12790,
+    "timestampMs": 13080,
+    "confidence": 0.643491,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 트레블",
+    "startMs": 12790,
+    "endMs": 13250,
+    "timestampMs": 13400,
+    "confidence": 0.98429,
+    "pageBreakAfter": false
+  },
+  {
+    "text": "메이커입니다.",
+    "startMs": 13250,
+    "endMs": 14211,
+    "timestampMs": 13720,
+    "confidence": 0.958446,
+    "pageBreakAfter": true
+  }
+]

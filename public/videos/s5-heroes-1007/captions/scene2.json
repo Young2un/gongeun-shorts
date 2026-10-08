@@ -1,0 +1,170 @@
+[
+  {
+    "text": "루시우만이",
+    "startMs": 50,
+    "endMs": 760,
+    "timestampMs": 100,
+    "confidence": 0.827088,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 아닙니다.",
+    "startMs": 760,
+    "endMs": 1460,
+    "timestampMs": 1120,
+    "confidence": 0.987875,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 영웅",
+    "startMs": 1460,
+    "endMs": 1800,
+    "timestampMs": 1800,
+    "confidence": 0.953735,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 서른네 명의",
+    "startMs": 1800,
+    "endMs": 2500,
+    "timestampMs": 2380,
+    "confidence": 0.9224,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 타점이",
+    "startMs": 2500,
+    "endMs": 3020,
+    "timestampMs": 2920,
+    "confidence": 0.885213,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 조정됐는데요,",
+    "startMs": 3020,
+    "endMs": 4160,
+    "timestampMs": 3340,
+    "confidence": 0.986884,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 키리코와",
+    "startMs": 4160,
+    "endMs": 4810,
+    "timestampMs": 4420,
+    "confidence": 0.897862,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 메르시도",
+    "startMs": 4810,
+    "endMs": 5460,
+    "timestampMs": 5100,
+    "confidence": 0.937766,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 머리",
+    "startMs": 5460,
+    "endMs": 5840,
+    "timestampMs": 5700,
+    "confidence": 0.967305,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 타점이",
+    "startMs": 5840,
+    "endMs": 6410,
+    "timestampMs": 5900,
+    "confidence": 0.662282,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 커졌고,",
+    "startMs": 6410,
+    "endMs": 6820,
+    "timestampMs": 6240,
+    "confidence": 0.997957,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 반대로",
+    "startMs": 6820,
+    "endMs": 7450,
+    "timestampMs": 7220,
+    "confidence": 0.996987,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 캐서디",
+    "startMs": 7450,
+    "endMs": 8020,
+    "timestampMs": 7580,
+    "confidence": 0.954758,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 몸통은",
+    "startMs": 8020,
+    "endMs": 8510,
+    "timestampMs": 8020,
+    "confidence": 0.981162,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 37에서",
+    "startMs": 8510,
+    "endMs": 9260,
+    "timestampMs": 8920,
+    "confidence": 0.985357,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 33으로,",
+    "startMs": 9260,
+    "endMs": 10100,
+    "timestampMs": 9660,
+    "confidence": 0.995602,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 젠야타",
+    "startMs": 10100,
+    "endMs": 10560,
+    "timestampMs": 10420,
+    "confidence": 0.602369,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 머리는",
+    "startMs": 10560,
+    "endMs": 11020,
+    "timestampMs": 10940,
+    "confidence": 0.979206,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 20에서",
+    "startMs": 11020,
+    "endMs": 11650,
+    "timestampMs": 11580,
+    "confidence": 0.992852,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 17로",
+    "startMs": 11650,
+    "endMs": 12120,
+    "timestampMs": 12160,
+    "confidence": 0.996071,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 줄었습니다.",
+    "startMs": 12120,
+    "endMs": 12971,
+    "timestampMs": 12500,
+    "confidence": 0.997718,
+    "pageBreakAfter": true
+  }
+]

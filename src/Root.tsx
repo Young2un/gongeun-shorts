@@ -8,6 +8,7 @@ import { TipThreeScene } from "./Shorts/TipThreeScene";
 import { TipTwoScene } from "./Shorts/TipTwoScene";
 import { ChannelOutro, type ChannelOutroProps } from "./shared/ChannelOutro";
 import { PosterOutro } from "./shared/poster/PosterOutro";
+import { SpeedUp, speedUpMetadata } from "./shared/SpeedUp";
 import {
   PosterScene,
   type PosterSceneProps,
@@ -73,6 +74,20 @@ import { Scene4FinalTrial } from "./videos/team-drive/scenes/Scene4FinalTrial";
 import { Scene5Rewards } from "./videos/team-drive/scenes/Scene5Rewards";
 import { Scene6Schedule } from "./videos/team-drive/scenes/Scene6Schedule";
 import { Scene7Opinion } from "./videos/team-drive/scenes/Scene7Opinion";
+import {
+  RICH_SCENES as S5_RICH_SCENES,
+  S5Launch1007,
+  S5Launch1007Rich,
+  SCENES as S5_SCENES,
+} from "./videos/s5-launch-1007";
+import { VIDEO as S5 } from "./videos/s5-launch-1007/meta";
+import {
+  RICH_SCENES as S5H_RICH_SCENES,
+  S5Heroes1007,
+  S5Heroes1007Rich,
+  SCENES as S5H_SCENES,
+} from "./videos/s5-heroes-1007";
+import { VIDEO as S5H } from "./videos/s5-heroes-1007/meta";
 
 /** 장면 하나짜리 컴포지션 등록을 줄여 쓰기 위한 헬퍼 */
 const SceneComposition: React.FC<{
@@ -175,6 +190,50 @@ export const RemotionRoot: React.FC = () => {
         calculateMetadata={makeVideoMetadata(OWWC)}
       />
 
+      <Composition
+        id={S5.compositionId}
+        component={S5Launch1007}
+        durationInFrames={totalDurationInFrames(fallbackTimings(S5))}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+        defaultProps={{ scenes: fallbackTimings(S5) }}
+        calculateMetadata={makeVideoMetadata(S5)}
+      />
+
+      <Composition
+        id={`${S5.compositionId}Rich`}
+        component={S5Launch1007Rich}
+        durationInFrames={totalDurationInFrames(fallbackTimings(S5))}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+        defaultProps={{ scenes: fallbackTimings(S5) }}
+        calculateMetadata={makeVideoMetadata(S5)}
+      />
+
+      <Composition
+        id={S5H.compositionId}
+        component={S5Heroes1007}
+        durationInFrames={totalDurationInFrames(fallbackTimings(S5H))}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+        defaultProps={{ scenes: fallbackTimings(S5H) }}
+        calculateMetadata={makeVideoMetadata(S5H)}
+      />
+
+      <Composition
+        id={`${S5H.compositionId}Rich`}
+        component={S5Heroes1007Rich}
+        durationInFrames={totalDurationInFrames(fallbackTimings(S5H))}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+        defaultProps={{ scenes: fallbackTimings(S5H) }}
+        calculateMetadata={makeVideoMetadata(S5H)}
+      />
+
       {/* 다른 영상에도 그대로 붙여 쓰는 채널 홍보 아웃트로 (단독 렌더 가능) */}
       <Composition
         id="ChannelOutro"
@@ -195,6 +254,54 @@ export const RemotionRoot: React.FC = () => {
           TEAM_DRIVE.script.length - 1,
         )}
       />
+
+      <Folder name="S5Launch1007-Scenes">
+        {S5_SCENES.map((scene, i) => (
+          <SceneComposition
+            key={scene.id}
+            video={S5}
+            index={i}
+            id={scene.id}
+            component={scene.Component}
+          />
+        ))}
+      </Folder>
+
+      <Folder name="S5Heroes1007-Scenes">
+        {S5H_SCENES.map((scene, i) => (
+          <SceneComposition
+            key={scene.id}
+            video={S5H}
+            index={i}
+            id={scene.id}
+            component={scene.Component}
+          />
+        ))}
+      </Folder>
+
+      <Folder name="S5Heroes1007Rich-Scenes">
+        {S5H_RICH_SCENES.map((scene, i) => (
+          <SceneComposition
+            key={scene.id}
+            video={S5H}
+            index={i}
+            id={scene.id}
+            component={scene.Component}
+          />
+        ))}
+      </Folder>
+
+      <Folder name="S5Launch1007Rich-Scenes">
+        {S5_RICH_SCENES.map((scene, i) => (
+          <SceneComposition
+            key={scene.id}
+            video={S5}
+            index={i}
+            id={scene.id}
+            component={scene.Component}
+          />
+        ))}
+      </Folder>
 
       <Folder name="ChuseokDmon0918-Scenes">
         {CHUSEOK_POSTER_SCENES.map((scene) => (
@@ -454,6 +561,18 @@ export const RemotionRoot: React.FC = () => {
           component={Scene7Opinion}
         />
       </Folder>
+
+      {/* 완성 mp4 배속 변환 (public/tmp/ 에 복사해 두고 --props 로 지정) */}
+      <Composition
+        id="SpeedUp"
+        component={SpeedUp}
+        durationInFrames={30}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+        defaultProps={{ src: "tmp/s5-heroes-1007-rich.mp4", rate: 1.5, seconds: 207.467 }}
+        calculateMetadata={speedUpMetadata}
+      />
 
       {/* 이전 세션에서 만든 다른 컴포지션 */}
       <Composition

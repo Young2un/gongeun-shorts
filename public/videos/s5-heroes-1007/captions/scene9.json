@@ -1,0 +1,210 @@
+[
+  {
+    "text": "아나",
+    "startMs": 140,
+    "endMs": 690,
+    "timestampMs": 180,
+    "confidence": 0.409007,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 수면총은",
+    "startMs": 690,
+    "endMs": 1460,
+    "timestampMs": 1020,
+    "confidence": 0.356913,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 이제",
+    "startMs": 1460,
+    "endMs": 1960,
+    "timestampMs": 2140,
+    "confidence": 0.930531,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 터집니다.",
+    "startMs": 1960,
+    "endMs": 3100,
+    "timestampMs": 2480,
+    "confidence": 0.983718,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 새",
+    "startMs": 3100,
+    "endMs": 3400,
+    "timestampMs": 3720,
+    "confidence": 0.0716615,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 특전",
+    "startMs": 3400,
+    "endMs": 3750,
+    "timestampMs": 3980,
+    "confidence": 0.767923,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 국소 마취를",
+    "startMs": 3750,
+    "endMs": 5010,
+    "timestampMs": 4520,
+    "confidence": 0.853098,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 고르면,",
+    "startMs": 5010,
+    "endMs": 5940,
+    "timestampMs": 5320,
+    "confidence": 0.997771,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 수면총이",
+    "startMs": 5940,
+    "endMs": 6480,
+    "timestampMs": 6200,
+    "confidence": 0.93038,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 적중할",
+    "startMs": 6480,
+    "endMs": 7030,
+    "timestampMs": 6860,
+    "confidence": 0.899318,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 때",
+    "startMs": 7030,
+    "endMs": 7200,
+    "timestampMs": 7380,
+    "confidence": 0.979839,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 폭발해서",
+    "startMs": 7200,
+    "endMs": 8200,
+    "timestampMs": 7720,
+    "confidence": 0.962935,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 주변 적을",
+    "startMs": 8200,
+    "endMs": 9070,
+    "timestampMs": 8580,
+    "confidence": 0.976172,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 둔화시키고,",
+    "startMs": 9070,
+    "endMs": 10160,
+    "timestampMs": 9220,
+    "confidence": 0.966897,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 3초에",
+    "startMs": 10160,
+    "endMs": 10960,
+    "timestampMs": 10220,
+    "confidence": 0.948563,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 걸쳐",
+    "startMs": 10960,
+    "endMs": 11280,
+    "timestampMs": 10680,
+    "confidence": 0.987703,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 45",
+    "startMs": 11280,
+    "endMs": 11700,
+    "timestampMs": 11540,
+    "confidence": 0.987658,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 피해를",
+    "startMs": 11700,
+    "endMs": 12350,
+    "timestampMs": 11820,
+    "confidence": 0.689782,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 줍니다.",
+    "startMs": 12350,
+    "endMs": 13080,
+    "timestampMs": 12200,
+    "confidence": 0.990788,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 시온은",
+    "startMs": 13080,
+    "endMs": 13940,
+    "timestampMs": 13480,
+    "confidence": 0.759938,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 새",
+    "startMs": 13940,
+    "endMs": 14120,
+    "timestampMs": 14280,
+    "confidence": 0.932986,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 특전으로,",
+    "startMs": 14120,
+    "endMs": 15270,
+    "timestampMs": 14520,
+    "confidence": 0.962709,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 피하기의",
+    "startMs": 15270,
+    "endMs": 16220,
+    "timestampMs": 15420,
+    "confidence": 0.989255,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 추가",
+    "startMs": 16220,
+    "endMs": 16850,
+    "timestampMs": 16080,
+    "confidence": 0.997297,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 생명력이 1초 더",
+    "startMs": 16850,
+    "endMs": 17850,
+    "timestampMs": 16340,
+    "confidence": 0.904304,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 갑니다.",
+    "startMs": 17850,
+    "endMs": 17851,
+    "timestampMs": 17620,
+    "confidence": 0.985793,
+    "pageBreakAfter": true
+  }
+]

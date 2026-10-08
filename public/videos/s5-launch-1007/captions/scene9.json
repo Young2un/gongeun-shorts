@@ -1,0 +1,162 @@
+[
+  {
+    "text": "전장",
+    "startMs": 130,
+    "endMs": 390,
+    "timestampMs": 360,
+    "confidence": 0.903066,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 투표에서는,",
+    "startMs": 390,
+    "endMs": 1510,
+    "timestampMs": 840,
+    "confidence": 0.75607,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 최근",
+    "startMs": 1510,
+    "endMs": 1700,
+    "timestampMs": 1880,
+    "confidence": 0.936682,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 두 시간",
+    "startMs": 1700,
+    "endMs": 2150,
+    "timestampMs": 2160,
+    "confidence": 0.749687,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 안에",
+    "startMs": 2150,
+    "endMs": 2480,
+    "timestampMs": 2560,
+    "confidence": 0.939456,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 플레이한",
+    "startMs": 2480,
+    "endMs": 3000,
+    "timestampMs": 2860,
+    "confidence": 0.927576,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 마지막",
+    "startMs": 3000,
+    "endMs": 3580,
+    "timestampMs": 3580,
+    "confidence": 0.900681,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 두",
+    "startMs": 3580,
+    "endMs": 3660,
+    "timestampMs": 3780,
+    "confidence": 0.757905,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 전장이",
+    "startMs": 3660,
+    "endMs": 4150,
+    "timestampMs": 4020,
+    "confidence": 0.990091,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 나오지",
+    "startMs": 4150,
+    "endMs": 4640,
+    "timestampMs": 4540,
+    "confidence": 0.989381,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 않습니다.",
+    "startMs": 4640,
+    "endMs": 5540,
+    "timestampMs": 4840,
+    "confidence": 0.990472,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 스타디",
+    "startMs": 5540,
+    "endMs": 6170,
+    "timestampMs": 6000,
+    "confidence": 0.883629,
+    "pageBreakAfter": false
+  },
+  {
+    "text": "움 빠른",
+    "startMs": 6170,
+    "endMs": 6460,
+    "timestampMs": 6340,
+    "confidence": 0.991997,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 대전은",
+    "startMs": 6460,
+    "endMs": 6940,
+    "timestampMs": 6580,
+    "confidence": 0.995186,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 자유",
+    "startMs": 6940,
+    "endMs": 7210,
+    "timestampMs": 7220,
+    "confidence": 0.937365,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 역할로",
+    "startMs": 7210,
+    "endMs": 7660,
+    "timestampMs": 7500,
+    "confidence": 0.911749,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 바뀌었고,",
+    "startMs": 7660,
+    "endMs": 8530,
+    "timestampMs": 7920,
+    "confidence": 0.982055,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 돌격은",
+    "startMs": 8530,
+    "endMs": 8890,
+    "timestampMs": 8780,
+    "confidence": 0.707848,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 한 명이",
+    "startMs": 8890,
+    "endMs": 9310,
+    "timestampMs": 9420,
+    "confidence": 0.549011,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 필수입니다.",
+    "startMs": 9310,
+    "endMs": 10300,
+    "timestampMs": 9880,
+    "confidence": 0.997328,
+    "pageBreakAfter": true
+  }
+]

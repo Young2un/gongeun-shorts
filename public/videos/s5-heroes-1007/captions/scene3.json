@@ -1,0 +1,194 @@
+[
+  {
+    "text": "그럼",
+    "startMs": 230,
+    "endMs": 360,
+    "timestampMs": 400,
+    "confidence": 0.929977,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 맞히기",
+    "startMs": 360,
+    "endMs": 910,
+    "timestampMs": 840,
+    "confidence": 0.96509,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 쉬워진",
+    "startMs": 910,
+    "endMs": 1440,
+    "timestampMs": 1340,
+    "confidence": 0.995163,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 걸까요?",
+    "startMs": 1440,
+    "endMs": 2160,
+    "timestampMs": 1740,
+    "confidence": 0.796415,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 꼭",
+    "startMs": 2160,
+    "endMs": 2380,
+    "timestampMs": 2660,
+    "confidence": 0.992888,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 그렇진",
+    "startMs": 2380,
+    "endMs": 3010,
+    "timestampMs": 2940,
+    "confidence": 0.94964,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 않습니다.",
+    "startMs": 3010,
+    "endMs": 3880,
+    "timestampMs": 3280,
+    "confidence": 0.992498,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 히트스캔",
+    "startMs": 3880,
+    "endMs": 4600,
+    "timestampMs": 4340,
+    "confidence": 0.759824,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 투사체",
+    "startMs": 4600,
+    "endMs": 5200,
+    "timestampMs": 4920,
+    "confidence": 0.989761,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 크기가,",
+    "startMs": 5200,
+    "endMs": 5760,
+    "timestampMs": 5400,
+    "confidence": 0.979284,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 대형",
+    "startMs": 5760,
+    "endMs": 6260,
+    "timestampMs": 6200,
+    "confidence": 0.992968,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 기준",
+    "startMs": 6260,
+    "endMs": 6830,
+    "timestampMs": 6580,
+    "confidence": 0.862539,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 0.07미터에서",
+    "startMs": 6830,
+    "endMs": 8540,
+    "timestampMs": 7180,
+    "confidence": 0.983035,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 0.04미터로",
+    "startMs": 8540,
+    "endMs": 9720,
+    "timestampMs": 8900,
+    "confidence": 0.60275,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 같이",
+    "startMs": 9720,
+    "endMs": 10220,
+    "timestampMs": 10180,
+    "confidence": 0.867191,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 줄었거든요.",
+    "startMs": 10220,
+    "endMs": 11480,
+    "timestampMs": 10380,
+    "confidence": 0.984089,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " 개발진은",
+    "startMs": 11480,
+    "endMs": 12610,
+    "timestampMs": 11920,
+    "confidence": 0.995106,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 플레이",
+    "startMs": 12610,
+    "endMs": 12890,
+    "timestampMs": 12900,
+    "confidence": 0.761232,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 체감이",
+    "startMs": 12890,
+    "endMs": 13320,
+    "timestampMs": 13200,
+    "confidence": 0.989132,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 크게",
+    "startMs": 13320,
+    "endMs": 13740,
+    "timestampMs": 13800,
+    "confidence": 0.937069,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 달라지진",
+    "startMs": 13740,
+    "endMs": 14260,
+    "timestampMs": 14160,
+    "confidence": 0.98095,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 않을",
+    "startMs": 14260,
+    "endMs": 14540,
+    "timestampMs": 14720,
+    "confidence": 0.993278,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 거라고",
+    "startMs": 14540,
+    "endMs": 14960,
+    "timestampMs": 14880,
+    "confidence": 0.793365,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " 설명합니다.",
+    "startMs": 14960,
+    "endMs": 15560,
+    "timestampMs": 15320,
+    "confidence": 0.928787,
+    "pageBreakAfter": true
+  }
+]
